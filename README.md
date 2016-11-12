@@ -1,2 +1,2 @@
-# macmedan.github.io
-PersonalBlog
+# macmedan.com
+Personal Blog
