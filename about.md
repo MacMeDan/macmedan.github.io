@@ -4,6 +4,9 @@ title: About
 permalink: /about/
 ---
 
+Dan is an experienced iOS Developer. Likes playing with Swift on Lunix and pushing the bounds of swift in what it can accomplish.
+He likes open source and can be found answering questions and on stackoverflow. Making contributions to JSQMessagesViewController in his free time. Always on twitter sharing his experiences and connecting with everyone. He Loves ridding motocycles and fixing them up as well. Cant stop learning till he knows it all.
+
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
 
 You can find the source code for the Jekyll new theme at:

@@ -13,14 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MacMeDan
+title: OverrideFunc
 email: pdanielleonard@gmail.com
 description: >
-  Dan Leonard is an exsperienced iOS Devleoper. He has passions for software as well as hardware.
-  Exsploring it all, wither it is Swift / iOS Development or Doing it yourself kinds of projects.
-  #DIY is the only way to go. It is where you learn and discover.
+  Dan Leonard is an exsperienced iOS Devleoper. Passions include software as well as hardware.
+  Often found building things in his garage. Loves Open Source and Swift on Lunix.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://macmedan.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://OverrideFunc.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: macmedan
 github_username:  macmedan
 
