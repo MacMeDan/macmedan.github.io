@@ -23,8 +23,26 @@ url: "http://OverrideFunc.com" # the base hostname & protocol for your site, e.g
 twitter_username: macmedan
 github_username:  macmedan
 
+facebook: https://www.facebook.com/overridefunc
+twitter: https://twitter.com/macmedan
+copyrights-owner: MacMeDan # Copyright in the footer
+
 # Build settings
 markdown: kramdown
+
+destination: ./_site
+
+authors:
+      MacMeDan:
+        display_name: Dan Leonard
+        about: Sharath is a full-time chess coach, part-time web designer and a hobby blogger. He posts his Web Development blogs in <a href="http://blog.webjeda.com" >Webjeda Blog</a></p>
+        email: mailto:overridefunc+pdanielleonard@gmail.com
+        web: http://overridefunc.com/
+        facebook: https://www.facebook.com/overridefunc
+        twitter: https://twitter.com/macmedan
+        github: https://github.com/macmedan/
+        gravatar: 'https://s.gravatar.com/avatar/28c884619263d70e274669742eb645a2?s=80'
+
 theme: minima
 gems:
   - jekyll-feed
