@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "JSQMessagesViewController Swift 3 Demo"
+title:  "Minimal JSQMessagesViewController Using Swift 3"
 date:   2016-11-20 16:46:28 -0600
 categories: jekyll update
 ---
@@ -9,15 +9,15 @@ I actively contribute to JSQMessagesViewController an Open Source Project that m
 
 So I will outline the minimum you have to do to get this up and running.
 
-##Step 1. Create Your project.
+<h3>Step 1. Create Your project.</h3>
 I am not going to go into much detail about this.
 Open Xcode.
 Go to File -> New Project.
 Select single view application.
 Give your project a name and save.
 
-##Step 2. Adding [Cocoapods] to your computer
-####if you already have [Cocoapods][cocoapods] you can skip this step.
+<h3>Step 2. Adding [Cocoapods] to your computer</h3>
+<h4>if you already have [Cocoapods][cocoapods] you can skip this step.</h4>
 
 [Cocoapods][cocoapods] CocoaPods is a dependency manager for Swift and Objective-C Cocoa projects. It has over 25 thousand libraries and is used in over 1.2 million apps.
 
@@ -30,14 +30,14 @@ simply type this command in and [cocoapods][cocoapods] will be installed
 
 Once this has complete you need to navigate to your projects directory(folder). You can open Folders by using the command `cd path/to/file` and you can back out of folders with the command `..` but instead of navigating one folder at a time lets just open terminal type `cd ` and then drag our project from the finder window onto the terminal window. This will print out the path to the project for us. Hit enter and you are now at your projects base directory.
 
-##Step 3. Adding [cocoapods][cocoapods] to your project
+<h3>Step 3. Adding [cocoapods][cocoapods] to your project</h3>
 Now that you are at your base directory just type
 {% highlight linenos %}
 pod init
 {% endhighlight %}
 
 This creates a podfile for you. This is where you can manage cocoapods that you incorporate in your app. So Open that file up in any text editor you prefer.
-##Step 4. Adding JSQMessagesViewController to your project
+<h3>Step 4. Adding JSQMessagesViewController to your project</h3>
 This is the bear minimum you need to have in your podfile.
 
 {% highlight linenos %}
@@ -52,12 +52,12 @@ end
 
 Save your file and close it. Now back in terminal type: `pod install` This will add the JSQMessagesViewController library to your project.
 
-##Step 5. Open Workspace
+<h3>Step 5. Open Workspace</h3>
 Pods do an interesting thing where they manage the configuration of your project for you so you do not have to. The way that they do this is by generating a `.workspace` for you. So if you had your project open in `XCode` previously, Close it and open the `YourProjectName.workspace` file that was generated.
 
 At this point you should be able to hit run and your project builds. You will not see anything because we have not added anything yet but you should not have any build errors.
 
-##Step 6. Adding JSQMessagesViewController to your project
+<h2>Step 6. Adding JSQMessagesViewController to your project</h2>
 Now lets code, modify the UIViewController that comes with crating a new project.
 
 Here is the minimum amount of code you need in this file.
@@ -121,10 +121,9 @@ class ChatViewController: JSQMessagesViewController {
 }
 {% endhighlight %}
 
-The last function in this code sippit is not required is is just a helper to show how you can add messages to your feed.
+The last function in this code sip-pit is not required is is just a helper to show how you can add messages to your feed.
 
 That's it, The minimum amount of code you need to get a chat feature in your own app. There are tons of things that you can do to add more functionality but we will save that for another time. For this tutorial I will leave it here. Don't be afraid to explore and change things. That is how I learn best.
 
-
-[cocoapods]https://cocoapods.org/
-[stackoverflow]: http://stackoverflow.com/questions/tagged/jsqmessagesviewcontroller
+[stackoverflow]:http://stackoverflow.com/questions/tagged/jsqmessagesviewcontroller
+[cocoapods]:https://cocoapods.org/

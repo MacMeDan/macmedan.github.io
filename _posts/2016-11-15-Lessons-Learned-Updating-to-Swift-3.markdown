@@ -48,11 +48,11 @@ func didBegin(_ contact: SKPhysicsContact) {
     }
 {% endhighlight %}
 
+Conclusion: When updating for Swift 3 don't trust XCode (She will lie to you). Make sure you understand what is going on with the code and check your syntax. Allot changed but I think allot has really improved with the changes.
 
-Now I can explore changing variables and learn about `SpriteKit` more, if you would like to check out the playground you can get the [updated Swift 3 version here][swift3Version]
+Now go out there and explore, change variables and learn about `SpriteKit` more, if you would like to check out the playground you can get the [updated Swift 3 version here][swift3Version]
 
 
-[Awesome-Swift-Playgrounds]: https://github.com/uraimo/Awesome-Swift-Playgrounds
-[uraimo]: https://twitter.com/uraimo
-[swift3Version]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+[Awesome-Swift-Playgrounds]:https://github.com/uraimo/Awesome-Swift-Playgrounds
+[uraimo]:https://twitter.com/uraimo
+[swift3Version]:https://github.com/MacMeDan/SpriteKitCollisions
