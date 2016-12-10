@@ -125,5 +125,7 @@ The last function in this code sip-pit is not required is is just a helper to sh
 
 That's it, The minimum amount of code you need to get a chat feature in your own app. There are tons of things that you can do to add more functionality but we will save that for another time. For this tutorial I will leave it here. Don't be afraid to explore and change things. That is how I learn best.
 
+If you have any questions or critiques leave a comment I would love to hear from you.
+
 [stackoverflow]:http://stackoverflow.com/questions/tagged/jsqmessagesviewcontroller
 [cocoapods]:https://cocoapods.org/
