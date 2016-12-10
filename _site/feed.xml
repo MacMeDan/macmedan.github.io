@@ -1,6 +1,178 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-11-15T15:06:53-07:00</updated><id>http://localhost:4000//</id><title type="html">OverrideFunc</title><subtitle>Dan Leonard is an exsperienced iOS Devleoper. Passions include software as well as hardware. Often found building things in his garage. Loves Open Source and Swift on Lunix.
-</subtitle><entry><title type="html">Lessons Learned Updating to Swift 3</title><link href="http://localhost:4000/jekyll/update/2016/10/16/Lessons-Learned-Updating-to-Swift-3.html" rel="alternate" type="text/html" title="Lessons Learned Updating to Swift 3" /><published>2016-10-16T16:46:28-06:00</published><updated>2016-10-16T16:46:28-06:00</updated><id>http://localhost:4000/jekyll/update/2016/10/16/Lessons-Learned-Updating-to-Swift-3</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2016/10/16/Lessons-Learned-Updating-to-Swift-3.html">&lt;p&gt;Recently I have been working on a project for my kids. Of coarse since it was a new project I decided to do it in the newest version of Swift. I wanted to make some simple games that could help my young ones learn. \n
-I love playgrounds and all that they enable us to do. I came across this project that &lt;a href=&quot;https://twitter.com/uraimo&quot;&gt;@uraimo&lt;/a&gt; which has a running list of &lt;a href=&quot;https://github.com/uraimo/Awesome-Swift-Playgrounds&quot;&gt;Awesome Swift Playgrounds&lt;/a&gt;. There is one for spriteKit, which I really wanted to make a game with but of coarse it was written in Swift 2.2 I was not about to let that hold me back so I went ahead and started trying to  convert it to Swift 3. I went through all the changes that Xcode suggested and finally made it to a point where I had no errors. The issue was that the example did not preform the way it did previously. After going back and converting each function 1 by 1. I determined the function that was not being called.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-12-10T12:59:36-07:00</updated><id>http://localhost:4000//</id><title type="html">OverrideFunc</title><subtitle>Dan Leonard is an exsperienced iOS Devleoper. Passions include software as well as hardware. Often found building things in his garage. Loves Open Source and Swift on Lunix.
+</subtitle><entry><title type="html">JSQMessagesViewController Swift 3 Demo</title><link href="http://localhost:4000/jekyll/update/2016/11/20/JSQMessagesViewController-Swift-3-Demo.html" rel="alternate" type="text/html" title="JSQMessagesViewController Swift 3 Demo" /><published>2016-11-20T15:46:28-07:00</published><updated>2016-11-20T15:46:28-07:00</updated><id>http://localhost:4000/jekyll/update/2016/11/20/JSQMessagesViewController-Swift-3-Demo</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2016/11/20/JSQMessagesViewController-Swift-3-Demo.html">&lt;p&gt;I actively contribute to JSQMessagesViewController an Open Source Project that makes it super easy to get a “iMessages” like feature into your app. I like to keep up on the questions on [stackoverflow][stackoverflow] in regard to this. Often the first step is the hardest. Many users have different levels of experience, education and understanding and Since I am a Swift Nut we will exospore implementing it in Swift.&lt;/p&gt;
+
+&lt;p&gt;So I will outline the minimum you have to do to get this up and running.&lt;/p&gt;
+
+&lt;p&gt;##Step 1. Create Your project.
+I am not going to go into much detail about this.
+Open Xcode.
+Go to File -&amp;gt; New Project.
+Select single view application.
+Give your project a name and save.&lt;/p&gt;
+
+&lt;p&gt;##Step 2. Adding [Cocoapods] to your computer
+####if you already have [Cocoapods][cocoapods] you can skip this step.&lt;/p&gt;
+
+&lt;p&gt;[Cocoapods][cocoapods] CocoaPods is a dependency manager for Swift and Objective-C Cocoa projects. It has over 25 thousand libraries and is used in over 1.2 million apps.&lt;/p&gt;
+
+&lt;p&gt;To install cocoapods open up &lt;code class=&quot;highlighter-rouge&quot;&gt;terminal&lt;/code&gt;
+you can use the “Spotlite” Shortcut which is &lt;code class=&quot;highlighter-rouge&quot;&gt;Command + SpaceBar&lt;/code&gt; and then type &lt;code class=&quot;highlighter-rouge&quot;&gt;Terminal&lt;/code&gt; or just open it from finder -&amp;gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;/Applications/Utilities/Terminal.app&lt;/code&gt;
+simply type this command in and [cocoapods][cocoapods] will be installed&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-linenos&quot; data-lang=&quot;linenos&quot;&gt; sudo gem install cocoapods&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Once this has complete you need to navigate to your projects directory(folder). You can open Folders by using the command &lt;code class=&quot;highlighter-rouge&quot;&gt;cd path/to/file&lt;/code&gt; and you can back out of folders with the command &lt;code class=&quot;highlighter-rouge&quot;&gt;..&lt;/code&gt; but instead of navigating one folder at a time lets just open terminal type &lt;code class=&quot;highlighter-rouge&quot;&gt;cd &lt;/code&gt; and then drag our project from the finder window onto the terminal window. This will print out the path to the project for us. Hit enter and you are now at your projects base directory.&lt;/p&gt;
+
+&lt;p&gt;##Step 3. Adding [cocoapods][cocoapods] to your project
+Now that you are at your base directory just type&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-linenos&quot; data-lang=&quot;linenos&quot;&gt;pod init&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;This creates a podfile for you. This is where you can manage cocoapods that you incorporate in your app. So Open that file up in any text editor you prefer.
+##Step 4. Adding JSQMessagesViewController to your project
+This is the bear minimum you need to have in your podfile.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-linenos&quot; data-lang=&quot;linenos&quot;&gt;#if you're using Swift
+ use_frameworks!
+
+target 'YourProjectName' do
+  pod 'JSQMessagesViewController'
+end&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Save your file and close it. Now back in terminal type: &lt;code class=&quot;highlighter-rouge&quot;&gt;pod install&lt;/code&gt; This will add the JSQMessagesViewController library to your project.&lt;/p&gt;
+
+&lt;p&gt;##Step 5. Open Workspace
+Pods do an interesting thing where they manage the configuration of your project for you so you do not have to. The way that they do this is by generating a &lt;code class=&quot;highlighter-rouge&quot;&gt;.workspace&lt;/code&gt; for you. So if you had your project open in &lt;code class=&quot;highlighter-rouge&quot;&gt;XCode&lt;/code&gt; previously, Close it and open the &lt;code class=&quot;highlighter-rouge&quot;&gt;YourProjectName.workspace&lt;/code&gt; file that was generated.&lt;/p&gt;
+
+&lt;p&gt;At this point you should be able to hit run and your project builds. You will not see anything because we have not added anything yet but you should not have any build errors.&lt;/p&gt;
+
+&lt;p&gt;##Step 6. Adding JSQMessagesViewController to your project
+Now lets code, modify the UIViewController that comes with crating a new project.&lt;/p&gt;
+
+&lt;p&gt;Here is the minimum amount of code you need in this file.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-swift&quot; data-lang=&quot;swift&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;c1&quot;&gt;//&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//  ChatViewController.swift&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//  SwiftExample&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//  Created by Dan Leonard on 12/2/16.&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//  Copyright © 2016 MacMeDan. All rights reserved.&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;UIKit&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;JSQMessagesViewController&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;ChatViewController&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;JSQMessagesViewController&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;messages&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;JSQMessage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]()&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;defaults&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;UserDefaults&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;standard&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;conversation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Conversation&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;makeConversation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// Here is where your messages are added.&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;incomingBubble&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;JSQMessagesBubbleImage&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;outgoingBubble&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;JSQMessagesBubbleImage&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;displayName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;override&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;viewDidLoad&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;super&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;viewDidLoad&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;incomingBubble&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;JSQMessagesBubbleImageFactory&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;incomingMessagesBubbleImage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;with&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;UIColor&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;jsq_messageBubbleBlue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;outgoingBubble&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;JSQMessagesBubbleImageFactory&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;outgoingMessagesBubbleImage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;with&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;UIColor&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lightGray&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+        &lt;span class=&quot;n&quot;&gt;collectionView&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;collectionViewLayout&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;incomingAvatarViewSize&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;zero&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;collectionView&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;collectionViewLayout&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;outgoingAvatarViewSize&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;zero&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;collectionView&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;reloadData&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;collectionView&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;layoutIfNeeded&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;// MARK: JSQMessages CollectionView DataSource&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;override&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;senderId&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;override&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;senderDisplayName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;displayName&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;override&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;collectionView&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;collectionView&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;UICollectionView&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;numberOfItemsInSection&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;section&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;messages&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;count&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;override&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;collectionView&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;collectionView&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;JSQMessagesCollectionView&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;messageDataForItemAt&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;indexPath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;IndexPath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;JSQMessageData&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;messages&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;indexPath&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;override&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;collectionView&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;collectionView&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;JSQMessagesCollectionView&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;messageBubbleImageDataForItemAt&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;indexPath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;IndexPath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;JSQMessageBubbleImageDataSource&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;messages&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;indexPath&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;senderId&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;senderId&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;outgoingBubble&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;incomingBubble&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;kd&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;makeConversation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;JSQMessages&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// This is just for demo purposes, if you add more messages to this array they will appear in your conversation feed.&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;JSQMessage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;senderId&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;053496-4509-288&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;displayName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Dan leonard&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Check out this awesome library called JSQMessagesViewController&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)]&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;The last function in this code sippit is not required is is just a helper to show how you can add messages to your feed.&lt;/p&gt;
+
+&lt;p&gt;That’s it, The minimum amount of code you need to get a chat feature in your own app. There are tons of things that you can do to add more functionality but we will save that for another time. For this tutorial I will leave it here. Don’t be afraid to explore and change things. That is how I learn best.&lt;/p&gt;
+
+&lt;p&gt;[cocoapods]https://cocoapods.org/
+[stackoverflow]: http://stackoverflow.com/questions/tagged/jsqmessagesviewcontroller&lt;/p&gt;</content><summary type="html">I actively contribute to JSQMessagesViewController an Open Source Project that makes it super easy to get a “iMessages” like feature into your app. I like to keep up on the questions on stackoverflow in regard to this. Often the first step is the hardest. Many users have different levels of experience, education and understanding and Since I am a Swift Nut we will exospore implementing it in Swift.</summary></entry><entry><title type="html">Lessons Learned Updating to Swift 3</title><link href="http://localhost:4000/jekyll/update/2016/10/16/Lessons-Learned-Updating-to-Swift-3.html" rel="alternate" type="text/html" title="Lessons Learned Updating to Swift 3" /><published>2016-10-16T16:46:28-06:00</published><updated>2016-10-16T16:46:28-06:00</updated><id>http://localhost:4000/jekyll/update/2016/10/16/Lessons-Learned-Updating-to-Swift-3</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2016/10/16/Lessons-Learned-Updating-to-Swift-3.html">&lt;p&gt;Recently I have been working on a project for my kids. Of coarse since it was a new project I decided to do it in the newest version of Swift. I wanted to make some simple games that could help my young ones learn. &lt;/p&gt;
+&lt;p&gt;I love playgrounds and all that they enable us to do. I came across this project that [@uraimo][uraimo] which has a running list of [Awesome Swift Playgrounds][Awesome-Swift-Playgrounds]. There is one for spriteKit, which I really wanted to make a game with but of coarse it was written in Swift 2.2 I was not about to let that hold me back so I went ahead and started trying to  convert it to Swift 3. I went through all the changes that Xcode suggested and finally made it to a point where I had no errors. The issue was that the example did not preform the way it did previously. After going back and converting each function 1 by 1. I determined the function that was not being called.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-swift&quot; data-lang=&quot;swift&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
 2
@@ -70,5 +242,5 @@ Corrected Code :&lt;/p&gt;
     &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Now I can explore changing variables and learn about &lt;code class=&quot;highlighter-rouge&quot;&gt;SpriteKit&lt;/code&gt; more, if you would like to check out the playground you can get the &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;updated Swift 3 version here&lt;/a&gt;&lt;/p&gt;</content><summary type="html">Recently I have been working on a project for my kids. Of coarse since it was a new project I decided to do it in the newest version of Swift. I wanted to make some simple games that could help my young ones learn.  
-I love playgrounds and all that they enable us to do. I came across this project that @uraimo which has a running list of Awesome Swift Playgrounds. There is one for spriteKit, which I really wanted to make a game with but of coarse it was written in Swift 2.2 I was not about to let that hold me back so I went ahead and started trying to  convert it to Swift 3. I went through all the changes that Xcode suggested and finally made it to a point where I had no errors. The issue was that the example did not preform the way it did previously. After going back and converting each function 1 by 1. I determined the function that was not being called.</summary></entry></feed>
+&lt;p&gt;Now I can explore changing variables and learn about &lt;code class=&quot;highlighter-rouge&quot;&gt;SpriteKit&lt;/code&gt; more, if you would like to check out the playground you can get the &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;updated Swift 3 version here&lt;/a&gt;&lt;/p&gt;</content><summary type="html">Recently I have been working on a project for my kids. Of coarse since it was a new project I decided to do it in the newest version of Swift. I wanted to make some simple games that could help my young ones learn. 
+I love playgrounds and all that they enable us to do. I came across this project that [@uraimo][uraimo] which has a running list of [Awesome Swift Playgrounds][Awesome-Swift-Playgrounds]. There is one for spriteKit, which I really wanted to make a game with but of coarse it was written in Swift 2.2 I was not about to let that hold me back so I went ahead and started trying to  convert it to Swift 3. I went through all the changes that Xcode suggested and finally made it to a point where I had no errors. The issue was that the example did not preform the way it did previously. After going back and converting each function 1 by 1. I determined the function that was not being called.</summary></entry></feed>
