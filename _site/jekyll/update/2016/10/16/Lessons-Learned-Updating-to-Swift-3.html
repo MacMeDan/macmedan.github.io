@@ -18,7 +18,16 @@
 
 
   <body>
-    
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', UA-88807386-1, 'auto');
+  ga('send', 'pageview');
+</script>
+
     <header class="site-header" role="banner">
 
   <div class="wrapper">
@@ -61,6 +70,11 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
+    <span class="post-view" id="ga-pageviews"></span>&nbsp;&nbsp;&nbsp;
+            <span class="post-tags">
+  <a class="tag-link" href="/tags/#"><i class="fa fa-circle-o"> </i></a>&nbsp;
+</span>
+
     <h1 class="post-title" itemprop="name headline">Lessons Learned Updating to Swift 3</h1>
     <p class="post-meta"><time datetime="2016-10-16T16:46:28-06:00" itemprop="datePublished">Oct 16, 2016</time></p>
   </header>
@@ -156,6 +170,14 @@ Corrected Code :</p>
 
   </div>
 </article>
+
+        <!-- JQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script>
+    var jqxhr=$.ajax("").done(function(b){if(void 0!==b){var c=void 0,a=void 0,d={},a=b.totalsForAllResults["ga:pageviews"];void 0!==a&&null!==a&&$("#ga-totalpageviews-div")&&$("#ga-totalpageviews").html("Views: "+a);void 0!==b.rows&&(jQuery.each(b.rows,function(b,a){var e=a[0];"/jekyll/update/2016/10/16/Lessons-Learned-Updating-to-Swift-3.html"===e&&(c=a[1],void 0!==c&&null!==c&&$("#ga-pageviews-div")&&$("#ga-pageviews").html("Views: "+c));d[e]=a[3]}),$("span[data-post-url]").each(function(a){a=$(this).attr("data-post-url");void 0!==
+d[a]&&null!==d[a]&&$(this).html("---------------------->>----->->--->>>> ___...--------->>Views: "+d[a])}))}}).fail(function(b){console.log("Failed to get GA data")});
+</script>
+
 
       </div>
     </main>

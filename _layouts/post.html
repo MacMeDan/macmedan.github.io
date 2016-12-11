@@ -4,6 +4,8 @@ layout: default
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
+    <span class="post-view" id="ga-pageviews"></span>&nbsp;&nbsp;&nbsp;
+            {% include post-tags.html %}
     <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
   </header>
@@ -13,3 +15,7 @@ layout: default
     {% include facebook-comments.html %}
   </div>
 </article>
+
+        <!-- JQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+{% include ga_data_fetch.html %}
