@@ -28,7 +28,6 @@ copyrights-owner: MacMeDan # Copyright in the footer
 
 # Build settings
 markdown: kramdown
-
 destination: ./_site
 
 authors:
@@ -42,6 +41,7 @@ authors:
         github: https://github.com/macmedan/
         gravatar: 'https://s.gravatar.com/avatar/28c884619263d70e274669742eb645a2?s=80'
 
+analytics: 'UA-88807386-1'
 theme: minima
 gems:
   - jekyll-feed
