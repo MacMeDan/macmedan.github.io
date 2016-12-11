@@ -7,21 +7,20 @@ categories: jekyll update
 
 I actively contribute to JSQMessagesViewController an Open Source Project that makes it super easy to get a "iMessages" like feature into your app. I like to keep up on the questions on [stackoverflow][stackoverflow] in regard to this. Often the first step is the hardest. Many users have different levels of experience, education and understanding and Since I am a Swift Nut we will exospore implementing it in Swift.
 
-So I will outline the minimum you have to do to get this up and running.
+So I will outline the minimum you have to do to get this up and running. 🏃
 
-<h3>Step 1. Create Your project.</h3>
+<h4>Step 1. Create Your project.</h4>
 I am not going to go into much detail about this.
 Open Xcode.
 Go to File -> New Project.
 Select single view application.
 Give your project a name and save.
 
-<h3>Step 2. Adding [Cocoapods] to your computer</h3>
-<h4>if you already have [Cocoapods][cocoapods] you can skip this step.</h4>
+<h4>Step 2. Cocoapods to your computer</h4>
 
-[Cocoapods][cocoapods] CocoaPods is a dependency manager for Swift and Objective-C Cocoa projects. It has over 25 thousand libraries and is used in over 1.2 million apps.
+[Cocoapods][cocoapods] is a dependency manager for Swift and Objective-C Cocoa projects. It has over 25 thousand libraries and is used in over 1.2 million apps.
 
-To install cocoapods open up `terminal`
+To install `cocoapods` open up `terminal`
 you can use the "Spotlite" Shortcut which is `Command + SpaceBar` and then type `Terminal` or just open it from finder -> `/Applications/Utilities/Terminal.app`
 simply type this command in and [cocoapods][cocoapods] will be installed
 {% highlight linenos %}
@@ -30,14 +29,14 @@ simply type this command in and [cocoapods][cocoapods] will be installed
 
 Once this has complete you need to navigate to your projects directory(folder). You can open Folders by using the command `cd path/to/file` and you can back out of folders with the command `..` but instead of navigating one folder at a time lets just open terminal type `cd ` and then drag our project from the finder window onto the terminal window. This will print out the path to the project for us. Hit enter and you are now at your projects base directory.
 
-<h3>Step 3. Adding [cocoapods][cocoapods] to your project</h3>
+<h4>Step 3. Adding cocoapods to your project</h4>
 Now that you are at your base directory just type
 {% highlight linenos %}
 pod init
 {% endhighlight %}
 
-This creates a podfile for you. This is where you can manage cocoapods that you incorporate in your app. So Open that file up in any text editor you prefer.
-<h3>Step 4. Adding JSQMessagesViewController to your project</h3>
+This creates a podfile for you. This is where you can manage `pods` that you incorporate in your app. Open this file up in your favorite text editor.
+<h4>Step 4. Adding JSQMessagesViewController to your project</h4>
 This is the bear minimum you need to have in your podfile.
 
 {% highlight linenos %}
@@ -52,12 +51,12 @@ end
 
 Save your file and close it. Now back in terminal type: `pod install` This will add the JSQMessagesViewController library to your project.
 
-<h3>Step 5. Open Workspace</h3>
+<h4>Step 5. Open Workspace</h4>
 Pods do an interesting thing where they manage the configuration of your project for you so you do not have to. The way that they do this is by generating a `.workspace` for you. So if you had your project open in `XCode` previously, Close it and open the `YourProjectName.workspace` file that was generated.
 
 At this point you should be able to hit run and your project builds. You will not see anything because we have not added anything yet but you should not have any build errors.
 
-<h2>Step 6. Adding JSQMessagesViewController to your project</h2>
+<h4>Step 6. Adding JSQMessagesViewController to your project</h4>
 Now lets code, modify the UIViewController that comes with crating a new project.
 
 Here is the minimum amount of code you need in this file.
@@ -123,9 +122,9 @@ class ChatViewController: JSQMessagesViewController {
 
 The last function in this code sip-pit is not required is is just a helper to show how you can add messages to your feed.
 
-That's it, The minimum amount of code you need to get a chat feature in your own app. There are tons of things that you can do to add more functionality but we will save that for another time. For this tutorial I will leave it here. Don't be afraid to explore and change things. That is how I learn best.
+That's it 🏁, the minimum amount of code you need to get a chat feature in your own app. There are tons of things that you can do from this point but we will save that for another time. Don't be afraid to explore and change things. That's how we learn. 🖖
 
-If you have any questions or critiques leave a comment I would love to hear from you.
+If you have any questions or critiques leave a comment I would love to 👂 from you.
 
 [stackoverflow]:http://stackoverflow.com/questions/tagged/jsqmessagesviewcontroller
 [cocoapods]:https://cocoapods.org/

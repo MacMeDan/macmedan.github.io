@@ -68,21 +68,20 @@
   <div class="post-content" itemprop="articleBody">
     <p>I actively contribute to JSQMessagesViewController an Open Source Project that makes it super easy to get a “iMessages” like feature into your app. I like to keep up on the questions on <a href="http://stackoverflow.com/questions/tagged/jsqmessagesviewcontroller">stackoverflow</a> in regard to this. Often the first step is the hardest. Many users have different levels of experience, education and understanding and Since I am a Swift Nut we will exospore implementing it in Swift.</p>
 
-<p>So I will outline the minimum you have to do to get this up and running.</p>
+<p>So I will outline the minimum you have to do to get this up and running. 🏃</p>
 
-<h3>Step 1. Create Your project.</h3>
+<h4>Step 1. Create Your project.</h4>
 <p>I am not going to go into much detail about this.
 Open Xcode.
 Go to File -&gt; New Project.
 Select single view application.
 Give your project a name and save.</p>
 
-<h3>Step 2. Adding [Cocoapods] to your computer</h3>
-<h4>if you already have [Cocoapods][cocoapods] you can skip this step.</h4>
+<h4>Step 2. Cocoapods to your computer</h4>
 
-<p><a href="https://cocoapods.org/">Cocoapods</a> CocoaPods is a dependency manager for Swift and Objective-C Cocoa projects. It has over 25 thousand libraries and is used in over 1.2 million apps.</p>
+<p><a href="https://cocoapods.org/">Cocoapods</a> is a dependency manager for Swift and Objective-C Cocoa projects. It has over 25 thousand libraries and is used in over 1.2 million apps.</p>
 
-<p>To install cocoapods open up <code class="highlighter-rouge">terminal</code>
+<p>To install <code class="highlighter-rouge">cocoapods</code> open up <code class="highlighter-rouge">terminal</code>
 you can use the “Spotlite” Shortcut which is <code class="highlighter-rouge">Command + SpaceBar</code> and then type <code class="highlighter-rouge">Terminal</code> or just open it from finder -&gt; <code class="highlighter-rouge">/Applications/Utilities/Terminal.app</code>
 simply type this command in and <a href="https://cocoapods.org/">cocoapods</a> will be installed</p>
 
@@ -90,13 +89,13 @@ simply type this command in and <a href="https://cocoapods.org/">cocoapods</a> w
 
 <p>Once this has complete you need to navigate to your projects directory(folder). You can open Folders by using the command <code class="highlighter-rouge">cd path/to/file</code> and you can back out of folders with the command <code class="highlighter-rouge">..</code> but instead of navigating one folder at a time lets just open terminal type <code class="highlighter-rouge">cd </code> and then drag our project from the finder window onto the terminal window. This will print out the path to the project for us. Hit enter and you are now at your projects base directory.</p>
 
-<h3>Step 3. Adding [cocoapods][cocoapods] to your project</h3>
+<h4>Step 3. Adding cocoapods to your project</h4>
 <p>Now that you are at your base directory just type</p>
 
 <figure class="highlight"><pre><code class="language-linenos" data-lang="linenos">pod init</code></pre></figure>
 
-<p>This creates a podfile for you. This is where you can manage cocoapods that you incorporate in your app. So Open that file up in any text editor you prefer.</p>
-<h3>Step 4. Adding JSQMessagesViewController to your project</h3>
+<p>This creates a podfile for you. This is where you can manage <code class="highlighter-rouge">pods</code> that you incorporate in your app. Open this file up in your favorite text editor.</p>
+<h4>Step 4. Adding JSQMessagesViewController to your project</h4>
 <p>This is the bear minimum you need to have in your podfile.</p>
 
 <figure class="highlight"><pre><code class="language-linenos" data-lang="linenos">#if you're using Swift
@@ -108,12 +107,12 @@ end</code></pre></figure>
 
 <p>Save your file and close it. Now back in terminal type: <code class="highlighter-rouge">pod install</code> This will add the JSQMessagesViewController library to your project.</p>
 
-<h3>Step 5. Open Workspace</h3>
+<h4>Step 5. Open Workspace</h4>
 <p>Pods do an interesting thing where they manage the configuration of your project for you so you do not have to. The way that they do this is by generating a <code class="highlighter-rouge">.workspace</code> for you. So if you had your project open in <code class="highlighter-rouge">XCode</code> previously, Close it and open the <code class="highlighter-rouge">YourProjectName.workspace</code> file that was generated.</p>
 
 <p>At this point you should be able to hit run and your project builds. You will not see anything because we have not added anything yet but you should not have any build errors.</p>
 
-<h2>Step 6. Adding JSQMessagesViewController to your project</h2>
+<h4>Step 6. Adding JSQMessagesViewController to your project</h4>
 <p>Now lets code, modify the UIViewController that comes with crating a new project.</p>
 
 <p>Here is the minimum amount of code you need in this file.</p>
@@ -235,9 +234,9 @@ end</code></pre></figure>
 
 <p>The last function in this code sip-pit is not required is is just a helper to show how you can add messages to your feed.</p>
 
-<p>That’s it, The minimum amount of code you need to get a chat feature in your own app. There are tons of things that you can do to add more functionality but we will save that for another time. For this tutorial I will leave it here. Don’t be afraid to explore and change things. That is how I learn best.</p>
+<p>That’s it 🏁, the minimum amount of code you need to get a chat feature in your own app. There are tons of things that you can do from this point but we will save that for another time. Don’t be afraid to explore and change things. That’s how we learn. 🖖</p>
 
-<p>If you have any questions or critiques leave a comment I would love to hear from you.</p>
+<p>If you have any questions or critiques leave a comment I would love to 👂 from you.</p>
 
 
     
@@ -299,7 +298,7 @@ end</code></pre></figure>
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>Dan Leonard is an exsperienced iOS Devleoper. Passions include software as well as hardware. Often found building things in his garage. Loves Open Source and Swift on Lunix.
+        <p>Override Func, just past default. Dan Leonard: iOS Developer, Swift on Lunix, Open Source -&gt; JSQMessagesViewController, Twitter nut, Motorcycles.
 </p>
       </div>
     </div>

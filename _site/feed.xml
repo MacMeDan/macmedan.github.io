@@ -1,21 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-12-10T23:21:09-07:00</updated><id>http://localhost:4000//</id><title type="html">OverrideFunc</title><subtitle>Dan Leonard is an exsperienced iOS Devleoper. Passions include software as well as hardware. Often found building things in his garage. Loves Open Source and Swift on Lunix.
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-12-11T00:16:13-07:00</updated><id>http://localhost:4000//</id><title type="html">OverrideFunc</title><subtitle>Override Func, just past default. Dan Leonard: iOS Developer, Swift on Lunix, Open Source -&gt; JSQMessagesViewController, Twitter nut, Motorcycles.
 </subtitle><entry><title type="html">Minimal JSQMessagesViewController Using Swift 3</title><link href="http://localhost:4000/jekyll/update/2016/11/20/Minimal-JSQMessagesViewController-Using-Swift-3.html" rel="alternate" type="text/html" title="Minimal JSQMessagesViewController Using Swift 3" /><published>2016-11-20T15:46:28-07:00</published><updated>2016-11-20T15:46:28-07:00</updated><id>http://localhost:4000/jekyll/update/2016/11/20/Minimal-JSQMessagesViewController-Using-Swift-3</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2016/11/20/Minimal-JSQMessagesViewController-Using-Swift-3.html">&lt;p&gt;I actively contribute to JSQMessagesViewController an Open Source Project that makes it super easy to get a “iMessages” like feature into your app. I like to keep up on the questions on &lt;a href=&quot;http://stackoverflow.com/questions/tagged/jsqmessagesviewcontroller&quot;&gt;stackoverflow&lt;/a&gt; in regard to this. Often the first step is the hardest. Many users have different levels of experience, education and understanding and Since I am a Swift Nut we will exospore implementing it in Swift.&lt;/p&gt;
 
-&lt;p&gt;So I will outline the minimum you have to do to get this up and running.&lt;/p&gt;
+&lt;p&gt;So I will outline the minimum you have to do to get this up and running. 🏃&lt;/p&gt;
 
-&lt;h3&gt;Step 1. Create Your project.&lt;/h3&gt;
+&lt;h4&gt;Step 1. Create Your project.&lt;/h4&gt;
 &lt;p&gt;I am not going to go into much detail about this.
 Open Xcode.
 Go to File -&amp;gt; New Project.
 Select single view application.
 Give your project a name and save.&lt;/p&gt;
 
-&lt;h3&gt;Step 2. Adding [Cocoapods] to your computer&lt;/h3&gt;
-&lt;h4&gt;if you already have [Cocoapods][cocoapods] you can skip this step.&lt;/h4&gt;
+&lt;h4&gt;Step 2. Cocoapods to your computer&lt;/h4&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://cocoapods.org/&quot;&gt;Cocoapods&lt;/a&gt; CocoaPods is a dependency manager for Swift and Objective-C Cocoa projects. It has over 25 thousand libraries and is used in over 1.2 million apps.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://cocoapods.org/&quot;&gt;Cocoapods&lt;/a&gt; is a dependency manager for Swift and Objective-C Cocoa projects. It has over 25 thousand libraries and is used in over 1.2 million apps.&lt;/p&gt;
 
-&lt;p&gt;To install cocoapods open up &lt;code class=&quot;highlighter-rouge&quot;&gt;terminal&lt;/code&gt;
+&lt;p&gt;To install &lt;code class=&quot;highlighter-rouge&quot;&gt;cocoapods&lt;/code&gt; open up &lt;code class=&quot;highlighter-rouge&quot;&gt;terminal&lt;/code&gt;
 you can use the “Spotlite” Shortcut which is &lt;code class=&quot;highlighter-rouge&quot;&gt;Command + SpaceBar&lt;/code&gt; and then type &lt;code class=&quot;highlighter-rouge&quot;&gt;Terminal&lt;/code&gt; or just open it from finder -&amp;gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;/Applications/Utilities/Terminal.app&lt;/code&gt;
 simply type this command in and &lt;a href=&quot;https://cocoapods.org/&quot;&gt;cocoapods&lt;/a&gt; will be installed&lt;/p&gt;
 
@@ -23,13 +22,13 @@ simply type this command in and &lt;a href=&quot;https://cocoapods.org/&quot;&gt
 
 &lt;p&gt;Once this has complete you need to navigate to your projects directory(folder). You can open Folders by using the command &lt;code class=&quot;highlighter-rouge&quot;&gt;cd path/to/file&lt;/code&gt; and you can back out of folders with the command &lt;code class=&quot;highlighter-rouge&quot;&gt;..&lt;/code&gt; but instead of navigating one folder at a time lets just open terminal type &lt;code class=&quot;highlighter-rouge&quot;&gt;cd &lt;/code&gt; and then drag our project from the finder window onto the terminal window. This will print out the path to the project for us. Hit enter and you are now at your projects base directory.&lt;/p&gt;
 
-&lt;h3&gt;Step 3. Adding [cocoapods][cocoapods] to your project&lt;/h3&gt;
+&lt;h4&gt;Step 3. Adding cocoapods to your project&lt;/h4&gt;
 &lt;p&gt;Now that you are at your base directory just type&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-linenos&quot; data-lang=&quot;linenos&quot;&gt;pod init&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;This creates a podfile for you. This is where you can manage cocoapods that you incorporate in your app. So Open that file up in any text editor you prefer.&lt;/p&gt;
-&lt;h3&gt;Step 4. Adding JSQMessagesViewController to your project&lt;/h3&gt;
+&lt;p&gt;This creates a podfile for you. This is where you can manage &lt;code class=&quot;highlighter-rouge&quot;&gt;pods&lt;/code&gt; that you incorporate in your app. Open this file up in your favorite text editor.&lt;/p&gt;
+&lt;h4&gt;Step 4. Adding JSQMessagesViewController to your project&lt;/h4&gt;
 &lt;p&gt;This is the bear minimum you need to have in your podfile.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-linenos&quot; data-lang=&quot;linenos&quot;&gt;#if you're using Swift
@@ -41,12 +40,12 @@ end&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Save your file and close it. Now back in terminal type: &lt;code class=&quot;highlighter-rouge&quot;&gt;pod install&lt;/code&gt; This will add the JSQMessagesViewController library to your project.&lt;/p&gt;
 
-&lt;h3&gt;Step 5. Open Workspace&lt;/h3&gt;
+&lt;h4&gt;Step 5. Open Workspace&lt;/h4&gt;
 &lt;p&gt;Pods do an interesting thing where they manage the configuration of your project for you so you do not have to. The way that they do this is by generating a &lt;code class=&quot;highlighter-rouge&quot;&gt;.workspace&lt;/code&gt; for you. So if you had your project open in &lt;code class=&quot;highlighter-rouge&quot;&gt;XCode&lt;/code&gt; previously, Close it and open the &lt;code class=&quot;highlighter-rouge&quot;&gt;YourProjectName.workspace&lt;/code&gt; file that was generated.&lt;/p&gt;
 
 &lt;p&gt;At this point you should be able to hit run and your project builds. You will not see anything because we have not added anything yet but you should not have any build errors.&lt;/p&gt;
 
-&lt;h2&gt;Step 6. Adding JSQMessagesViewController to your project&lt;/h2&gt;
+&lt;h4&gt;Step 6. Adding JSQMessagesViewController to your project&lt;/h4&gt;
 &lt;p&gt;Now lets code, modify the UIViewController that comes with crating a new project.&lt;/p&gt;
 
 &lt;p&gt;Here is the minimum amount of code you need in this file.&lt;/p&gt;
@@ -168,9 +167,9 @@ end&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;The last function in this code sip-pit is not required is is just a helper to show how you can add messages to your feed.&lt;/p&gt;
 
-&lt;p&gt;That’s it, The minimum amount of code you need to get a chat feature in your own app. There are tons of things that you can do to add more functionality but we will save that for another time. For this tutorial I will leave it here. Don’t be afraid to explore and change things. That is how I learn best.&lt;/p&gt;
+&lt;p&gt;That’s it 🏁, the minimum amount of code you need to get a chat feature in your own app. There are tons of things that you can do from this point but we will save that for another time. Don’t be afraid to explore and change things. That’s how we learn. 🖖&lt;/p&gt;
 
-&lt;p&gt;If you have any questions or critiques leave a comment I would love to hear from you.&lt;/p&gt;</content><summary type="html">I actively contribute to JSQMessagesViewController an Open Source Project that makes it super easy to get a “iMessages” like feature into your app. I like to keep up on the questions on stackoverflow in regard to this. Often the first step is the hardest. Many users have different levels of experience, education and understanding and Since I am a Swift Nut we will exospore implementing it in Swift.</summary></entry><entry><title type="html">Lessons Learned Updating to Swift 3</title><link href="http://localhost:4000/jekyll/update/2016/10/16/Lessons-Learned-Updating-to-Swift-3.html" rel="alternate" type="text/html" title="Lessons Learned Updating to Swift 3" /><published>2016-10-16T16:46:28-06:00</published><updated>2016-10-16T16:46:28-06:00</updated><id>http://localhost:4000/jekyll/update/2016/10/16/Lessons-Learned-Updating-to-Swift-3</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2016/10/16/Lessons-Learned-Updating-to-Swift-3.html">&lt;p&gt;Recently I have been working on a project for my kids. Of coarse since it was a new project I decided to do it in the newest version of Swift. I wanted to make some simple games that could help my young ones learn. &lt;/p&gt;
+&lt;p&gt;If you have any questions or critiques leave a comment I would love to 👂 from you.&lt;/p&gt;</content><summary type="html">I actively contribute to JSQMessagesViewController an Open Source Project that makes it super easy to get a “iMessages” like feature into your app. I like to keep up on the questions on stackoverflow in regard to this. Often the first step is the hardest. Many users have different levels of experience, education and understanding and Since I am a Swift Nut we will exospore implementing it in Swift.</summary></entry><entry><title type="html">Lessons Learned Updating to Swift 3</title><link href="http://localhost:4000/jekyll/update/2016/10/16/Lessons-Learned-Updating-to-Swift-3.html" rel="alternate" type="text/html" title="Lessons Learned Updating to Swift 3" /><published>2016-10-16T16:46:28-06:00</published><updated>2016-10-16T16:46:28-06:00</updated><id>http://localhost:4000/jekyll/update/2016/10/16/Lessons-Learned-Updating-to-Swift-3</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2016/10/16/Lessons-Learned-Updating-to-Swift-3.html">&lt;p&gt;Recently I have been working on a project for my kids. Of coarse since it was a new project I decided to do it in the newest version of Swift. I wanted to make some simple games that could help my young ones learn. &lt;/p&gt;
 &lt;p&gt;I love playgrounds and all that they enable us to do. I came across this project that [@uraimo][uraimo] which has a running list of [Awesome Swift Playgrounds][Awesome-Swift-Playgrounds]. There is one for spriteKit, which I really wanted to make a game with but of coarse it was written in Swift 2.2 I was not about to let that hold me back so I went ahead and started trying to  convert it to Swift 3. I went through all the changes that Xcode suggested and finally made it to a point where I had no errors. The issue was that the example did not preform the way it did previously. After going back and converting each function 1 by 1. I determined the function that was not being called.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-swift&quot; data-lang=&quot;swift&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
