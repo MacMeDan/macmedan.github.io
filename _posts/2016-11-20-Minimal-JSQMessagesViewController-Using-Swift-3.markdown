@@ -5,7 +5,7 @@ date:   2016-11-20 16:46:28 -0600
 categories: jekyll update
 ---
 
-I actively contribute to JSQMessagesViewController an Open Source Project that makes it super easy to get a "iMessages" like feature into your app. I like to keep up on the questions on [stackoverflow][stackoverflow] in regard to this. Often the first step is the hardest. Many users have different levels of experience, education and understanding and Since I am a Swift Nut we will exospore implementing it in Swift.
+I actively contribute to JSQMessagesViewController an Open Source Project that makes it super easy to get a "iMessages" like feature into your app. I like to keep up on the questions on [stackoverflow][stackoverflow] in regard to this. Often the first step is the hardest. Many users have different levels of experience, education and understanding and Since I am a Swift Nut we'll explore implementing it in Swift.
 
 So I will outline the minimum you have to do to get this up and running. 🏃
 
@@ -21,13 +21,13 @@ Give your project a name and save.
 [Cocoapods][cocoapods] is a dependency manager for Swift and Objective-C Cocoa projects. It has over 25 thousand libraries and is used in over 1.2 million apps.
 
 To install `cocoapods` open up `terminal`
-you can use the "Spotlite" Shortcut which is `Command + SpaceBar` and then type `Terminal` or just open it from finder -> `/Applications/Utilities/Terminal.app`
+you can use the "SpotLite" Shortcut which is `Command + SpaceBar` and then type `Terminal` or just open it from finder -> `/Applications/Utilities/Terminal.app`
 simply type this command in and [cocoapods][cocoapods] will be installed
 {% highlight linenos %}
  sudo gem install cocoapods
 {% endhighlight %}
 
-Once this has complete you need to navigate to your projects directory(folder). You can open Folders by using the command `cd path/to/file` and you can back out of folders with the command `..` but instead of navigating one folder at a time lets just open terminal type `cd ` and then drag our project from the finder window onto the terminal window. This will print out the path to the project for us. Hit enter and you are now at your projects base directory.
+Once this has complete you need to navigate to your project's directory(folder). You can open Folders by using the command `cd path/to/file` and you can back out of folders with the command `..` but instead of navigating one folder at a time let's just open terminal type `cd ` and then drag our project from the finder window onto the terminal window. This will print out the path to the project for us. Hit enter and you are now at your project's base directory.
 
 <h4>Step 3. Adding cocoapods to your project</h4>
 Now that you are at your base directory just type
@@ -57,7 +57,7 @@ Pods do an interesting thing where they manage the configuration of your project
 At this point you should be able to hit run and your project builds. You will not see anything because we have not added anything yet but you should not have any build errors.
 
 <h4>Step 6. Adding JSQMessagesViewController to your project</h4>
-Now lets code, modify the UIViewController that comes with crating a new project.
+Now let's code, modify the UIViewController that comes with crating a new project.
 
 Here is the minimum amount of code you need in this file.
 {% highlight swift linenos %}
@@ -122,7 +122,7 @@ class ChatViewController: JSQMessagesViewController {
 
 The last function in this code sip-pit is not required is is just a helper to show how you can add messages to your feed.
 
-That's it 🏁, the minimum amount of code you need to get a chat feature in your own app. There are tons of things that you can do from this point but we will save that for another time. Don't be afraid to explore and change things. That's how we learn. 🖖
+That's it 🏁, the minimum amount of code you need to get a chat feature in your own app. There are tons of things that you can do from this point but we'll save that for another time. Don't be afraid to explore and change things. That's how we learn. 🖖
 
 If you have any questions or critiques leave a comment I would love to 👂 from you.
 
