@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "Google Mows My Lawn"
-date:   2016-11-20 16:46:28 -0600
+date:   2016-12-27 12:44:28 -0600
 categories: jekyll update
 ---
 
 Back in September of 2015 I lost my job as an IOS Developer. It was sad and really blind sided me. But I liked to go to startup conventions and have been apart of StartupGrand for a while and was presented with the opportunity to participate in a Hackathon at Start-fest.
 
-This was right around the time of the internet sensation of [#TwitchPlaysPokemon][twitchplayspokemon]
+This was right around the time of the internet sensation of [TwitchPlaysPokemon][TwitchPlaysPokemon]
 
 > Twitch Plays Pokémon (TPP) is a "social experiment" and channel on the video streaming website Twitch, consisting of a crowdsourced attempt to play Game Freak's and Nintendo's Pokémon video games by parsing commands sent by users through the channel's chat room.
 
@@ -52,11 +52,11 @@ Ryobi 20 in. [40-Volt Lithium-Ion Brushless Cordless Walk-Behind Electric Lawn M
 <h4>Step 1. The Mower</h4>
 ![test Image 1]({{ site.url }}/images/BackView.JPG "Back View of the beast")
 {: .left .small}
-The mower is the core of this project, it would be difficult to get the world to mow our lawn without it 🙃. We chose this lawnmower because it was in the family of Ryobi products and it had enough space on the inside to let us mount our Raspberry Pi and it looked super cool 😎. We wanted to keep inside the same family of products as much as possible so that we could swap batteries for any part of our project.
+The mower is the core of this project, it would be difficult to get the world to mow our lawn without it 🙃 . We chose this lawnmower because it was in the family of Ryobi products and it had enough space on the inside to let us mount our Raspberry Pi and it looked super cool 😎 . We wanted to keep inside the same family of products as much as possible so that we could swap batteries for any part of our project.
 
-There were many pieces of the lawnmower that we will not need for our specialized version. So we stripped it down and removed anything that was not needed. First thing you need is a ⭐️ star shaped screw driver to remove some of the screws holding it together. Once all the ✨ star screws are removed you can lift the outer shell. Be careful there is a wire connected to the top for the battery. Disconnect and full off the shell. Now you can see the complex insides of the lawnmower. Yep that is it a motor and and a power distributor, motor and a clip for the battery.
+There were many pieces of the lawnmower that we will not need for our specialized version. So we stripped it down and removed anything that was not needed. First thing you need is a ⭐️  star shaped screw driver to remove some of the screws holding it together. Once all the ✨ star screws are removed you can lift the outer shell. Be careful there is a wire connected to the top for the battery. Disconnect and full off the shell. Now you can see the complex insides of the lawnmower. Yep that is it a motor and and a power distributor, motor and a clip for the battery.
 
-There is a wire that runs up the handle to activate the motor. At the handle there are three screws on the plastic case containing the button. There are 6 ⭐️ star screws on the back but you only need to take out the bottom 4. Once open you can take the two switches out, unscrew all the plastic tabs holding the wiring to the bar running down the handle. This will later be bypassed and hooked up too our relay board so that the raspberryPi can control it.
+There is a wire that runs up the handle to activate the motor. At the handle there are three screws on the plastic case containing the button. There are 6 ⭐️  star screws on the back but you only need to take out the bottom 4. Once open you can take the two switches out, unscrew all the plastic tabs holding the wiring to the bar running down the handle. This will later be bypassed and hooked up too our relay board so that the raspberryPi can control it.
 
 Now you can remove the two bolts at the base of the handle and remove it completely from the lawn mower assembly To remove the back flap by popping off the clip on the end of the metal rod that acts as a hinge for the door. Slide that rod out and the door will fall off.
 
@@ -83,14 +83,17 @@ If you have any comments or questions don't hesitate to leave them below. This p
 
 I made and [instructables and won a raspberryPi][Instructable] competition with it also.
 
-
+[stackoverflow]:http://stackoverflow.com/questions/tagged/jsqmessagesviewcontroller
 
 [Instructable]:http://www.instructables.com/id/Google-Mows-My-Lawn/
+
 [foxNewsStory]:https://www.youtube.com/watch?v=1oE5vYW8MbI
-[twitchplayspokemon]:https://www.twitch.tv/twitchplayspokemon
+
+[TwitchPlaysPokemon]:https://www.twitch.tv/twitchplayspokemon
+
 [TPPWiki]:https://en.wikipedia.org/wiki/Twitch_Plays_Pok%C3%A9mon
 [HomeDepot]:http://www.homedepot.com/
-#Parts list links
+
 [mower]:http://ow.ly/RRm3q
 [Drills]:http://ow.ly/RRmbB
 [Radio]:http://ow.ly/RRmwH

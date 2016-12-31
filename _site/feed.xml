@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-12-31T16:52:52-06:00</updated><id>http://localhost:4000//</id><title type="html">OverrideFunc</title><subtitle>Override Func, just past default. Dan Leonard: iOS Developer, Swift on Lunix, Open Source -&gt; JSQMessagesViewController, Twitter nut, Motorcycles.
-</subtitle><entry><title type="html">Google Mows My Lawn</title><link href="http://localhost:4000/jekyll/update/2016/11/20/Google-Mows-My-Lawn.html" rel="alternate" type="text/html" title="Google Mows My Lawn" /><published>2016-11-20T16:46:28-06:00</published><updated>2016-11-20T16:46:28-06:00</updated><id>http://localhost:4000/jekyll/update/2016/11/20/Google-Mows-My-Lawn</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2016/11/20/Google-Mows-My-Lawn.html">&lt;p&gt;Back in September of 2015 I lost my job as an IOS Developer. It was sad and really blind sided me. But I liked to go to startup conventions and have been apart of StartupGrand for a while and was presented with the opportunity to participate in a Hackathon at Start-fest.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-12-31T17:18:23-06:00</updated><id>http://localhost:4000//</id><title type="html">OverrideFunc | just past default</title><subtitle>Override Func, just past default. Dan Leonard: iOS Developer, Swift on Lunix, Open Source -&gt; JSQMessagesViewController, Twitter nut, Motorcycles.
+</subtitle><entry><title type="html">Google Mows My Lawn</title><link href="http://localhost:4000/jekyll/update/2016/12/27/Google-Mows-My-Lawn.html" rel="alternate" type="text/html" title="Google Mows My Lawn" /><published>2016-12-27T12:44:28-06:00</published><updated>2016-12-27T12:44:28-06:00</updated><id>http://localhost:4000/jekyll/update/2016/12/27/Google-Mows-My-Lawn</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2016/12/27/Google-Mows-My-Lawn.html">&lt;p&gt;Back in September of 2015 I lost my job as an IOS Developer. It was sad and really blind sided me. But I liked to go to startup conventions and have been apart of StartupGrand for a while and was presented with the opportunity to participate in a Hackathon at Start-fest.&lt;/p&gt;
 
-&lt;p&gt;This was right around the time of the internet sensation of [#TwitchPlaysPokemon][twitchplayspokemon]&lt;/p&gt;
+&lt;p&gt;This was right around the time of the internet sensation of [TwitchPlaysPokemon][TwitchPlaysPokemon]&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Twitch Plays Pokémon (TPP) is a “social experiment” and channel on the video streaming website Twitch, consisting of a crowdsourced attempt to play Game Freak’s and Nintendo’s Pokémon video games by parsing commands sent by users through the channel’s chat room.&lt;/p&gt;
@@ -63,11 +63,11 @@ Ryobi 20 in. [40-Volt Lithium-Ion Brushless Cordless Walk-Behind Electric Lawn M
 
 &lt;h4&gt;Step 1. The Mower&lt;/h4&gt;
 &lt;p class=&quot;left small&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/BackView.JPG&quot; alt=&quot;test Image 1&quot; title=&quot;Back View of the beast&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;The mower is the core of this project, it would be difficult to get the world to mow our lawn without it 🙃. We chose this lawnmower because it was in the family of Ryobi products and it had enough space on the inside to let us mount our Raspberry Pi and it looked super cool 😎. We wanted to keep inside the same family of products as much as possible so that we could swap batteries for any part of our project.&lt;/p&gt;
+&lt;p&gt;The mower is the core of this project, it would be difficult to get the world to mow our lawn without it 🙃 . We chose this lawnmower because it was in the family of Ryobi products and it had enough space on the inside to let us mount our Raspberry Pi and it looked super cool 😎 . We wanted to keep inside the same family of products as much as possible so that we could swap batteries for any part of our project.&lt;/p&gt;
 
-&lt;p&gt;There were many pieces of the lawnmower that we will not need for our specialized version. So we stripped it down and removed anything that was not needed. First thing you need is a ⭐️ star shaped screw driver to remove some of the screws holding it together. Once all the ✨ star screws are removed you can lift the outer shell. Be careful there is a wire connected to the top for the battery. Disconnect and full off the shell. Now you can see the complex insides of the lawnmower. Yep that is it a motor and and a power distributor, motor and a clip for the battery.&lt;/p&gt;
+&lt;p&gt;There were many pieces of the lawnmower that we will not need for our specialized version. So we stripped it down and removed anything that was not needed. First thing you need is a ⭐️  star shaped screw driver to remove some of the screws holding it together. Once all the ✨ star screws are removed you can lift the outer shell. Be careful there is a wire connected to the top for the battery. Disconnect and full off the shell. Now you can see the complex insides of the lawnmower. Yep that is it a motor and and a power distributor, motor and a clip for the battery.&lt;/p&gt;
 
-&lt;p&gt;There is a wire that runs up the handle to activate the motor. At the handle there are three screws on the plastic case containing the button. There are 6 ⭐️ star screws on the back but you only need to take out the bottom 4. Once open you can take the two switches out, unscrew all the plastic tabs holding the wiring to the bar running down the handle. This will later be bypassed and hooked up too our relay board so that the raspberryPi can control it.&lt;/p&gt;
+&lt;p&gt;There is a wire that runs up the handle to activate the motor. At the handle there are three screws on the plastic case containing the button. There are 6 ⭐️  star screws on the back but you only need to take out the bottom 4. Once open you can take the two switches out, unscrew all the plastic tabs holding the wiring to the bar running down the handle. This will later be bypassed and hooked up too our relay board so that the raspberryPi can control it.&lt;/p&gt;
 
 &lt;p&gt;Now you can remove the two bolts at the base of the handle and remove it completely from the lawn mower assembly To remove the back flap by popping off the clip on the end of the metal rod that acts as a hinge for the door. Slide that rod out and the door will fall off.&lt;/p&gt;
 
@@ -94,14 +94,17 @@ If you have any comments or questions don't hesitate to leave them below. This p
 
 I made and [instructables and won a raspberryPi][Instructable] competition with it also.
 
-
+[stackoverflow]:http://stackoverflow.com/questions/tagged/jsqmessagesviewcontroller
 
 [Instructable]:http://www.instructables.com/id/Google-Mows-My-Lawn/
+
 [foxNewsStory]:https://www.youtube.com/watch?v=1oE5vYW8MbI
-[twitchplayspokemon]:https://www.twitch.tv/twitchplayspokemon
+
+[TwitchPlaysPokemon]:https://www.twitch.tv/twitchplayspokemon
+
 [TPPWiki]:https://en.wikipedia.org/wiki/Twitch_Plays_Pok%C3%A9mon
 [HomeDepot]:http://www.homedepot.com/
-#Parts list links
+
 [mower]:http://ow.ly/RRm3q
 [Drills]:http://ow.ly/RRmbB
 [Radio]:http://ow.ly/RRmwH
