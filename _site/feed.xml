@@ -1,5 +1,118 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-12-22T16:56:41-06:00</updated><id>http://localhost:4000//</id><title type="html">OverrideFunc</title><subtitle>Override Func, just past default. Dan Leonard: iOS Developer, Swift on Lunix, Open Source -&gt; JSQMessagesViewController, Twitter nut, Motorcycles.
-</subtitle><entry><title type="html">Minimal JSQMessagesViewController Using Swift 3</title><link href="http://localhost:4000/jekyll/update/2016/11/20/Minimal-JSQMessagesViewController-Using-Swift-3.html" rel="alternate" type="text/html" title="Minimal JSQMessagesViewController Using Swift 3" /><published>2016-11-20T16:46:28-06:00</published><updated>2016-11-20T16:46:28-06:00</updated><id>http://localhost:4000/jekyll/update/2016/11/20/Minimal-JSQMessagesViewController-Using-Swift-3</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2016/11/20/Minimal-JSQMessagesViewController-Using-Swift-3.html">&lt;p&gt;I actively contribute to JSQMessagesViewController an Open Source Project that makes it super easy to get a “iMessages” like feature into your app. I like to keep up on the questions on &lt;a href=&quot;http://stackoverflow.com/questions/tagged/jsqmessagesviewcontroller&quot;&gt;stackoverflow&lt;/a&gt; in regard to this. Often the first step is the hardest. Many users have different levels of experience, education and understanding and Since I am a Swift Nut we will exospore implementing it in Swift.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-12-31T16:52:52-06:00</updated><id>http://localhost:4000//</id><title type="html">OverrideFunc</title><subtitle>Override Func, just past default. Dan Leonard: iOS Developer, Swift on Lunix, Open Source -&gt; JSQMessagesViewController, Twitter nut, Motorcycles.
+</subtitle><entry><title type="html">Google Mows My Lawn</title><link href="http://localhost:4000/jekyll/update/2016/11/20/Google-Mows-My-Lawn.html" rel="alternate" type="text/html" title="Google Mows My Lawn" /><published>2016-11-20T16:46:28-06:00</published><updated>2016-11-20T16:46:28-06:00</updated><id>http://localhost:4000/jekyll/update/2016/11/20/Google-Mows-My-Lawn</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2016/11/20/Google-Mows-My-Lawn.html">&lt;p&gt;Back in September of 2015 I lost my job as an IOS Developer. It was sad and really blind sided me. But I liked to go to startup conventions and have been apart of StartupGrand for a while and was presented with the opportunity to participate in a Hackathon at Start-fest.&lt;/p&gt;
+
+&lt;p&gt;This was right around the time of the internet sensation of [#TwitchPlaysPokemon][twitchplayspokemon]&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Twitch Plays Pokémon (TPP) is a “social experiment” and channel on the video streaming website Twitch, consisting of a crowdsourced attempt to play Game Freak’s and Nintendo’s Pokémon video games by parsing commands sent by users through the channel’s chat room.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;[Wiki][TPPWiki]&lt;/p&gt;
+
+&lt;p&gt;Which is still playable I think. We really like this Idea that people were able to come together with perfect strangers and after 7 days complete the game ( even with all the 👹  Trolls out there ). So my brothers, Doug and David and I (Dan) set out to create something great along these same principles. The stipulations of the Hackathon was that you had 24 hours to build something that used the internet and we decided that we wanted to use normal parts you could purchase off of the shelves at [Home Depot][HomeDepot] 🛠.&lt;/p&gt;
+
+&lt;p&gt;We wanted something that would be helpful for our own lives and that the whole world could participate in. So we took the daunting chore of 🚜 mowing our lawn and decided to outsource it to others. Yes there is the risk of participants drawing crude things in our lawn. We figured that the world as a whole actually have a very difficult time coordinating so that is a risk we were willing to take. So we set off to build a crowdsourced device that would mow our lawn for us.&lt;/p&gt;
+
+&lt;p&gt;So here is the parts/price list from the project with links.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Electric Lawn Mower
+Ryobi 20 in. [40-Volt Lithium-Ion Brushless Cordless Walk-Behind Electric Lawn Mower][mower] 499.00&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Two Drills [Ryobi 18-Volt ONE+ 1/2 in. Cordless Hammer Drill][Drills] 69.00/ea&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[Ryobi 18-Volt ONE+ Compact Radio with Bluetooth Wireless Technology][Radio] 39.97&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Three Batteries [Ryobi 18-Volt One+ High Capacity LITHIUM+ Battery][Battery] 99.00/ea&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Two [3 in. Steel Swivel Caster][casters] 5.48&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Two [4in Hole Dozer Hole Saw with Arbor][HoleSaw] 12.97/ea&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[Raspberry Pi 2 micro Computer][RaspberryPi] 35.95&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[Eight channel relay board][RelayBoard] 18.10&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Tripod with iPhone Mounts&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Two [iPods][iPods] 199.00/ea&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[18-Volt One+ 6-Port SuperCharger][Charger] 79.00&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Zip Ties&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Four 3”-1/4 bolts with locking washer and nut&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Eight 1/2” 1” bolts and nuts&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4&gt;Step 1. The Mower&lt;/h4&gt;
+&lt;p class=&quot;left small&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/BackView.JPG&quot; alt=&quot;test Image 1&quot; title=&quot;Back View of the beast&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The mower is the core of this project, it would be difficult to get the world to mow our lawn without it 🙃. We chose this lawnmower because it was in the family of Ryobi products and it had enough space on the inside to let us mount our Raspberry Pi and it looked super cool 😎. We wanted to keep inside the same family of products as much as possible so that we could swap batteries for any part of our project.&lt;/p&gt;
+
+&lt;p&gt;There were many pieces of the lawnmower that we will not need for our specialized version. So we stripped it down and removed anything that was not needed. First thing you need is a ⭐️ star shaped screw driver to remove some of the screws holding it together. Once all the ✨ star screws are removed you can lift the outer shell. Be careful there is a wire connected to the top for the battery. Disconnect and full off the shell. Now you can see the complex insides of the lawnmower. Yep that is it a motor and and a power distributor, motor and a clip for the battery.&lt;/p&gt;
+
+&lt;p&gt;There is a wire that runs up the handle to activate the motor. At the handle there are three screws on the plastic case containing the button. There are 6 ⭐️ star screws on the back but you only need to take out the bottom 4. Once open you can take the two switches out, unscrew all the plastic tabs holding the wiring to the bar running down the handle. This will later be bypassed and hooked up too our relay board so that the raspberryPi can control it.&lt;/p&gt;
+
+&lt;p&gt;Now you can remove the two bolts at the base of the handle and remove it completely from the lawn mower assembly To remove the back flap by popping off the clip on the end of the metal rod that acts as a hinge for the door. Slide that rod out and the door will fall off.&lt;/p&gt;
+
+&lt;h4&gt;Step 2. Font wheels&lt;/h4&gt;
+&lt;p&gt;Normally when you mow your lawn, to make a turn you push the handle down so the front end lifts up and you rotate the lawn mower. That will not work here as there wont be a handle on the finished product. So we need to remove the front wheels and the axle that connects them too the chassis.&lt;/p&gt;
+
+&lt;p&gt;Once they are removed, take the metal casters and attach them to the plastic that protrudes out the front of the lawn mower. These wheels swivel a full 360 degrees making them perfect for enabling better movement of the lawnmower. Drill 4 holes that line up with the hole pattern on the casters. Then take 4 1” bolts, a locking washer and a nut for each to secure the wheels to the mower. This is one thing that we will be changing on the next iteration because this lifts the lawn mower a considerable distance off the ground.&lt;/p&gt;
+
+&lt;h4&gt;Step 3. Back wheels and drive train&lt;/h4&gt;
+
+&lt;p&gt;Now for the drills, these are a key piece of the project because the provide the actual movement of the machine. To prep them we will need to take them apart so we can control how fast and when they rotate.The easiest way is to create a trigger between the batteries and the motor. Unscrew all the screws holding the outer shell together. You can see there are three main parts: the Motor, the trigger mechanism and the battery terminal hook up. We want to disconnect the battery so we can toggle it with our relays giving us the ability to drive. Disconnect the black wire that connects the trigger mechanism to the battery contacts.Then take a new wire and solder one end to the black wire. Take another wire and solder to the trigger mechanism. Create a small hole for our wires to escape the housing and screw the housing back around the drill. I made my wires about 15” long so I could house the electronics inside the lawn mower.&lt;/p&gt;
+
+&lt;h5&gt;Wheel prep&lt;h5&gt;
+We need a way to attach the drills to the wheels securely. This is where the Hole Saw bits come into play. So take the 3&quot; hole saw bits and line them up with the center of the wheel. There are three holes located on bits, take a ¼ bit and drill into the wheels in the same pattern. Take 3” ¼ bolts and pass them through the bit and wheel. Take a washer, a locking washer, and a nut and tighten them down. Now you can take your new wheel bit and put it into your custom drill and tighten it down. Repeat this process for the other wheel. Next we take this contraption and attach it to the chassis.
+
+&lt;h5&gt;Attach to Main Body&lt;h5&gt;
+Now that you have the entire drill assembly put together you can secure them to the back of the lawn mower. You want this to cut grass so make sure the clearance is 1 - 2&quot;. There is an attachment that comes with the drills that bolts on an external handle for more control. We heated this up to get the nut out of it and then used the bolt to secure the drill to the back of the lawn mower.
+Drill a 1/4&quot; hole mid level of the lawn mower then take the extra attachment bolt and slide it through the Drill and lawnmower. Place a washer and the nut on the other side. Drill another hole at the same height on the opposite side for the other wheel and attach the other drill. This makes a pivot point. To keep the drills from rotating, drill some more holes and pass zip ties through. Sinch these down to prevent the drills from moving. ( This was definitely a time saver. You may want to go back and make something a little stronger than zip ties to hold this together. )
+
+&lt;h4&gt;Step 3. The Brains&lt;/h4&gt;
+Now we need to make this things smart. We decided that a RaspberryPi was the way to go. It is easy to use gives you an entire linux OS so you can write your program in what ever language you prefer. It also has many breakout boards so you can extend it to however you would like. So the basic idea is that the Pi will interpret all the information provided by the chat room. Then it will trigger the correct relay to tell the drills on the back what to do. Initially we wanted to keep it simple so we used &quot;w&quot;,&quot;a&quot;,&quot;s&quot;,&quot;d&quot; for directional controls. The rest is simple soldering for hooking up the relay board. Take the wires that we attached to the drills and place them in the relay terminals, securing them by screwing the terminals down.
+
+If you have any comments or questions don't hesitate to leave them below. This project taught us allot and we were supper excited when we took first in the competition. My Brothers and I love building things and exploring new Ideas. We may make modifications and improve this and I will try to update with a new post. We got allot of news coverage for this you can check it out here [Fox News Story][foxNewsStory]
+
+I made and [instructables and won a raspberryPi][Instructable] competition with it also.
+
+
+
+[Instructable]:http://www.instructables.com/id/Google-Mows-My-Lawn/
+[foxNewsStory]:https://www.youtube.com/watch?v=1oE5vYW8MbI
+[twitchplayspokemon]:https://www.twitch.tv/twitchplayspokemon
+[TPPWiki]:https://en.wikipedia.org/wiki/Twitch_Plays_Pok%C3%A9mon
+[HomeDepot]:http://www.homedepot.com/
+#Parts list links
+[mower]:http://ow.ly/RRm3q
+[Drills]:http://ow.ly/RRmbB
+[Radio]:http://ow.ly/RRmwH
+[Battery]:http://ow.ly/RRmrc
+[casters]:http://ow.ly/RRmKp
+[HoleSaw]:http://ow.ly/RRmYQ
+[RaspberryPi]:http://ow.ly/RRn1N
+[RelayBoard]:http://ow.ly/RRnaR
+[iPods]:http://ow.ly/RRnmc
+[Charger]:http://ow.ly/RRnBF
+&lt;/h5&gt;&lt;/h5&gt;&lt;/h5&gt;&lt;/h5&gt;</content><summary type="html">Back in September of 2015 I lost my job as an IOS Developer. It was sad and really blind sided me. But I liked to go to startup conventions and have been apart of StartupGrand for a while and was presented with the opportunity to participate in a Hackathon at Start-fest.</summary></entry><entry><title type="html">Minimal JSQMessagesViewController Using Swift 3</title><link href="http://localhost:4000/jekyll/update/2016/11/20/Minimal-JSQMessagesViewController-Using-Swift-3.html" rel="alternate" type="text/html" title="Minimal JSQMessagesViewController Using Swift 3" /><published>2016-11-20T16:46:28-06:00</published><updated>2016-11-20T16:46:28-06:00</updated><id>http://localhost:4000/jekyll/update/2016/11/20/Minimal-JSQMessagesViewController-Using-Swift-3</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2016/11/20/Minimal-JSQMessagesViewController-Using-Swift-3.html">&lt;p&gt;I actively contribute to JSQMessagesViewController an Open Source Project that makes it super easy to get a “iMessages” like feature into your app. I like to keep up on the questions on &lt;a href=&quot;http://stackoverflow.com/questions/tagged/jsqmessagesviewcontroller&quot;&gt;stackoverflow&lt;/a&gt; in regard to this. Often the first step is the hardest. Many users have different levels of experience, education and understanding and Since I am a Swift Nut we’ll explore implementing it in Swift.&lt;/p&gt;
 
 &lt;p&gt;So I will outline the minimum you have to do to get this up and running. 🏃&lt;/p&gt;
 
@@ -15,12 +128,12 @@ Give your project a name and save.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://cocoapods.org/&quot;&gt;Cocoapods&lt;/a&gt; is a dependency manager for Swift and Objective-C Cocoa projects. It has over 25 thousand libraries and is used in over 1.2 million apps.&lt;/p&gt;
 
 &lt;p&gt;To install &lt;code class=&quot;highlighter-rouge&quot;&gt;cocoapods&lt;/code&gt; open up &lt;code class=&quot;highlighter-rouge&quot;&gt;terminal&lt;/code&gt;
-you can use the “Spotlite” Shortcut which is &lt;code class=&quot;highlighter-rouge&quot;&gt;Command + SpaceBar&lt;/code&gt; and then type &lt;code class=&quot;highlighter-rouge&quot;&gt;Terminal&lt;/code&gt; or just open it from finder -&amp;gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;/Applications/Utilities/Terminal.app&lt;/code&gt;
+you can use the “SpotLite” Shortcut which is &lt;code class=&quot;highlighter-rouge&quot;&gt;Command + SpaceBar&lt;/code&gt; and then type &lt;code class=&quot;highlighter-rouge&quot;&gt;Terminal&lt;/code&gt; or just open it from finder -&amp;gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;/Applications/Utilities/Terminal.app&lt;/code&gt;
 simply type this command in and &lt;a href=&quot;https://cocoapods.org/&quot;&gt;cocoapods&lt;/a&gt; will be installed&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-linenos&quot; data-lang=&quot;linenos&quot;&gt; sudo gem install cocoapods&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Once this has complete you need to navigate to your projects directory(folder). You can open Folders by using the command &lt;code class=&quot;highlighter-rouge&quot;&gt;cd path/to/file&lt;/code&gt; and you can back out of folders with the command &lt;code class=&quot;highlighter-rouge&quot;&gt;..&lt;/code&gt; but instead of navigating one folder at a time lets just open terminal type &lt;code class=&quot;highlighter-rouge&quot;&gt;cd &lt;/code&gt; and then drag our project from the finder window onto the terminal window. This will print out the path to the project for us. Hit enter and you are now at your projects base directory.&lt;/p&gt;
+&lt;p&gt;Once this has complete you need to navigate to your project’s directory(folder). You can open Folders by using the command &lt;code class=&quot;highlighter-rouge&quot;&gt;cd path/to/file&lt;/code&gt; and you can back out of folders with the command &lt;code class=&quot;highlighter-rouge&quot;&gt;..&lt;/code&gt; but instead of navigating one folder at a time let’s just open terminal type &lt;code class=&quot;highlighter-rouge&quot;&gt;cd &lt;/code&gt; and then drag our project from the finder window onto the terminal window. This will print out the path to the project for us. Hit enter and you are now at your project’s base directory.&lt;/p&gt;
 
 &lt;h4&gt;Step 3. Adding cocoapods to your project&lt;/h4&gt;
 &lt;p&gt;Now that you are at your base directory just type&lt;/p&gt;
@@ -46,7 +159,7 @@ end&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 &lt;p&gt;At this point you should be able to hit run and your project builds. You will not see anything because we have not added anything yet but you should not have any build errors.&lt;/p&gt;
 
 &lt;h4&gt;Step 6. Adding JSQMessagesViewController to your project&lt;/h4&gt;
-&lt;p&gt;Now lets code, modify the UIViewController that comes with crating a new project.&lt;/p&gt;
+&lt;p&gt;Now let’s code, modify the UIViewController that comes with crating a new project.&lt;/p&gt;
 
 &lt;p&gt;Here is the minimum amount of code you need in this file.&lt;/p&gt;
 
@@ -167,10 +280,10 @@ end&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;The last function in this code sip-pit is not required is is just a helper to show how you can add messages to your feed.&lt;/p&gt;
 
-&lt;p&gt;That’s it 🏁, the minimum amount of code you need to get a chat feature in your own app. There are tons of things that you can do from this point but we will save that for another time. Don’t be afraid to explore and change things. That’s how we learn. 🖖&lt;/p&gt;
+&lt;p&gt;That’s it 🏁, the minimum amount of code you need to get a chat feature in your own app. There are tons of things that you can do from this point but we’ll save that for another time. Don’t be afraid to explore and change things. That’s how we learn. 🖖&lt;/p&gt;
 
-&lt;p&gt;If you have any questions or critiques leave a comment I would love to 👂 from you.&lt;/p&gt;</content><summary type="html">I actively contribute to JSQMessagesViewController an Open Source Project that makes it super easy to get a “iMessages” like feature into your app. I like to keep up on the questions on stackoverflow in regard to this. Often the first step is the hardest. Many users have different levels of experience, education and understanding and Since I am a Swift Nut we will exospore implementing it in Swift.</summary></entry><entry><title type="html">Lessons Learned Updating to Swift 3</title><link href="http://localhost:4000/jekyll/update/2016/10/16/Lessons-Learned-Updating-to-Swift-3.html" rel="alternate" type="text/html" title="Lessons Learned Updating to Swift 3" /><published>2016-10-16T17:46:28-05:00</published><updated>2016-10-16T17:46:28-05:00</updated><id>http://localhost:4000/jekyll/update/2016/10/16/Lessons-Learned-Updating-to-Swift-3</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2016/10/16/Lessons-Learned-Updating-to-Swift-3.html">&lt;p&gt;Recently I have been working on a project for my kids. Of coarse since it was a new project I decided to do it in the newest version of Swift. I wanted to make some simple games that could help my young ones learn. &lt;/p&gt;
-&lt;p&gt;I love playgrounds and all that they enable us to do. I came across this project that [@uraimo][uraimo] which has a running list of [Awesome Swift Playgrounds][Awesome-Swift-Playgrounds]. There is one for spriteKit, which I really wanted to make a game with but of coarse it was written in Swift 2.2 I was not about to let that hold me back so I went ahead and started trying to  convert it to Swift 3. I went through all the changes that Xcode suggested and finally made it to a point where I had no errors. The issue was that the example did not preform the way it did previously. After going back and converting each function 1 by 1. I determined the function that was not being called.&lt;/p&gt;
+&lt;p&gt;If you have any questions or critiques leave a comment I would love to 👂 from you.&lt;/p&gt;</content><summary type="html">I actively contribute to JSQMessagesViewController an Open Source Project that makes it super easy to get a “iMessages” like feature into your app. I like to keep up on the questions on stackoverflow in regard to this. Often the first step is the hardest. Many users have different levels of experience, education and understanding and Since I am a Swift Nut we’ll explore implementing it in Swift.</summary></entry><entry><title type="html">Lessons Learned Updating to Swift 3</title><link href="http://localhost:4000/jekyll/update/2016/10/16/Lessons-Learned-Updating-to-Swift-3.html" rel="alternate" type="text/html" title="Lessons Learned Updating to Swift 3" /><published>2016-10-16T17:46:28-05:00</published><updated>2016-10-16T17:46:28-05:00</updated><id>http://localhost:4000/jekyll/update/2016/10/16/Lessons-Learned-Updating-to-Swift-3</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2016/10/16/Lessons-Learned-Updating-to-Swift-3.html">&lt;p&gt;Recently I have been working on a project for my kids. Of course since it was a new project I decided to do it in the newest version of Swift. I wanted to make some simple games that could help my young ones learn. &lt;/p&gt;
+&lt;p&gt;I love playgrounds and all that they enable us to do. I came across this project that [@uraimo][uraimo] which has a running list of [Awesome Swift Playgrounds][Awesome-Swift-Playgrounds]. There is one for spriteKit, which I really wanted to make a game with but of course it was written in Swift 2.2 I was not about to let that hold me back so I went ahead and started trying to  convert it to Swift 3. I went through all the changes that Xcode suggested and finally made it to a point where I had no errors. The issue was that the example did not perform the way it did previously. After going back and converting each function 1 by 1. I determined the function that was not being called.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-swift&quot; data-lang=&quot;swift&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
 2
@@ -203,8 +316,8 @@ end&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
     &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Then the next step was to figure out what I am missing but when I would try and find something it was already outdated. Even Apples documentation was for &lt;code class=&quot;highlighter-rouge&quot;&gt;objectiveC&lt;/code&gt;. Then it hit me that this function was not that &lt;code class=&quot;highlighter-rouge&quot;&gt;swifty&lt;/code&gt; which is what allot of the changes for Swift 3 were all about. There is to much redundancy &lt;code class=&quot;highlighter-rouge&quot;&gt;func didBeginContact(contact: SKPhysicsContact) {&lt;/code&gt; and there in lies the solution. See Xcode suggested to add the perimeter &lt;code class=&quot;highlighter-rouge&quot;&gt;contact:&lt;/code&gt; and technically the method is valid so no errors were thrown. But this method is key for detecting collision between two objects and is the method that conforms to &lt;code class=&quot;highlighter-rouge&quot;&gt;SKPhysicsContactDelegate&lt;/code&gt;.
-  So since swift is aiming to be super readable if you take out the brackets it should read like a sentence of sorts. “did Begin Contact contact SKPhysicsContact” is a supper redundant sentence in my book. Take out the first contact and all is well. I don’t know why Xcode did not remove it when it added the parameter label like it does in many other instances but that is neither here nor there.&lt;/p&gt;
+&lt;p&gt;Then the next step was to figure out what I am missing but when I would try and find something it was already outdated. Even Apple’s documentation was for &lt;code class=&quot;highlighter-rouge&quot;&gt;objectiveC&lt;/code&gt;. Then it hit me that this function was not that &lt;code class=&quot;highlighter-rouge&quot;&gt;swifty&lt;/code&gt; which is what allot of the changes for Swift 3 were all about. There is to much redundancy &lt;code class=&quot;highlighter-rouge&quot;&gt;func didBeginContact(contact: SKPhysicsContact) {&lt;/code&gt; and therein lies the solution. See Xcode suggested to add the perimeter &lt;code class=&quot;highlighter-rouge&quot;&gt;contact:&lt;/code&gt; and technically the method is valid so no errors were thrown. But this method is key for detecting collision between two objects and is the method that conforms to &lt;code class=&quot;highlighter-rouge&quot;&gt;SKPhysicsContactDelegate&lt;/code&gt;.
+  So since swift is aiming to be super readable if you take out the brackets it should read like a sentence of sorts. “did Begin Contact contact SKPhysicsContact” is a super redundant sentence in my book. Take out the first contact and all is well. I don’t know why Xcode did not remove it when it added the parameter label like it does in many other instances but that is neither here nor there.&lt;/p&gt;
 
 &lt;p&gt;So I corrected my mistake and everything works just as it should.
 Corrected Code :&lt;/p&gt;
@@ -242,5 +355,5 @@ Corrected Code :&lt;/p&gt;
 
 &lt;p&gt;Conclusion: When updating for Swift 3 don’t trust XCode (She will lie to you). Make sure you understand what is going on with the code and check your syntax. Allot changed but I think allot has really improved with the changes.&lt;/p&gt;
 
-&lt;p&gt;Now go out there and explore, change variables and learn about &lt;code class=&quot;highlighter-rouge&quot;&gt;SpriteKit&lt;/code&gt; more, if you would like to check out the playground you can get the &lt;a href=&quot;https://github.com/MacMeDan/SpriteKitCollisions&quot;&gt;updated Swift 3 version here&lt;/a&gt;&lt;/p&gt;</content><summary type="html">Recently I have been working on a project for my kids. Of coarse since it was a new project I decided to do it in the newest version of Swift. I wanted to make some simple games that could help my young ones learn. 
-I love playgrounds and all that they enable us to do. I came across this project that [@uraimo][uraimo] which has a running list of [Awesome Swift Playgrounds][Awesome-Swift-Playgrounds]. There is one for spriteKit, which I really wanted to make a game with but of coarse it was written in Swift 2.2 I was not about to let that hold me back so I went ahead and started trying to  convert it to Swift 3. I went through all the changes that Xcode suggested and finally made it to a point where I had no errors. The issue was that the example did not preform the way it did previously. After going back and converting each function 1 by 1. I determined the function that was not being called.</summary></entry></feed>
+&lt;p&gt;Now go out there and explore, change variables and learn about &lt;code class=&quot;highlighter-rouge&quot;&gt;SpriteKit&lt;/code&gt; more, if you would like to check out the playground you can get the &lt;a href=&quot;https://github.com/MacMeDan/SpriteKitCollisions&quot;&gt;updated Swift 3 version here&lt;/a&gt;&lt;/p&gt;</content><summary type="html">Recently I have been working on a project for my kids. Of course since it was a new project I decided to do it in the newest version of Swift. I wanted to make some simple games that could help my young ones learn. 
+I love playgrounds and all that they enable us to do. I came across this project that [@uraimo][uraimo] which has a running list of [Awesome Swift Playgrounds][Awesome-Swift-Playgrounds]. There is one for spriteKit, which I really wanted to make a game with but of course it was written in Swift 2.2 I was not about to let that hold me back so I went ahead and started trying to  convert it to Swift 3. I went through all the changes that Xcode suggested and finally made it to a point where I had no errors. The issue was that the example did not perform the way it did previously. After going back and converting each function 1 by 1. I determined the function that was not being called.</summary></entry></feed>
