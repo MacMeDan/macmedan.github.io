@@ -68,7 +68,9 @@ Once they are removed, take the metal casters and attach them to the plastic tha
 
 >Step 3. Back wheels and drive train
 
-Now for the drills, these are a key piece of the project because the provide the actual movement of the machine.To prep them we will need to take them apart so we can control how fast and when they rotate.The easiest way is to create a trigger between the batteries and the motor. Unscrew all the screws holding the outer shell together. You can see there are three main parts: the Motor, the trigger mechanism and the battery terminal hook up. We want to disconnect the battery so we can toggle it with our relays giving us the ability to drive. Disconnect the black wire that connects the trigger mechanism to the battery contacts.Then take a new wire and solder one end to the black wire. Take another wire and solder to the trigger mechanism. Create a small hole for our wires to escape the housing and screw the housing back around the drill. I made my wires about 15" long so I could house the electronics inside the lawn mower.
+Now for the drills, these are a key piece of the project because the provide the actual movement of the machine.To prep them we will need to take them apart so we can control how fast and when they rotate.The easiest way is to create a trigger between the batteries and the motor. Unscrew all the screws holding the outer shell together. You can see there are three main parts: the Motor, the trigger mechanism and the battery terminal hook up. We want to disconnect the battery so we can toggle it with our relays giving us the ability to drive. Disconnect the black wire that connects the trigger mechanism to the battery contacts.
+![View from back of Dan actually working on the project]({{ site.url }}/assets/BackView.JPG){: .full}
+Then take a new wire and solder one end to the black wire. Take another wire and solder to the trigger mechanism. Create a small hole for our wires to escape the housing and screw the housing back around the drill. I made my wires about 15" long so I could house the electronics inside the lawn mower.
 
 >Wheel prep
 
@@ -88,7 +90,7 @@ If you have any comments or questions don't hesitate to leave them below. This p
 
 I made an [instructables][Instructable] you can check out and won a [raspberryPi competition][Instructable] with it also.
 
-![Finished Prduct]({{ site.url }}/assets/Final.JPG){: .left .half}
+![Finished Prduct]({{ site.url }}/assets/Final.png){: .left .half}
 
 [stackoverflow]:http://stackoverflow.com/questions/tagged/jsqmessagesviewcontroller
 
