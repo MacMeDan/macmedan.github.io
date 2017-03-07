@@ -5,7 +5,7 @@ date:   2017-3-6 12:44:28 -0600
 keywords: DIY, Do it yourself, Custom, blog
 categories: jekyll update
 ---
-<!--
+
 ![Finished Product]({{ site.url }}/assets/pallet_table/finalProduct.JPG){: .full}
 
 Here is the Finished product just to get started. My sister go married and moved into a new apartment.  Since she and her husband are still in college they did not have much money but wanted a nice apartment together, My wife likes to design and decorate so she decided she would decorate their place and I would make the furniture.  So this is the first of a few pieces we did. You can check out her work at on Instagram at [@byjo_designs][byjo_designs]
@@ -125,7 +125,7 @@ Blow off all that dust and it don't look to bad. Now It just needs some stain an
 The Final product again thanks for checking it out. Follow our journey and other projects on Instagram  [@byjo_designs][byjo_designs] and I will make more detailed posts here.
 
 
-<br><br><br><br> -->
+<br><br><br><br>
 
 Check it out on imgur
 <blockquote class="imgur-embed-pub" lang="en" data-id="a/rRlKi"><a href="//imgur.com/rRlKi">DIY Pallet Wood Table.</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
