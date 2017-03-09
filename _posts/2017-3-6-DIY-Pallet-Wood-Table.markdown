@@ -6,7 +6,7 @@ keywords: DIY, Do it yourself, Custom, blog
 categories: jekyll update
 ---
 
-![Finished Product]({{ site.url }}/assets/pallet_table/finalProduct.JPG){: .full}
+![Finished Product]({{ site.url }}/assets/pallet_table/finalProduct.jpg){: .full}
 
 Here is the Finished product just to get started. My sister go married and moved into a new apartment.  Since she and her husband are still in college they did not have much money but wanted a nice apartment together, My wife likes to design and decorate so she decided she would decorate their place and I would make the furniture.  So this is the first of a few pieces we did. You can check out her work at on Instagram at [@byjo_designs][byjo_designs]
 
