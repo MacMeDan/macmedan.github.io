@@ -1,0 +1,8 @@
+---
+layout: wevyte
+title:  "WeVyte App"
+date:   2017-4-1 12:00:00 -0600
+keywords: mobile, iOS, Developer, Weave, Communications, App, Mobile, Group message, Cross platform, android, Group Chat, events, planning
+categories: jekyll update
+author: Dan Leonard
+---
