@@ -13,10 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: OverrideFunc | just past default
-email: pdanielleonard@gmail.com
+
+title: OverrideFunc | Just past default
+email: pdanielleonard+overridefunc@gmail.com
 description: >
-  Override Func, just past default. Dan Leonard: iOS Developer, Swift on Lunix, Open Source -> JSQMessagesViewController, Twitter nut, Motorcycles.
+  Override Func, just past default. Dan Leonard: iOS Developer, Swift on Lunix, Open Source -> JSQMessagesViewController, Twitter nut.
 url: https://macmedan.github.io/ # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: macmedan
 github_username:  macmedan
@@ -28,11 +29,13 @@ copyrights-owner: MacMeDan # Copyright in the footer
 # Build settings
 markdown: kramdown
 destination: ./_site
+kramdown:
+   input: GFM
+   syntax_highlighter: rouge
 
 authors:
       MacMeDan:
         display_name: Dan Leonard
-        about: Sharath is a full-time chess coach, part-time web designer and a hobby blogger. He posts his Web Development blogs in <a href="http://blog.webjeda.com" >Webjeda Blog</a></p>
         email: mailto:pdanielleonard+overridefunc@gmail.com
         web: http://overridefunc.com/
         facebook: https://www.facebook.com/overridefunc
@@ -42,8 +45,8 @@ authors:
 
 analytics: 'UA-88807386-1'
 theme: minima
-gems:
-  - jekyll-feed
+gems: [jekyll-sitemap, jekyll-paginate, jekyll-seo-tag, jekyll-feed]
+
 exclude:
   - Gemfile
   - Gemfile.lock

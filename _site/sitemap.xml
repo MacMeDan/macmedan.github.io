@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/jekyll/update/2016/10/16/Lessons-Learned-Updating-to-Swift-3.html</loc>
+<lastmod>2016-10-16T16:46:28-06:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/jekyll/update/2016/11/20/Minimal-JSQMessagesViewController-Using-Swift-3.html</loc>
+<lastmod>2016-11-20T15:46:28-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/jekyll/update/2016/12/27/Google-Mows-My-Lawn.html</loc>
+<lastmod>2016-12-27T11:44:28-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/jekyll/update/2017/01/16/The-TikoBot-a-$199-3D-Printer.html</loc>
+<lastmod>2017-01-16T11:44:28-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/jekyll/update/2017/03/06/DIY-Pallet-Wood-Table.html</loc>
+<lastmod>2017-03-06T11:44:28-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/jekyll/update/2017/04/01/Mobile-App.html</loc>
+<lastmod>2017-04-01T12:00:00-06:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/about/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
+</urlset>
