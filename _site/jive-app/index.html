@@ -1,0 +1,677 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Jive App</title>
+  <meta name="description" content="Override Func, just past default. Dan Leonard: iOS Developer, Swift on Lunix, Open Source -&gt; JSQMessagesViewController, Twitter nut.">
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/jive-app/">
+  <link rel="alternate" type="application/rss+xml" title="OverrideFunc | Just past default" href="/feed.xml">
+  
+  
+</head>
+
+  <body>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-88807386-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    <header class="site-header" role="banner">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">OverrideFunc | Just past default</a>
+
+    <nav class="site-nav">
+      <span class="menu-icon">
+        <svg viewBox="0 0 18 15" width="18px" height="15px">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </span>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
+          <a class="page-link" href="/jive-app/">Jive App</a>
+          
+        
+          
+          <a class="page-link" href="/portfolio/">Portfolio</a>
+          
+        
+          
+          <a class="page-link" href="/weave-mobile-app/">Weave Mobile App</a>
+          
+        
+          
+          <a class="page-link" href="/weave-schedule-app/">Weave Schedule App</a>
+          
+        
+          
+          <a class="page-link" href="/wevyte-app/">WeVyte App</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+        <!DOCTYPE HTML>
+<html>
+<head>
+  <title>Jive Communications - </title>
+    <link rel="stylesheet" href="https://d2kfjaekmjmy1l.cloudfront.net/base-vNBasjG6wmjqdLKZgI7xS9aDc.css" data-bundle="base" integrity="sha256-NBasjG6wmjqdLKZgI7xS9aDcXdo+kXdTot7oEuVwzNo&#x3D;" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://d2kfjaekmjmy1l.cloudfront.net/websites-vy0OTznrgJ1PxYDpVl0gRBHAG.css" data-bundle="websites" integrity="sha256-y0OTznrgJ1PxYDpVl0gRBHAGK4UIcQ3F6/cE4U3M7rc&#x3D;" crossorigin="anonymous">
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="http://is3.mzstatic.com/image/thumb/Purple62/v4/24/22/7e/24227e94-b978-bbcf-20d0-5d20195ba754/source/512x512bb.jpg" rel="shortcut icon" type="image/x-icon">
+
+<meta name="description" content="Take your work anywhere with the Jive mobile app. This app will enable you to make and receive calls using your work number, Manage voicemail, search your company directory for imp...">
+<meta name="keywords" content="">
+
+<!-- Facebook -->
+<meta property="og:site_name" content="Jive Communications">
+<meta property="og:title" content="">
+<meta property="og:description" content="Take your work anywhere with the Jive mobile app. This app will enable you to make and receive calls using your work number, Manage voicemail, search your company directory for imp...">
+<meta property="og:url" content="http://">
+<meta property="og:image" content="http://is3.mzstatic.com/image/thumb/Purple62/v4/24/22/7e/24227e94-b978-bbcf-20d0-5d20195ba754/source/512x512bb.jpg">
+<meta property="og:type" content="website">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="app">
+<meta name="twitter:title" content="Jive Communications - ">
+<meta name="twitter:description" content="Take your work anywhere with the Jive mobile app. This app will enable you to make and receive calls using your work number, Manage voicemail, search your company directory for imp...">
+<meta name="twitter:image:src" content="http://is3.mzstatic.com/image/thumb/Purple62/v4/24/22/7e/24227e94-b978-bbcf-20d0-5d20195ba754/source/512x512bb.jpg">
+<meta name="twitter:domain" content="http://">
+<meta name="twitter:app:name:iphone" content="Jive Communications">
+<meta name="twitter:app:id:iphone" content="902777480">
+<meta name="twitter:app:name:ipad" content="Jive Communications">
+<meta name="twitter:app:id:ipad" content="902777480">
+
+<!-- Apple Smart App Banner -->
+<meta name="apple-itunes-app"
+  content="app-id=902777480,
+  affiliate-data=1001l5Yq">
+
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Raleway:400,100,200,300,500,600,700,800,900" rel="stylesheet" type="text/css">
+
+<style type="text/css">
+    #public-landing-page.template-1 .hero,
+    #public-landing-page.template-2 .hero,
+    #public-landing-page.template-3 .hero,
+    #public-landing-page.template-4 .hero,
+    #public-landing-page.template-7 .hero,
+    #public-landing-page.template-8 .hero .graphic,
+    #public-landing-page.template-9 .bg-color,
+    #public-landing-page .store-badge-white-text,
+    #public-landing-page.template-1color .hero,
+    #public-landing-page.template-2color .hero {
+      background: #C3D42B;
+    }
+    #public-landing-page.template-5 .hero h2,
+    #public-landing-page.template-6 .hero h1,
+    #public-landing-page.template-8 .hero,
+    #public-landing-page.template-9 .hero h2,
+    #public-landing-page .hero .btn,
+    #public-landing-page .navbar .btn,
+    #public-landing-page .navbar.invert-navbar a,
+    #public-landing-page footer a,
+    #public-landing-page .benefit-header {
+      color: #C3D42B;
+    }
+    #public-landing-page .btn.btn-primary.btn-primary-invert,
+    #public-landing-page .navbar.invert-navbar .btn.btn-primary,
+    #public-landing-page .navbar .navbar-collapse.in .btn.btn-primary,
+    #public-landing-page .navbar .navbar-toggle .icon-bar,
+    #public-landing-page .download-text {
+      color: white;
+      background-color: #C3D42B;
+    }
+
+
+    #public-landing-page.template-1 .hero,
+    #public-landing-page.template-2 .hero,
+    #public-landing-page.template-4 .hero {
+      overflow: hidden;
+    }
+    #public-landing-page .hero .blurred-cover {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: 1px;
+      background-image: url('http://a4.mzstatic.com/us/r30/Purple82/v4/2f/f6/fd/2ff6fd80-2d38-8e2e-6fd2-984b5cee5425/screen696x696.jpeg');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      -webkit-filter: blur(50px);
+      -moz-filter: blur(50px);
+      -o-filter: blur(50px);
+      -ms-filter: blur(50px);
+      filter: blur(50px);
+      margin: -60% -40% -40%;
+    }
+    #public-landing-page .hero .blurred-cover .darken {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: 2px;
+      background: rgba(0,0,0,.3);
+    }
+
+  @media screen and (max-width: 767px) {
+      #public-landing-page.template-9 .hero h1 {
+        background: #C3D42B;
+      }
+  }
+
+</style>
+
+
+</head>
+<body><div id="skit-controller"><div id="public-landing-page"
+  class="
+    template-1
+    full-screen
+    centered
+  ">
+
+  <section class="hero">
+    <div class="blurred-cover">
+      <div class="darken"></div>
+    </div>
+  <div class="container">
+    <nav class="navbar navbar-default
+
+
+  ">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand visible-xs" href="/websites/example">
+          <img alt="Jive Communications" src="http://is3.mzstatic.com/image/thumb/Purple62/v4/24/22/7e/24227e94-b978-bbcf-20d0-5d20195ba754/source/512x512bb.jpg" class="app-icon">
+        </a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="visible-xs"><a href="/">Home Page</a></li>
+          <li class="visible-xs"><a href="https://itunes.apple.com/app/id902777480?mt&#x3D;8" target="_blank">Download from App Store</a></li>
+          <li><a href="/about/">About</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+      <div class="row">
+        <div class="col-sm-5 col-xs-12 text-center">
+              <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="https://launchkit-io.imgix.net/devices/iPhone6White.png?w&#x3D;750&amp;h&#x3D;1334&amp;mark&#x3D;http%3A%2F%2Fa4.mzstatic.com%2Fus%2Fr30%2FPurple82%2Fv4%2F2f%2Ff6%2Ffd%2F2ff6fd80-2d38-8e2e-6fd2-984b5cee5425%2Fscreen696x696.jpeg&amp;markh&#x3D;970&amp;markalign&#x3D;center%2Cmiddle" class="screenshot" alt="Screenshot of Jive Communications">
+        </div>
+        <div class="item">
+          <img src="https://launchkit-io.imgix.net/devices/iPhone6White.png?w&#x3D;750&amp;h&#x3D;1334&amp;mark&#x3D;http%3A%2F%2Fa1.mzstatic.com%2Fus%2Fr30%2FPurple111%2Fv4%2F8c%2F18%2Fc4%2F8c18c408-bc03-bdef-8100-bed5b0abc7c8%2Fscreen696x696.jpeg&amp;markh&#x3D;970&amp;markalign&#x3D;center%2Cmiddle" class="screenshot" alt="Screenshot of Jive Communications">
+        </div>
+        <div class="item">
+          <img src="https://launchkit-io.imgix.net/devices/iPhone6White.png?w&#x3D;750&amp;h&#x3D;1334&amp;mark&#x3D;http%3A%2F%2Fa4.mzstatic.com%2Fus%2Fr30%2FPurple111%2Fv4%2Fb8%2F4a%2Fd2%2Fb84ad275-29a0-2552-6304-4085c0fd62af%2Fscreen696x696.jpeg&amp;markh&#x3D;970&amp;markalign&#x3D;center%2Cmiddle" class="screenshot" alt="Screenshot of Jive Communications">
+        </div>
+        <div class="item">
+          <img src="https://launchkit-io.imgix.net/devices/iPhone6White.png?w&#x3D;750&amp;h&#x3D;1334&amp;mark&#x3D;http%3A%2F%2Fa3.mzstatic.com%2Fus%2Fr30%2FPurple111%2Fv4%2F15%2F11%2F49%2F151149a1-7d0f-f17b-0a6e-00622b7ea39c%2Fscreen696x696.jpeg&amp;markh&#x3D;970&amp;markalign&#x3D;center%2Cmiddle" class="screenshot" alt="Screenshot of Jive Communications">
+        </div>
+        <div class="item">
+          <img src="https://launchkit-io.imgix.net/devices/iPhone6White.png?w&#x3D;750&amp;h&#x3D;1334&amp;mark&#x3D;http%3A%2F%2Fa4.mzstatic.com%2Fus%2Fr30%2FPurple111%2Fv4%2F79%2F14%2Faa%2F7914aaa4-0a42-97bf-dadd-a0a88c48b12d%2Fscreen696x696.jpeg&amp;markh&#x3D;970&amp;markalign&#x3D;center%2Cmiddle" class="screenshot" alt="Screenshot of Jive Communications">
+        </div>
+    </div>
+  </div>
+        </div>
+        <div class="col-sm-7 col-xs-12">
+          <h1>  Jive Communications
+</h1>
+          <h2></h2>
+            <p>Take your work anywhere with the Jive mobile app. This app will enable you to make and receive calls using your work number, Manage voicemail, search your company directory for imp...</p>
+            <a href="https://itunes.apple.com/app/id902777480?mt&#x3D;8" class="app-store-badge" target="_blank">
+    <img src="https://d2kfjaekmjmy1l.cloudfront.net/images/websites/public/app-store-black-on-color@2x-vUVAkYHUgzYCyeyfUGm8cda3C.png">
+  </a>
+
+
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+  </div>
+</section>
+
+
+
+    <footer>
+    <div class="container">
+      <div class="footer-nav col-xs-12 col-sm-8 pull-right text-right">
+
+
+
+
+      </div>
+    </div>
+  </footer>
+
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</div>
+  <script>
+    window.skit = (function() {
+      var objects = {};
+      var modules = {};
+      function define(resourcePath, deps, fn) {
+        modules[resourcePath] = {deps: deps, fn: fn};
+      }
+      function load(resourcePath) {
+        if (!(resourcePath in objects)) {
+          if (resourcePath in modules) {
+            var module = modules[resourcePath];
+            var args = [];
+            for (var i = 0; i < module.deps.length; i++) {
+              args.push(load(module.deps[i]));
+            }
+            objects[resourcePath] = module.fn.apply(window, args);
+          } else {
+            objects[resourcePath] = null;
+          }
+        }
+        return objects[resourcePath];
+      }
+      return {
+        define: define,
+        modules: modules,
+        env: {
+ "productionAPI": true,
+ "appEngineHost": "https://launchkit-images.appspot.com/",
+ "publicRoot": "public"
+},
+        load: load
+      };
+    })();
+  </script>
+    <script src="https://d2kfjaekmjmy1l.cloudfront.net/base-vCeyiK2MmNspQI9R0qUfHF00T.js" data-bundle="base" integrity="sha256-CeyiK2MmNspQI9R0qUfHF00T+f+Gr+/h8vPuAxfM5FI&#x3D;" crossorigin="anonymous"></script>
+    <script src="https://d2kfjaekmjmy1l.cloudfront.net/websites-vnnOdYzmWkWxqmQ8f1fdmP7Zi.js" data-bundle="websites" integrity="sha256-nnOdYzmWkWxqmQ8f1fdmP7ZiICEkHaZxiTkYRRLRSPA&#x3D;" crossorigin="anonymous"></script>
+  <script>
+    (function() {
+        var netproxy = skit.load("skit.platform.netproxy:js");
+          netproxy.__register__("lk", {
+ "name": "lk",
+ "csrfToken": "lF/cudYeoM9kFN3dlkdNHg=="
+});
+
+      var ControllerKlass = skit.load("public.websites.__id__.WebsitePublic:js");
+      var controller = new ControllerKlass({
+ "__id__": "example"
+});
+
+      var controllerProperties = {"itunesId":"902777480","country":"us","website":{"appName":"Jive Communications","tagline":"","itunesId":902777480,"longDescription":"Take your work anywhere with the Jive mobile app. This app will enable you to make and receive calls using your work number, Manage voicemail, search your company directory for important information and view the presence of your co-workers  \n\nJive\u0027s mobile application only works seamlessly with a regular jive account. Be where you want to be, don\u0027t let work hold you back.\n \nNote: User is able to set location based rules to enable and disable call features while the application is running in the background. Continued use of GPS running in the background can dramatically decrease battery life.","images":{"screenshots":{"iPhone":[{"url":"http://a4.mzstatic.com/us/r30/Purple82/v4/2f/f6/fd/2ff6fd80-2d38-8e2e-6fd2-984b5cee5425/screen696x696.jpeg"},{"url":"http://a1.mzstatic.com/us/r30/Purple111/v4/8c/18/c4/8c18c408-bc03-bdef-8100-bed5b0abc7c8/screen696x696.jpeg"},{"url":"http://a4.mzstatic.com/us/r30/Purple111/v4/b8/4a/d2/b84ad275-29a0-2552-6304-4085c0fd62af/screen696x696.jpeg"},{"url":"http://a3.mzstatic.com/us/r30/Purple111/v4/15/11/49/151149a1-7d0f-f17b-0a6e-00622b7ea39c/screen696x696.jpeg"},{"url":"http://a4.mzstatic.com/us/r30/Purple111/v4/79/14/aa/7914aaa4-0a42-97bf-dadd-a0a88c48b12d/screen696x696.jpeg"}]},"icon":{"url":"http://is3.mzstatic.com/image/thumb/Purple62/v4/24/22/7e/24227e94-b978-bbcf-20d0-5d20195ba754/source/512x512bb.jpg"}},"shortDescription":"Take your work anywhere with the Jive mobile app. This app will enable you to make and receive calls using your work number, Manage voicemail, search your company directory for imp...","id":"example","template":"1","primaryColor":"#C3D42B","homeUrl":"/websites/example"}};
+      for (var k in controllerProperties) {
+        controller[k] = controllerProperties[k];
+      }
+
+      window.skit.controller = controller;
+      controller.recursiveLoad();
+      controller.recursiveReady();
+    })();
+  </script>
+</body>
+
+
+  </body>
+</html>
+
+<!--
+<article class="portfolio-Page" itemscope itemtype="http://schema.org/ProfilePage">
+  <header class="portfolio-header">
+    <h1 class="portfolio-title" itemprop="name headline">Jive App</h1>
+  </header>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-88807386-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+  <div class="portfolio-content" itemprop="articleBody">
+    <!DOCTYPE HTML>
+<html>
+<head>
+  <title>Jive Communications - </title>
+    <link rel="stylesheet" href="https://d2kfjaekmjmy1l.cloudfront.net/base-vNBasjG6wmjqdLKZgI7xS9aDc.css" data-bundle="base" integrity="sha256-NBasjG6wmjqdLKZgI7xS9aDcXdo+kXdTot7oEuVwzNo&#x3D;" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://d2kfjaekmjmy1l.cloudfront.net/websites-vy0OTznrgJ1PxYDpVl0gRBHAG.css" data-bundle="websites" integrity="sha256-y0OTznrgJ1PxYDpVl0gRBHAGK4UIcQ3F6/cE4U3M7rc&#x3D;" crossorigin="anonymous">
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="http://is3.mzstatic.com/image/thumb/Purple62/v4/24/22/7e/24227e94-b978-bbcf-20d0-5d20195ba754/source/512x512bb.jpg" rel="shortcut icon" type="image/x-icon">
+
+<meta name="description" content="Take your work anywhere with the Jive mobile app. This app will enable you to make and receive calls using your work number, Manage voicemail, search your company directory for imp...">
+<meta name="keywords" content="">
+
+<!-- Facebook -->
+<meta property="og:site_name" content="Jive Communications">
+<meta property="og:title" content="">
+<meta property="og:description" content="Take your work anywhere with the Jive mobile app. This app will enable you to make and receive calls using your work number, Manage voicemail, search your company directory for imp...">
+<meta property="og:url" content="http://">
+<meta property="og:image" content="http://is3.mzstatic.com/image/thumb/Purple62/v4/24/22/7e/24227e94-b978-bbcf-20d0-5d20195ba754/source/512x512bb.jpg">
+<meta property="og:type" content="website">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="app">
+<meta name="twitter:title" content="Jive Communications - ">
+<meta name="twitter:description" content="Take your work anywhere with the Jive mobile app. This app will enable you to make and receive calls using your work number, Manage voicemail, search your company directory for imp...">
+<meta name="twitter:image:src" content="http://is3.mzstatic.com/image/thumb/Purple62/v4/24/22/7e/24227e94-b978-bbcf-20d0-5d20195ba754/source/512x512bb.jpg">
+<meta name="twitter:domain" content="http://">
+<meta name="twitter:app:name:iphone" content="Jive Communications">
+<meta name="twitter:app:id:iphone" content="902777480">
+<meta name="twitter:app:name:ipad" content="Jive Communications">
+<meta name="twitter:app:id:ipad" content="902777480">
+
+<!-- Apple Smart App Banner -->
+<meta name="apple-itunes-app"
+  content="app-id=902777480,
+  affiliate-data=1001l5Yq">
+
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Raleway:400,100,200,300,500,600,700,800,900" rel="stylesheet" type="text/css">
+
+<style type="text/css">
+    #public-landing-page.template-1 .hero,
+    #public-landing-page.template-2 .hero,
+    #public-landing-page.template-3 .hero,
+    #public-landing-page.template-4 .hero,
+    #public-landing-page.template-7 .hero,
+    #public-landing-page.template-8 .hero .graphic,
+    #public-landing-page.template-9 .bg-color,
+    #public-landing-page .store-badge-white-text,
+    #public-landing-page.template-1color .hero,
+    #public-landing-page.template-2color .hero {
+      background: #C3D42B;
+    }
+    #public-landing-page.template-5 .hero h2,
+    #public-landing-page.template-6 .hero h1,
+    #public-landing-page.template-8 .hero,
+    #public-landing-page.template-9 .hero h2,
+    #public-landing-page .hero .btn,
+    #public-landing-page .navbar .btn,
+    #public-landing-page .navbar.invert-navbar a,
+    #public-landing-page footer a,
+    #public-landing-page .benefit-header {
+      color: #C3D42B;
+    }
+    #public-landing-page .btn.btn-primary.btn-primary-invert,
+    #public-landing-page .navbar.invert-navbar .btn.btn-primary,
+    #public-landing-page .navbar .navbar-collapse.in .btn.btn-primary,
+    #public-landing-page .navbar .navbar-toggle .icon-bar,
+    #public-landing-page .download-text {
+      color: white;
+      background-color: #C3D42B;
+    }
+
+
+    #public-landing-page.template-1 .hero,
+    #public-landing-page.template-2 .hero,
+    #public-landing-page.template-4 .hero {
+      overflow: hidden;
+    }
+    #public-landing-page .hero .blurred-cover {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: 1px;
+      background-image: url('http://a4.mzstatic.com/us/r30/Purple82/v4/2f/f6/fd/2ff6fd80-2d38-8e2e-6fd2-984b5cee5425/screen696x696.jpeg');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      -webkit-filter: blur(50px);
+      -moz-filter: blur(50px);
+      -o-filter: blur(50px);
+      -ms-filter: blur(50px);
+      filter: blur(50px);
+      margin: -60% -40% -40%;
+    }
+    #public-landing-page .hero .blurred-cover .darken {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: 2px;
+      background: rgba(0,0,0,.3);
+    }
+
+  @media screen and (max-width: 767px) {
+      #public-landing-page.template-9 .hero h1 {
+        background: #C3D42B;
+      }
+  }
+
+</style>
+
+
+</head>
+<body><div id="skit-controller"><div id="public-landing-page"
+  class="
+    template-1
+    full-screen
+    centered
+  ">
+
+  <section class="hero">
+    <div class="blurred-cover">
+      <div class="darken"></div>
+    </div>
+  <div class="container">
+    <nav class="navbar navbar-default
+
+
+  ">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand visible-xs" href="/websites/example">
+          <img alt="Jive Communications" src="http://is3.mzstatic.com/image/thumb/Purple62/v4/24/22/7e/24227e94-b978-bbcf-20d0-5d20195ba754/source/512x512bb.jpg" class="app-icon">
+        </a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="visible-xs"><a href="/">Home Page</a></li>
+          <li class="visible-xs"><a href="https://itunes.apple.com/app/id902777480?mt&#x3D;8" target="_blank">Download from App Store</a></li>
+          <li><a href="/about/">About</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+      <div class="row">
+        <div class="col-sm-5 col-xs-12 text-center">
+              <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="https://launchkit-io.imgix.net/devices/iPhone6White.png?w&#x3D;750&amp;h&#x3D;1334&amp;mark&#x3D;http%3A%2F%2Fa4.mzstatic.com%2Fus%2Fr30%2FPurple82%2Fv4%2F2f%2Ff6%2Ffd%2F2ff6fd80-2d38-8e2e-6fd2-984b5cee5425%2Fscreen696x696.jpeg&amp;markh&#x3D;970&amp;markalign&#x3D;center%2Cmiddle" class="screenshot" alt="Screenshot of Jive Communications">
+        </div>
+        <div class="item">
+          <img src="https://launchkit-io.imgix.net/devices/iPhone6White.png?w&#x3D;750&amp;h&#x3D;1334&amp;mark&#x3D;http%3A%2F%2Fa1.mzstatic.com%2Fus%2Fr30%2FPurple111%2Fv4%2F8c%2F18%2Fc4%2F8c18c408-bc03-bdef-8100-bed5b0abc7c8%2Fscreen696x696.jpeg&amp;markh&#x3D;970&amp;markalign&#x3D;center%2Cmiddle" class="screenshot" alt="Screenshot of Jive Communications">
+        </div>
+        <div class="item">
+          <img src="https://launchkit-io.imgix.net/devices/iPhone6White.png?w&#x3D;750&amp;h&#x3D;1334&amp;mark&#x3D;http%3A%2F%2Fa4.mzstatic.com%2Fus%2Fr30%2FPurple111%2Fv4%2Fb8%2F4a%2Fd2%2Fb84ad275-29a0-2552-6304-4085c0fd62af%2Fscreen696x696.jpeg&amp;markh&#x3D;970&amp;markalign&#x3D;center%2Cmiddle" class="screenshot" alt="Screenshot of Jive Communications">
+        </div>
+        <div class="item">
+          <img src="https://launchkit-io.imgix.net/devices/iPhone6White.png?w&#x3D;750&amp;h&#x3D;1334&amp;mark&#x3D;http%3A%2F%2Fa3.mzstatic.com%2Fus%2Fr30%2FPurple111%2Fv4%2F15%2F11%2F49%2F151149a1-7d0f-f17b-0a6e-00622b7ea39c%2Fscreen696x696.jpeg&amp;markh&#x3D;970&amp;markalign&#x3D;center%2Cmiddle" class="screenshot" alt="Screenshot of Jive Communications">
+        </div>
+        <div class="item">
+          <img src="https://launchkit-io.imgix.net/devices/iPhone6White.png?w&#x3D;750&amp;h&#x3D;1334&amp;mark&#x3D;http%3A%2F%2Fa4.mzstatic.com%2Fus%2Fr30%2FPurple111%2Fv4%2F79%2F14%2Faa%2F7914aaa4-0a42-97bf-dadd-a0a88c48b12d%2Fscreen696x696.jpeg&amp;markh&#x3D;970&amp;markalign&#x3D;center%2Cmiddle" class="screenshot" alt="Screenshot of Jive Communications">
+        </div>
+    </div>
+  </div>
+        </div>
+        <div class="col-sm-7 col-xs-12">
+          <h1>  Jive Communications
+</h1>
+          <h2></h2>
+            <p>Take your work anywhere with the Jive mobile app. This app will enable you to make and receive calls using your work number, Manage voicemail, search your company directory for imp...</p>
+            <a href="https://itunes.apple.com/app/id902777480?mt&#x3D;8" class="app-store-badge" target="_blank">
+    <img src="https://d2kfjaekmjmy1l.cloudfront.net/images/websites/public/app-store-black-on-color@2x-vUVAkYHUgzYCyeyfUGm8cda3C.png">
+  </a>
+
+
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+  </div>
+</section>
+
+
+
+    <footer>
+    <div class="container">
+      <div class="footer-nav col-xs-12 col-sm-8 pull-right text-right">
+
+
+
+
+      </div>
+    </div>
+  </footer>
+
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</div>
+  <script>
+    window.skit = (function() {
+      var objects = {};
+      var modules = {};
+      function define(resourcePath, deps, fn) {
+        modules[resourcePath] = {deps: deps, fn: fn};
+      }
+      function load(resourcePath) {
+        if (!(resourcePath in objects)) {
+          if (resourcePath in modules) {
+            var module = modules[resourcePath];
+            var args = [];
+            for (var i = 0; i < module.deps.length; i++) {
+              args.push(load(module.deps[i]));
+            }
+            objects[resourcePath] = module.fn.apply(window, args);
+          } else {
+            objects[resourcePath] = null;
+          }
+        }
+        return objects[resourcePath];
+      }
+      return {
+        define: define,
+        modules: modules,
+        env: {
+ "productionAPI": true,
+ "appEngineHost": "https://launchkit-images.appspot.com/",
+ "publicRoot": "public"
+},
+        load: load
+      };
+    })();
+  </script>
+    <script src="https://d2kfjaekmjmy1l.cloudfront.net/base-vCeyiK2MmNspQI9R0qUfHF00T.js" data-bundle="base" integrity="sha256-CeyiK2MmNspQI9R0qUfHF00T+f+Gr+/h8vPuAxfM5FI&#x3D;" crossorigin="anonymous"></script>
+    <script src="https://d2kfjaekmjmy1l.cloudfront.net/websites-vnnOdYzmWkWxqmQ8f1fdmP7Zi.js" data-bundle="websites" integrity="sha256-nnOdYzmWkWxqmQ8f1fdmP7ZiICEkHaZxiTkYRRLRSPA&#x3D;" crossorigin="anonymous"></script>
+  <script>
+    (function() {
+        var netproxy = skit.load("skit.platform.netproxy:js");
+          netproxy.__register__("lk", {
+ "name": "lk",
+ "csrfToken": "lF/cudYeoM9kFN3dlkdNHg=="
+});
+
+      var ControllerKlass = skit.load("public.websites.__id__.WebsitePublic:js");
+      var controller = new ControllerKlass({
+ "__id__": "example"
+});
+
+      var controllerProperties = {"itunesId":"902777480","country":"us","website":{"appName":"Jive Communications","tagline":"","itunesId":902777480,"longDescription":"Take your work anywhere with the Jive mobile app. This app will enable you to make and receive calls using your work number, Manage voicemail, search your company directory for important information and view the presence of your co-workers  \n\nJive\u0027s mobile application only works seamlessly with a regular jive account. Be where you want to be, don\u0027t let work hold you back.\n \nNote: User is able to set location based rules to enable and disable call features while the application is running in the background. Continued use of GPS running in the background can dramatically decrease battery life.","images":{"screenshots":{"iPhone":[{"url":"http://a4.mzstatic.com/us/r30/Purple82/v4/2f/f6/fd/2ff6fd80-2d38-8e2e-6fd2-984b5cee5425/screen696x696.jpeg"},{"url":"http://a1.mzstatic.com/us/r30/Purple111/v4/8c/18/c4/8c18c408-bc03-bdef-8100-bed5b0abc7c8/screen696x696.jpeg"},{"url":"http://a4.mzstatic.com/us/r30/Purple111/v4/b8/4a/d2/b84ad275-29a0-2552-6304-4085c0fd62af/screen696x696.jpeg"},{"url":"http://a3.mzstatic.com/us/r30/Purple111/v4/15/11/49/151149a1-7d0f-f17b-0a6e-00622b7ea39c/screen696x696.jpeg"},{"url":"http://a4.mzstatic.com/us/r30/Purple111/v4/79/14/aa/7914aaa4-0a42-97bf-dadd-a0a88c48b12d/screen696x696.jpeg"}]},"icon":{"url":"http://is3.mzstatic.com/image/thumb/Purple62/v4/24/22/7e/24227e94-b978-bbcf-20d0-5d20195ba754/source/512x512bb.jpg"}},"shortDescription":"Take your work anywhere with the Jive mobile app. This app will enable you to make and receive calls using your work number, Manage voicemail, search your company directory for imp...","id":"example","template":"1","primaryColor":"#C3D42B","homeUrl":"/websites/example"}};
+      for (var k in controllerProperties) {
+        controller[k] = controllerProperties[k];
+      }
+
+      window.skit.controller = controller;
+      controller.recursiveLoad();
+      controller.recursiveReady();
+    })();
+  </script>
+</body>
+
+  </div>
+</article> -->
