@@ -15,9 +15,9 @@
 # in the templates via {{ site.myvariable }}.
 
 title: OverrideFunc | Just past default
-email: pdanielleonard+overridefunc@gmail.com
+email: pdanielleonard+OF@gmail.com
 description: >
-  Override Func, just past default. Dan Leonard: iOS Developer, Swift on Lunix, Open Source -> JSQMessagesViewController, Twitter nut.
+ Daniel Leonard: iOS Developer, Swift on Lunix, Open Source -> JSQMessagesViewController, Twitter nut.
 url: https://macmedan.github.io/ # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: macmedan
 github_username:  macmedan
@@ -36,7 +36,7 @@ kramdown:
 authors:
       MacMeDan:
         display_name: Dan Leonard
-        email: mailto:pdanielleonard+overridefunc@gmail.com
+        email: mailto:pdanielleonard+OF@gmail.com
         web: http://overridefunc.com/
         facebook: https://www.facebook.com/overridefunc
         twitter: https://twitter.com/macmedan
