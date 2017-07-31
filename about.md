@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 Dan Leonard
-: A iOS Developer passionate about swift. Lover of Open Source, Motorcycles, anything DIY and Twitter. Core contributor to JSQMessagesViewController and MessageKit.
+: A Mobile Developer that is passionate about swift. Lover of Open Source can be found contribution to all sorts of projects including but not limited to JSQMessagesViewController and MessageKit. Loves ridding motorcycles, running marathons and anything DIY. Always active on twitter and can be found @macmedan always spreading good design with @iOSCandy.
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
 
