@@ -10,6 +10,12 @@
   position: relative;
 }
 
+.img-rounded{
+  border-radius: 25%;
+  width: 200px;
+  height: 200px;
+}
+
 .site-title {
   font-size: 26px;
   font-weight: 300;
@@ -22,6 +28,14 @@
   &:visited {
     color: $grey-color-dark;
   }
+}
+
+.row{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
 }
 
 .site-nav {
