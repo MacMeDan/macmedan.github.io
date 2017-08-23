@@ -8,7 +8,8 @@ Dan Leonard
 
 - Professionally developing iOS since 2013.
 - Open Source and core contributor to [JSQMessagesViewController](https://github.com/MessageKit/JSQMessagesViewController) as well as [MessageKit](https://github.com/MessageKit/MessageKit).
-- Won a hack-a-thon by building a chatroom controlled lawn mower [#googleMowsMyLawn](https://www.linkedin.com/pulse/three-brothers-win-startfest-googlemowsmy-lawn-daniel-leonard)
+- Won a hack-a-thon by building a [chatroom controlled lawn mower](https://www.linkedin.com/pulse/three-brothers-win-startfest-googlemowsmy-lawn-daniel-leonard) [#googleMowsMyLawn](https://twitter.com/search?q=%23googleMowsMyLawn)
+- How to make it yourself on [Instructables](http://www.instructables.com/id/Google-Mows-My-Lawn/)
 - 1st to get [swift compiled](https://twitter.com/MacmeDan/status/697904248567148544) on Raspberry Pi Zero
 - Runs Marathons, builds furniture and rides motorcycles.
 
