@@ -9,7 +9,7 @@
 title: OverrideFunc
 url: https://macmedan.github.io
 description: Just past default
-img_url: /assets
+img_url: /img
 
 facebook: https://www.facebook.com/overridefunc
 copyrights-owner: Dan Leonard # Copyright in the footer
@@ -35,8 +35,6 @@ theme: minima
 
 gems: [jekyll-sitemap, jekyll-paginate, jekyll-seo-tag, jekyll-feed]
 
-# plugins_dir:
-#     - jekyll-paginate
-#     - jekyll-sitemap
+
 
 exclude: [vendor, Dangerfile, Gemfile, Gemfile.lock, LICENSE, README.md, assets/, package.json, yarn.lock, scripts/]

@@ -12,12 +12,19 @@ Here is the Finished product just to get started. My sister go married and moved
 
 Originally this piece was to go behind the couch in the living room because of a strange layout the couch could not sit against the wall. Since then it has made it into their bed room as a nice table with storage underneath.
 
-<br><br>
-![Raw pallets]({{ site.url }}/assets/pallet_table/2rawPallets.jpg){: .full}
+{% include image.html
+    file="pallet_table/2rawPallets.jpg"
+    alt="Raw pallets"
+    half_width=true
+%}
 
 Collected some pallet wood there are always posts of free pallets you can pick up.  This is only a portion of the pallets I used.
-<br><br>
-![Boards]({{ site.url }}/assets/pallet_table/3processed_wood.jpg){: .full}
+
+{% include image.html
+    file="pallet_table/3processed_wood.jpg"
+    alt="Boards"
+    half_width=true
+%}
 
 The only tools that you have to have for this project are the basics for all DIY projects.  
 I used:
@@ -29,29 +36,60 @@ I used:
     Electric Sander    Clamps
 
 Used a crow bar to pry the planks off the pallets and hammered the nails out back wards to remove them. Some people just cut off the boards at the nails with a circular saw which is a faster way of doing it of coarse but I kinda like the look with the old nail holes. Then I took each bard and sanded them down to give a smooth finish and remove any paint or other cruft that was on the boards. Then I took the boards and cut them in to 12" sections for the center of table.
-<br><br>
-![Lining up the cuts]({{ site.url }}/assets/pallet_table/measure.jpg){: .full}
 
+{% include image.html
+    file="pallet_table/measure.jpg"
+    alt="Lining up the cuts"
+    half_width=true
+%}
 
 I needed a long table to stretch the length of the couch and decided since my boards were limited basically to the length of a pallet that I would make two sections and buy some cheap 1 x 1 to hold it all together. Laid  out all the boards to make sure they fit together and sanding the ends of the longer boards so they are all the same size.
 <br><br>
-![picture]({{ site.url }}/assets/pallet_table/IMG_0129.jpg){: .full}
+{% include image.html
+    file="pallet_table/IMG_0129.jpg"
+    alt="picture"
+    half_width=true
+%}
 
 Lining things up checking it twice.
-<br><br>
-![Drill bits]({{ site.url }}/assets/pallet_table/drillbits2.jpg){: .full}
+{% include image.html
+    file="pallet_table/drillbits2.jpg"
+    alt="Drill bits"
+    half_width=true
+%}
+
 Selected a bit that was as close as i could get the the size of the head of my screws. This bit will let me recess the screw under the surface of the board helping to hide them. I believe it was a 3/8" bit but may vary based on what screws you use.
-<br><br>
-![Sink holes]({{site.url }}/assets/pallet_table/sink_holes.jpg){: .full}
+
+{% include image.html
+    file="pallet_table/sink_holes.jpg"
+    alt="Pocket holes"
+    half_width=true
+%}
+
 Pre drilling holes for the screws so the heads don't  stick out. There is a tool that you can use as a guide for this but I just hold my drill at the angle I want and start about half way up the board and drill till there is about 1/4 of the board left.
-<br><br>
-![Pilot holes]({{ site.url }}/assets/pallet_table/line_up_pilot.jpg){: .full}
+
+{% include image.html
+    file="pallet_table/line_up_pilot.jpg"
+    alt="Pocket holes"
+    half_width=true
+%}
+
 Then I take a bit that is smaller then my screws and drill a pilot hole to prevent the screw from splitting the wood as it is cranked down. I shoot for about half if not more of the screw going into the other board.
-<br><br>
-![warning]({{ site.url }}/assets/pallet_table/watch_out.jpg){: .full}
+
+{% include image.html
+    file="pallet_table/watch_out.jpg"
+    alt="Warning"
+    half_width=true
+%}
+
 Watch out for your drill rubbing on the wood if your drill bit is not long enough. This is the bottom side so it will not bee seen at all.
-<br><br>
-![Secured]({{ site.url }}/assets/pallet_table/secured.jpg){: .full}
+
+{% include image.html
+    file="pallet_table/secured"
+    alt="Secured"
+    half_width=true
+%}
+
 The screw holding the frame together inset in the board so it will lay flat on the frame for the legs.
 <br><br>
 ![top frame]({{ site.url }}/assets/pallet_table/top_frame.jpg){: .full}
