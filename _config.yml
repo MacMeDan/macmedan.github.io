@@ -6,9 +6,10 @@
 # in the templates via {{ site.myvariable }}.
 
 # Site
-title: OverrideFunc 
-url: https://overridefunc.com
+title: OverrideFunc
+url: https://macmedan.github.io
 description: Just past default
+img_url: /assets
 
 facebook: https://www.facebook.com/overridefunc
 copyrights-owner: Dan Leonard # Copyright in the footer
@@ -21,7 +22,7 @@ kramdown:
    syntax_highlighter: rouge
 
 author:
-  display_name: Dan Leonard
+  name: Dan Leonard
   email: mailto:pdanielleonard+overridefunc@gmail.com
   web: http://overridefunc.com/
   facebook: https://www.facebook.com/overridefunc
@@ -34,8 +35,8 @@ theme: minima
 
 gems: [jekyll-sitemap, jekyll-paginate, jekyll-seo-tag, jekyll-feed]
 
-plugins_dir:
-    - jekyll-paginate
-    - jekyll-sitemap
+# plugins_dir:
+#     - jekyll-paginate
+#     - jekyll-sitemap
 
 exclude: [vendor, Dangerfile, Gemfile, Gemfile.lock, LICENSE, README.md, assets/, package.json, yarn.lock, scripts/]
