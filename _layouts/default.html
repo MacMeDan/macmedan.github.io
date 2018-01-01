@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="en">
+   {% include head.html %}
+   <body>
+      {% include header.html %}
 
-  {% include head.html %}
-  {% include title_header.html %}
-  <body>
-    {% include analytics.html %}
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
-  </body>
-  {% include footer.html %}
+      <div class="container container-fluid">
+         <div class="row">
+            <div class="col-sm-12 col-sm-offset-0 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+               {{ content }}
+            </div> <!-- col -->
+         </div> <!-- row -->
+      </div> <!-- container -->
+
+      {% include footer.html %}
+      {% include foot.html %}
+   </body>
 </html>
