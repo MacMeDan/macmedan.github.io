@@ -1,5 +1,5 @@
 # OverrideFunc.com
-Personal Blog about all the bloggy stuffs.
+Personal Blog about all the things.
 
 All the views and ideas expressed here are my own and cannot be held against me in a court of law.
 
