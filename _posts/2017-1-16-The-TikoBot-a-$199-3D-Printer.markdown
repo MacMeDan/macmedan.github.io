@@ -19,7 +19,7 @@ It took me 2 days to actually get the first things printed. I figured since the 
 >Step 2. Connect to the printer.
 
   They have some pretty cool ideas on making the print process very simple with cloud printing you should be able to connect to your printer from any where and queue up a print but it is not there just yet. Cloud Printing is disabled and being worked on so the only way to connect to the printer is by going to your wifi and connecting to the wifi hotspot it is broad casting. I found that it takes a second for the printer to boot up and actually start casting the hotspot and be connectable.
-  Once you have done this you will open a web browser ([Tiko][Tiko]. suggests you use chrome)
+  Once you have done this you will open a web browser ([Tiko]. suggests you use chrome)
   Then type in the url print.tiko/ this will give you the ability to setup your printer the first time and the print interface once you have done that.
 
 >Step 3. Load the PLA.

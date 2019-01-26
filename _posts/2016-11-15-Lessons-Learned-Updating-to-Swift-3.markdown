@@ -4,8 +4,8 @@ title:  "Lessons Learned Updating to Swift 3"
 date:   2016-10-16 16:46:28 -0600
 categories: jekyll update
 ---
-<p>Recently I have been working on a project for my kids. Of course since it was a new project I decided to do it in the newest version of Swift. I wanted to make some simple games that could help my young ones learn. </p>
-<p>I love playgrounds and all that they enable us to do. I came across this project that [@uraimo][uraimo] which has a running list of [Awesome Swift Playgrounds][Awesome-Swift-Playgrounds]. There is one for spriteKit, which I really wanted to make a game with but of course it was written in Swift 2.2 I was not about to let that hold me back so I went ahead and started trying to  convert it to Swift 3. I went through all the changes that Xcode suggested and finally made it to a point where I had no errors. The issue was that the example did not perform the way it did previously. After going back and converting each function 1 by 1. I determined the function that was not being called.</p>
+Recently I have been working on a project for my kids. Of course since it was a new project I decided to do it in the newest version of Swift. I wanted to make some simple games that could help my young ones learn.
+I love playgrounds and all that they enable us to do. I came across this project that [@uraimo][uraimo] which has a running list of [Awesome Swift Playgrounds][Awesome-Swift-Playgrounds]. There is one for spriteKit, which I really wanted to make a game with but of course it was written in Swift 2.2 I was not about to let that hold me back so I went ahead and started trying to  convert it to Swift 3. I went through all the changes that Xcode suggested and finally made it to a point where I had no errors. The issue was that the example did not perform the way it did previously. After going back and converting each function 1 by 1. I determined the function that was not being called.
 
 {% highlight swift linenos %}
 func didBeginContact(contact: SKPhysicsContact) {

@@ -56,6 +56,7 @@ I needed a long table to stretch the length of the couch and decided since my bo
 %}
 
 Lining things up checking it twice.
+
 {% include image.html
     file="pallet_table/drillbits2.jpg"
     alt="Drill bits"
