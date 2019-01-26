@@ -98,11 +98,11 @@ permalink: /portfolio/
       background: rgba(0,0,0,.3);
     }
 
-  @media screen and (max-width: 767px) {
+/*  @media screen and (max-width: 767px) {
       #public-landing-page.template-9 .hero h1 {
         background: #F84C6D;
       }
-  }
+  }*/
 
 </style>
 </head>
@@ -117,7 +117,7 @@ permalink: /portfolio/
             <br></br>
             <div class="row">
                 <a href="https://itunes.apple.com/app/id1147715461?mt&#x3D;8" class="app-store-badge" target="_blank">
-                  <img src="https://lh3.googleusercontent.com/1cDGSg1GIk3YnqAzwa6R-9tkLTxTuoSUwwyi8PZtniiU8AD05LkVYFDCYwORAC6HTZf42K0CCvrkun3HOcCryVWF8On8gaY" class="app-icon img-rounded center">
+                  <img src="https://lh3.googleusercontent.com/1cDGSg1GIk3YnqAzwa6R-9tkLTxTuoSUwwyi8PZtniiU8AD05LkVYFDCYwORAC6HTZf42K0CCvrkun3HOcCryVWF8On8gaY" class="app-icon img-rounded">
                 </a>
                 <h1> Grow </h1>
             </div>
@@ -151,7 +151,7 @@ permalink: /portfolio/
             </div>
 
             <div class="row">
-                <a href="https://itunes.apple.com/us/app/jive-communications/id902777480?mt=8" class="app-store-badge" target="_blank">
+                <a href="https://itunes.apple.com/us/app/jive-communications/id902777480?mt=8" class="app-store-badge center" target="_blank">
                   <img src="http://is3.mzstatic.com/image/thumb/Purple62/v4/24/22/7e/24227e94-b978-bbcf-20d0-5d20195ba754/source/512x512bb.jpg" class="app-icon img-rounded">
                 </a>
                 <h1>  Jive </h1>
@@ -159,67 +159,4 @@ permalink: /portfolio/
     </section>
   </div>
 </div>
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-</div>
-  <script>
-    window.skit = (function() {
-      var objects = {};
-      var modules = {};
-      function define(resourcePath, deps, fn) {
-        modules[resourcePath] = {deps: deps, fn: fn};
-      }
-      function load(resourcePath) {
-        if (!(resourcePath in objects)) {
-          if (resourcePath in modules) {
-            var module = modules[resourcePath];
-            var args = [];
-            for (var i = 0; i < module.deps.length; i++) {
-              args.push(load(module.deps[i]));
-            }
-            objects[resourcePath] = module.fn.apply(window, args);
-          } else {
-            objects[resourcePath] = null;
-          }
-        }
-        return objects[resourcePath];
-      }
-      return {
-        define: define,
-        modules: modules,
-        env: {
- "productionAPI": true,
- "appEngineHost": "https://launchkit-images.appspot.com/",
- "publicRoot": "public"
-},
-        load: load
-      };
-    })();
-  </script>
-    <script src="https://d2kfjaekmjmy1l.cloudfront.net/base-vCeyiK2MmNspQI9R0qUfHF00T.js" data-bundle="base" integrity="sha256-CeyiK2MmNspQI9R0qUfHF00T+f+Gr+/h8vPuAxfM5FI&#x3D;" crossorigin="anonymous"></script>
-    <script src="https://d2kfjaekmjmy1l.cloudfront.net/websites-vnnOdYzmWkWxqmQ8f1fdmP7Zi.js" data-bundle="websites" integrity="sha256-nnOdYzmWkWxqmQ8f1fdmP7ZiICEkHaZxiTkYRRLRSPA&#x3D;" crossorigin="anonymous"></script>
-  <script>
-    (function() {
-        var netproxy = skit.load("skit.platform.netproxy:js");
-          netproxy.__register__("lk", {
- "name": "lk",
- "csrfToken": "lF/cudYeoM9kFN3dlkdNHg=="
-});
-
-      var ControllerKlass = skit.load("public.websites.__id__.WebsitePublic:js");
-      var controller = new ControllerKlass({
- "__id__": "example"
-});
-
-      var controllerProperties = {"itunesId":"1041413395","country":"us","website":{"appName":"Weave Schedule","tagline":"Sync Patient Appointments From Practice Management Software (PMS)","itunesId":1041413395,"longDescription":"The Weave Schedule App provides seamless integration with your Practice Management Software and delivers you patient and schedule information the second you need it, wherever you are.\n\nThe Weave Schedule App allows you to view your schedule and stay on top of your day. Data from your Practice Management Software syncs directly to your phone from your Weave Cloud enabled Practice Management Software.","images":{"screenshots":{"iPhone":[{"url":"http://a3.mzstatic.com/us/r30/Purple69/v4/11/65/83/1165839d-d73c-1654-1c98-063bbba1bd99/screen696x696.jpeg"},{"url":"http://a3.mzstatic.com/us/r30/Purple49/v4/48/f7/ab/48f7ab58-f722-2456-88a8-06c1f49c4df1/screen696x696.jpeg"},{"url":"http://a1.mzstatic.com/us/r30/Purple69/v4/42/4a/06/424a060e-8826-f20d-72f3-eb1f1e0cfeea/screen696x696.jpeg"}]},"icon":{"url":"http://is1.mzstatic.com/image/thumb/Purple20/v4/45/e4/9d/45e49dde-9a41-d35e-b914-76f2eb23aaad/source/512x512bb.jpg"}},"shortDescription":"The Weave Schedule App provides seamless integration with your Practice Management Software and delivers you patient and schedule information the second you need it, wherever you a...","id":"example","template":"5","primaryColor":"#F84C6D","homeUrl":"/websites/example"}};
-      for (var k in controllerProperties) {
-        controller[k] = controllerProperties[k];
-      }
-
-      window.skit.controller = controller;
-      controller.recursiveLoad();
-      controller.recursiveReady();
-    })();
-  </script>
 </body>
