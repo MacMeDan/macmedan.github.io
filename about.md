@@ -13,7 +13,7 @@ Dan Leonard
 - 1st to get [swift to compile](https://twitter.com/MacmeDan/status/697904248567148544) on Raspberry Pi Zero
 - Runs Marathons
 - Builds furniture 
-- Rides motorcycles.
+- Rides motorcycles
 
 - [@iOSCandy](https://www.instagram.com/ioscandy/)
 
