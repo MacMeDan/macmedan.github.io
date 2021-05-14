@@ -6,7 +6,7 @@
     <meta http-equiv="Cache-control" content="public">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="keywords" content="apps, mobile, developer, open source, iOS, objective-c, swift, cocoa, apple, xcode, app store, software, programming, engineering, design patterns">
-    <meta name="description" content="Just past default">
+    <meta name="description" content="Past default">
     <meta name="author" content="Dan Leonard">
     <title>
         
@@ -16,7 +16,7 @@
 
     <meta itemprop="canonical" href="http://localhost:4000/jekyll/update/2016/10/16/Lessons-Learned-Updating-to-Swift-3.html" />
     <meta itemprop="url" content="http://localhost:4000/jekyll/update/2016/10/16/Lessons-Learned-Updating-to-Swift-3.html" />
-    <meta itemprop="about" content="Just past default" />
+    <meta itemprop="about" content="Past default" />
 
     
     <meta itemprop="name" content="Lessons Learned Updating to Swift 3" />
@@ -40,8 +40,8 @@
 
     <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@https://twitter.com/macmedan" />
-    <meta name="twitter:creator" content="@https://twitter.com/macmedan" />
+    <meta name="twitter:site" content="@" />
+    <meta name="twitter:creator" content="@" />
 
     
     <meta name="twitter:image" content="http://localhost:4000" />
@@ -89,7 +89,7 @@
       <div class="col-md-12 col-sm-12 col-xs-12">
         <h1 class="text-center"><a href="/">OverrideFunc</a></h1>
         <div class="col-md-12 col-sm-12 col-xs-12">
-            <h2 class="tagline">&mdash; Just past default
+            <h2 class="tagline">&mdash; Past default
          </div> <!-- col -->
       </div> <!-- col -->
    </div> <!-- row -->
@@ -112,7 +112,7 @@
                <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">Lessons Learned Updating to Swift 3</h1>
-    <p class="post-meta"><time datetime="2016-10-16T16:46:28-06:00" itemprop="datePublished">Oct 16, 2016</time></p>
+    <p class="post-meta"><time datetime="2016-10-16T17:46:28-05:00" itemprop="datePublished">Oct 16, 2016</time></p>
   </header>
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -130,7 +130,7 @@
     <p>Recently I have been working on a project for my kids. Of course since it was a new project I decided to do it in the newest version of Swift. I wanted to make some simple games that could help my young ones learn.
 I love playgrounds and all that they enable us to do. I came across this project that <a href="https://twitter.com/uraimo">@uraimo</a> which has a running list of <a href="https://github.com/uraimo/Awesome-Swift-Playgrounds">Awesome Swift Playgrounds</a>. There is one for spriteKit, which I really wanted to make a game with but of course it was written in Swift 2.2 I was not about to let that hold me back so I went ahead and started trying to  convert it to Swift 3. I went through all the changes that Xcode suggested and finally made it to a point where I had no errors. The issue was that the example did not perform the way it did previously. After going back and converting each function 1 by 1. I determined the function that was not being called.</p>
 
-<figure class="highlight"><pre><code class="language-swift" data-lang="swift"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+<figure class="highlight"><pre><code class="language-swift" data-lang="swift"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -144,7 +144,8 @@ I love playgrounds and all that they enable us to do. I came across this project
 12
 13
 14
-15</pre></td><td class="code"><pre><span class="kd">func</span> <span class="nf">didBeginContact</span><span class="p">(</span><span class="nv">contact</span><span class="p">:</span> <span class="kt">SKPhysicsContact</span><span class="p">)</span> <span class="p">{</span>
+15
+</pre></td><td class="code"><pre><span class="kd">func</span> <span class="nf">didBeginContact</span><span class="p">(</span><span class="nv">contact</span><span class="p">:</span> <span class="kt">SKPhysicsContact</span><span class="p">)</span> <span class="p">{</span>
         <span class="c1">// Executed if the ball makes contact with the block.</span>
         <span class="k">if</span> <span class="n">contact</span><span class="o">.</span><span class="n">bodyA</span><span class="o">.</span><span class="n">categoryBitMask</span> <span class="o">==</span> <span class="kt">CategoryBitMask</span><span class="o">.</span><span class="kt">Ball</span> <span class="o">&amp;&amp;</span> <span class="n">contact</span><span class="o">.</span><span class="n">bodyB</span><span class="o">.</span><span class="n">categoryBitMask</span> <span class="o">==</span> <span class="kt">CategoryBitMask</span><span class="o">.</span><span class="kt">Block</span> <span class="p">{</span>
             <span class="k">let</span> <span class="nv">block</span> <span class="o">=</span> <span class="n">contact</span><span class="o">.</span><span class="n">bodyB</span><span class="o">.</span><span class="n">node</span> <span class="k">as!</span> <span class="kt">SKSpriteNode</span>
@@ -158,16 +159,16 @@ I love playgrounds and all that they enable us to do. I came across this project
                 <span class="n">block</span><span class="o">.</span><span class="nf">removeFromParent</span><span class="p">()</span>
             <span class="p">}</span>
         <span class="p">}</span>
-    <span class="p">}</span><span class="w">
-</span></pre></td></tr></tbody></table></code></pre></figure>
+    <span class="p">}</span>
+</pre></td></tr></tbody></table></code></pre></figure>
 
-<p>Then the next step was to figure out what I am missing but when I would try and find something it was already outdated. Even Apple’s documentation was for <code class="highlighter-rouge">objectiveC</code>. Then it hit me that this function was not that <code class="highlighter-rouge">swifty</code> which is what allot of the changes for Swift 3 were all about. There is to much redundancy <code class="highlighter-rouge">func didBeginContact(contact: SKPhysicsContact) {</code> and therein lies the solution. See Xcode suggested to add the perimeter <code class="highlighter-rouge">contact:</code> and technically the method is valid so no errors were thrown. But this method is key for detecting collision between two objects and is the method that conforms to <code class="highlighter-rouge">SKPhysicsContactDelegate</code>.
+<p>Then the next step was to figure out what I am missing but when I would try and find something it was already outdated. Even Apple’s documentation was for <code class="language-plaintext highlighter-rouge">objectiveC</code>. Then it hit me that this function was not that <code class="language-plaintext highlighter-rouge">swifty</code> which is what allot of the changes for Swift 3 were all about. There is to much redundancy <code class="language-plaintext highlighter-rouge">func didBeginContact(contact: SKPhysicsContact) {</code> and therein lies the solution. See Xcode suggested to add the perimeter <code class="language-plaintext highlighter-rouge">contact:</code> and technically the method is valid so no errors were thrown. But this method is key for detecting collision between two objects and is the method that conforms to <code class="language-plaintext highlighter-rouge">SKPhysicsContactDelegate</code>.
   So since swift is aiming to be super readable if you take out the brackets it should read like a sentence of sorts. “did Begin Contact contact SKPhysicsContact” is a super redundant sentence in my book. Take out the first contact and all is well. I don’t know why Xcode did not remove it when it added the parameter label like it does in many other instances but that is neither here nor there.</p>
 
 <p>So I corrected my mistake and everything works just as it should.
 Corrected Code :</p>
 
-<figure class="highlight"><pre><code class="language-swift" data-lang="swift"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+<figure class="highlight"><pre><code class="language-swift" data-lang="swift"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -181,7 +182,8 @@ Corrected Code :</p>
 12
 13
 14
-15</pre></td><td class="code"><pre><span class="kd">func</span> <span class="nf">didBegin</span><span class="p">(</span><span class="n">_</span> <span class="nv">contact</span><span class="p">:</span> <span class="kt">SKPhysicsContact</span><span class="p">)</span> <span class="p">{</span>
+15
+</pre></td><td class="code"><pre><span class="kd">func</span> <span class="nf">didBegin</span><span class="p">(</span><span class="n">_</span> <span class="nv">contact</span><span class="p">:</span> <span class="kt">SKPhysicsContact</span><span class="p">)</span> <span class="p">{</span>
         <span class="c1">// Executed if the ball makes contact with the block.</span>
         <span class="k">if</span> <span class="n">contact</span><span class="o">.</span><span class="n">bodyA</span><span class="o">.</span><span class="n">categoryBitMask</span> <span class="o">==</span> <span class="kt">CategoryBitMask</span><span class="o">.</span><span class="kt">Ball</span> <span class="o">&amp;&amp;</span> <span class="n">contact</span><span class="o">.</span><span class="n">bodyB</span><span class="o">.</span><span class="n">categoryBitMask</span> <span class="o">==</span> <span class="kt">CategoryBitMask</span><span class="o">.</span><span class="kt">Block</span> <span class="p">{</span>
             <span class="k">let</span> <span class="nv">block</span> <span class="o">=</span> <span class="n">contact</span><span class="o">.</span><span class="n">bodyB</span><span class="o">.</span><span class="n">node</span> <span class="k">as!</span> <span class="kt">SKSpriteNode</span>
@@ -195,12 +197,12 @@ Corrected Code :</p>
                 <span class="n">block</span><span class="o">.</span><span class="nf">removeFromParent</span><span class="p">()</span>
             <span class="p">}</span>
         <span class="p">}</span>
-    <span class="p">}</span><span class="w">
-</span></pre></td></tr></tbody></table></code></pre></figure>
+    <span class="p">}</span>
+</pre></td></tr></tbody></table></code></pre></figure>
 
 <p>Conclusion: When updating for Swift 3 don’t trust XCode (She will lie to you). Make sure you understand what is going on with the code and check your syntax. Allot changed but I think allot has really improved with the changes.</p>
 
-<p>Now go out there and explore, change variables and learn about <code class="highlighter-rouge">SpriteKit</code> more, if you would like to check out the playground you can get the <a href="https://github.com/MacMeDan/SpriteKitCollisions">updated Swift 3 version here</a></p>
+<p>Now go out there and explore, change variables and learn about <code class="language-plaintext highlighter-rouge">SpriteKit</code> more, if you would like to check out the playground you can get the <a href="https://github.com/MacMeDan/SpriteKitCollisions">updated Swift 3 version here</a></p>
 
 
   </div>
@@ -216,10 +218,8 @@ Corrected Code :</p>
     <div class="col-sm-12 col-sm-offset-0 col-md-8 col-md-offset-2">
         <ul class="inline center">
             <li><a href="https://github.com/macmedan" title="Follow me on Github"><i class="fa fa-2x fa-github" aria-hidden="true"></i></a></li>
-            <li><a href="https://twitter.com/macmedan" title="Follow me on Twitter"><i class="fa fa-2x fa-twitter" aria-hidden="true"></i></a></li>
             <li><a href="" title="Connect with me on LinkedIn"><i class="fa fa-2x fa-linkedin" aria-hidden="true"></i></a></li>
             <li><a href="/feed.xml" title="Subscribe via RSS/atom"><i class="fa fa-2x fa-rss-square" aria-hidden="true"></i></a></li>
-            <li><a href="" title="Add to Apple News"><i class="fa fa-2x fa-apple" aria-hidden="true"></i></a></li>
         </ul>
     </div> <!-- col -->
 </div> <!-- row -->
@@ -243,7 +243,7 @@ Corrected Code :</p>
                </button>
                <ul class="dropdown-menu">
                   <li>
-                     <a href="https://twitter.com/intent/tweet?text=Lessons%20Learned%20Updating%20to%20Swift%203%20http://localhost:4000/jekyll/update/2016/10/16/Lessons-Learned-Updating-to-Swift-3.html%20via%20@https://twitter.com/macmedan" title="Tweet" target="_blank">
+                     <a href="https://twitter.com/intent/tweet?text=Lessons%20Learned%20Updating%20to%20Swift%203%20http://localhost:4000/jekyll/update/2016/10/16/Lessons-Learned-Updating-to-Swift-3.html%20via%20@" title="Tweet" target="_blank">
                      Twitter &nbsp;<i class="fa fa-twitter" aria-hidden="true"></i>
                      </a>
                   </li>
@@ -313,7 +313,7 @@ document.write("<sc"+"ript type='text/javascript' src='" + scJsHost+ "statcounte
 
 
    <p class="text-muted text-center"><small>
-   &copy; 2019 Dan Leonard.
+   &copy; 2021 Dan Leonard.
    This site is <a href="https://github.com/macmedan">open source</a>.
    </small></p>
 </footer>

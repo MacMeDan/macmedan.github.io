@@ -8,10 +8,9 @@
 # Site
 title: OverrideFunc
 url: https://macmedan.github.io
-description: Just past default
+description: Past default
 img_url: /img
 
-facebook: https://www.facebook.com/overridefunc
 copyrights-owner: Dan Leonard # Copyright in the footer
 
 # Build settings
@@ -25,14 +24,17 @@ author:
   name: Dan Leonard
   email: mailto:pdanielleonard+overridefunc@gmail.com
   web: http://overridefunc.com/
-  twitter: https://twitter.com/macmedan
   github: https://github.com/macmedan
   gravatar: 'https://s.gravatar.com/avatar/28c884619263d70e274669742eb645a2?s=80'
 
 analytics: 'UA-88807386-1'
 theme: minima
 
-gems: [jekyll-sitemap, jekyll-paginate, jekyll-seo-tag, jekyll-feed]
+plugins: 
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-feed
 
 
 
