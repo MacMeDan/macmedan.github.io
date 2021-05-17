@@ -1,687 +1,613 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-05-14T16:28:13-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">OverrideFunc</title><subtitle>Past default</subtitle><author><name>Dan Leonard</name><email>mailto:pdanielleonard+overridefunc@gmail.com</email></author><entry><title type="html">DIY Pallet Wood Table</title><link href="http://localhost:4000/jekyll/update/2017/03/06/DIY-Pallet-Wood-Table.html" rel="alternate" type="text/html" title="DIY Pallet Wood Table" /><published>2017-03-06T12:44:28-06:00</published><updated>2017-03-06T12:44:28-06:00</updated><id>http://localhost:4000/jekyll/update/2017/03/06/DIY-Pallet-Wood-Table</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/03/06/DIY-Pallet-Wood-Table.html">&lt;figure&gt;
-    &lt;img class=&quot;img-thumbnail img-responsive center &quot; src=&quot;/img/pallet_table/finalProduct.jpg&quot; title=&quot;Finished Product&quot; alt=&quot;Finished Product&quot; /&gt;
-    
-&lt;/figure&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.4.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-24T15:41:30-06:00</updated><id>http://localhost:4000/</id><title type="html">OverrideFunc</title><subtitle>Just past default</subtitle><author><name>Dan Leonard</name><email>mailto:pdanielleonard+overridefunc@gmail.com</email></author><entry><title type="html">DIY Pallet Wood Table</title><link href="http://localhost:4000/jekyll/update/2017/03/06/DIY-Pallet-Wood-Table.html" rel="alternate" type="text/html" title="DIY Pallet Wood Table" /><published>2017-03-06T11:44:28-07:00</published><updated>2017-03-06T11:44:28-07:00</updated><id>http://localhost:4000/jekyll/update/2017/03/06/DIY-Pallet-Wood-Table</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/03/06/DIY-Pallet-Wood-Table.html">{% include image.html
+    file=&quot;pallet_table/finalProduct.jpg&quot;
+    alt=&quot;Finished Product&quot;
+    half_width=false
+%}
 
-&lt;p&gt;Here is the Finished product just to get started. My sister go married and moved into a new apartment.  Since she and her husband are still in college they did not have much money but wanted a nice apartment together, My wife likes to design and decorate so she decided she would decorate their place and I would make the furniture.  So this is the first of a few pieces we did. You can check out her work at on Instagram at &lt;a href=&quot;(http://ow.ly/EiKw309E3BP)&quot;&gt;@byjo_designs&lt;/a&gt;&lt;/p&gt;
+Here is the Finished product just to get started. My sister go married and moved into a new apartment.  Since she and her husband are still in college they did not have much money but wanted a nice apartment together, My wife likes to design and decorate so she decided she would decorate their place and I would make the furniture.  So this is the first of a few pieces we did. You can check out her work at on Instagram at [@byjo_designs][byjo_designs]
 
-&lt;p&gt;Originally this piece was to go behind the couch in the living room because of a strange layout the couch could not sit against the wall. Since then it has made it into their bed room as a nice table with storage underneath.&lt;/p&gt;
+Originally this piece was to go behind the couch in the living room because of a strange layout the couch could not sit against the wall. Since then it has made it into their bed room as a nice table with storage underneath.
 
-&lt;figure&gt;
-    &lt;img class=&quot;img-thumbnail img-responsive center &quot; src=&quot;/img/pallet_table/2rawPallets.jpg&quot; title=&quot;Raw pallets&quot; alt=&quot;Raw pallets&quot; /&gt;
-    
-&lt;/figure&gt;
+{% include image.html
+    file=&quot;pallet_table/2rawPallets.jpg&quot;
+    alt=&quot;Raw pallets&quot;
+    half_width=false
+%}
 
-&lt;p&gt;Collected some pallet wood there are always posts of free pallets you can pick up.  This is only a portion of the pallets I used.&lt;/p&gt;
+Collected some pallet wood there are always posts of free pallets you can pick up.  This is only a portion of the pallets I used.
 
-&lt;figure&gt;
-    &lt;img class=&quot;img-thumbnail img-responsive center &quot; src=&quot;/img/pallet_table/3processed_wood.jpg&quot; title=&quot;Boards&quot; alt=&quot;Boards&quot; /&gt;
-    
-&lt;/figure&gt;
+{% include image.html
+    file=&quot;pallet_table/3processed_wood.jpg&quot;
+    alt=&quot;Boards&quot;
+    half_width=false
+%}
 
-&lt;p&gt;The only tools that you have to have for this project are the basics for all DIY projects.&lt;br /&gt;
+The only tools that you have to have for this project are the basics for all DIY projects.  
 I used:
     Hamer    A Crow bar ( for pulling the pallets apart )
-    10” Table Saw
-    Drill and impact Drill     3/8” Bits to sink the screw heads.
-    Screws 1 1/2”
+    10&quot; Table Saw
+    Drill and impact Drill     3/8&quot; Bits to sink the screw heads.
+    Screws 1 1/2&quot;
     Measuring Tape
-    Electric Sander    Clamps&lt;/p&gt;
+    Electric Sander    Clamps
+
+Used a crow bar to pry the planks off the pallets and hammered the nails out back wards to remove them. Some people just cut off the boards at the nails with a circular saw which is a faster way of doing it of coarse but I kinda like the look with the old nail holes. Then I took each bard and sanded them down to give a smooth finish and remove any paint or other cruft that was on the boards. Then I took the boards and cut them in to 12&quot; sections for the center of table.
+
+{% include image.html
+    file=&quot;pallet_table/measure.jpg&quot;
+    alt=&quot;Lining up the cuts&quot;
+    half_width=false
+%}
+
+I needed a long table to stretch the length of the couch and decided since my boards were limited basically to the length of a pallet that I would make two sections and buy some cheap 1 x 1 to hold it all together. Laid  out all the boards to make sure they fit together and sanding the ends of the longer boards so they are all the same size.
+&lt;br&gt;&lt;br&gt;
+{% include image.html
+    file=&quot;pallet_table/IMG_0129.jpg&quot;
+    alt=&quot;picture&quot;
+    half_width=false
+%}
+
+Lining things up checking it twice.
+
+{% include image.html
+    file=&quot;pallet_table/drillbits2.jpg&quot;
+    alt=&quot;Drill bits&quot;
+    half_width=false
+%}
+
+Selected a bit that was as close as i could get the the size of the head of my screws. This bit will let me recess the screw under the surface of the board helping to hide them. I believe it was a 3/8&quot; bit but may vary based on what screws you use.
+
+{% include image.html
+    file=&quot;pallet_table/sink_holes.jpg&quot;
+    alt=&quot;Pocket holes&quot;
+    half_width=false
+%}
+
+Pre drilling holes for the screws so the heads don't  stick out. There is a tool that you can use as a guide for this but I just hold my drill at the angle I want and start about half way up the board and drill till there is about 1/4 of the board left.
+
+{% include image.html
+    file=&quot;pallet_table/line_up_pilot.jpg&quot;
+    alt=&quot;Pocket holes&quot;
+    half_width=false
+%}
+
+Then I take a bit that is smaller then my screws and drill a pilot hole to prevent the screw from splitting the wood as it is cranked down. I shoot for about half if not more of the screw going into the other board.
+
+{% include image.html
+    file=&quot;pallet_table/watch_out.jpg&quot;
+    alt=&quot;Warning&quot;
+    half_width=false
+%}
+
+Watch out for your drill rubbing on the wood if your drill bit is not long enough. This is the bottom side so it will not bee seen at all.
+
+{% include image.html
+    file=&quot;pallet_table/secured&quot;
+    alt=&quot;Secured&quot;
+    half_width=false
+%}
+
+The screw holding the frame together inset in the board so it will lay flat on the frame for the legs.
+&lt;br&gt;&lt;br&gt;
+{% include image.html
+    file=&quot;pallet_table/top_frame.jpg&quot;
+    alt=&quot;Top frame&quot;
+    half_width=false
+%}
+I screwed the outer frame together of one side and lift it up like this so I can apply pressure down while holding the boards strait and snug.
+&lt;br&gt;&lt;br&gt;
+{% include image.html
+    file=&quot;pallet_table/fit_together.jpg&quot;
+    alt=&quot;Fastened frame&quot;
+    half_width=false
+%}
+Here are the two halves, outer frames snugly attached but the inner boards are just set inside to help with alignment.
+&lt;br&gt;&lt;br&gt;
+{% include image.html
+    file=&quot;pallet_table/upsidedown_inner_suppoert.jpg&quot;
+    alt=&quot;Inner frame support&quot;
+    half_width=false
+%}
+I took a 1x1 and used it to make a sub frame. This will hold all the center boards in place and provide extra stability to the table as well as make it straight. The boards were roughly 5/8&quot; thick so I used 1 1/2&quot; screws to attach the 1X1 to the table top frame. That gives me about 1/2&quot; into the boards but keeps me from poking through. My goal was not to have any screws visible form the top.
+&lt;br&gt;&lt;br&gt;
+{% include image.html
+    file=&quot;pallet_table/flip_inner_support.jpg&quot;
+    alt=&quot;Inner frame support alternative&quot;
+    half_width=false
+%}
+
+Flipping the top over to see how it looks. Placed a few boards in the center but I will have to flip it back to actually attach them.
+&lt;br&gt;&lt;br&gt;
+{% include image.html
+    file=&quot;pallet_table/lineup.jpg&quot;
+    alt=&quot;Aligning&quot;
+    half_width=false
+%}
+Snug as a bug in a rug.
+&lt;br&gt;&lt;br&gt;
+{% include image.html
+    file=&quot;pallet_table/30laying_out_boards.jpg&quot;
+    alt=&quot;Checking length&quot;
+    half_width=false
+%}
+Lining up all the boards to see how they sit form the top.
+&lt;br&gt;&lt;br&gt;
+{% include image.html
+    file=&quot;pallet_table/innersupport.jpg&quot;
+    alt=&quot;upsidedown inner support&quot;
+    half_width=false
+%}
+Flipped the whole thing upside down, so all the ugly sides are up and started attaching. There was a little gap but luckily it happened on both sides so I cut an extra board and placed the gap in the center of the half. It actually tuned out kinda nice to breakup the repetitiveness of the boards.
+&lt;br&gt;&lt;br&gt;
+{% include image.html
+    file=&quot;pallet_table/staggering_holes.jpg&quot;
+    alt=&quot;Staggering holes&quot;
+    half_width=false
+%}
+Throwing in some staggered pilot holes to hold the top boards down. Staggered holes to prevent splitting the wood. if you line up too many holes with the same thread in the grain some times it can cause it to split there.
+&lt;br&gt;&lt;br&gt;
+{% include image.html
+    file=&quot;pallet_table/49mark.jpg&quot;
+    alt=&quot;Mark and measure&quot;
+    half_width=false
+%}
+Mark where I need to stop drilling.
+&lt;br&gt;&lt;br&gt;
+{% include image.html
+    file=&quot;pallet_table/50line_up_drill.jpg&quot;
+    alt=&quot;Line up drill&quot;
+    half_width=false
+%}
+Guess a great starting point about the length of the screw away so 1 3/8&quot; ish. I know super precise.
+&lt;br&gt;&lt;br&gt;
+{% include image.html
+    file=&quot;pallet_table/51drill_hole.jpg&quot;
+    alt=&quot;Drill holes&quot;
+    half_width=false
+%}
+Drill like a mad man.
+
+&lt;br&gt;&lt;br&gt;
+{% include image.html
+    file=&quot;pallet_table/46making_legs.jpg&quot;
+    alt=&quot;Making legs&quot;
+    half_width=false
+%}
+Creating the side Legs. My sister wanted a shelf to stack junk (I think she is a hoarder). So I made them little shelves along with the space under the table they will be able to put things. I used these 90 deg clamps I have to hold the shelf where I wanted and secured with screws. Looking back now I probably should have made them deeper but beggars can't be choosers.
+&lt;br&gt;&lt;br&gt;
+{% include image.html
+    file=&quot;pallet_table/46uncovered.jpg&quot;
+    alt=&quot;Uncovered end&quot;
+    half_width=false
+%}
+Had to notch out a pice for the sub frame to fit up snug like I wanted and sunk the screw for attaching to the side leg.
+&lt;br&gt;&lt;br&gt;
+{% include image.html
+    file=&quot;pallet_table/47endview.jpg&quot;
+    alt=&quot;Cover end of Table&quot;
+    half_width=false
+%}
+Add the end pice on to cover up all the screws and complete the top. Then attach it from below holding it snug in place.
+&lt;br&gt;&lt;br&gt;
+{% include image.html
+    file=&quot;pallet_table/45LegsOn.jpg&quot;
+    alt=&quot;Legs on&quot;
+    half_width=false
+%}
+The table is designed for sitting behind her couch because of a strange wall protruding preventing the couch from sitting against the wall. This made the table pretty long and I was afraid of it not being able to support that much wight so I decided to add a center supporting leg.
+&lt;br&gt;&lt;br&gt;
+{% include image.html
+    file=&quot;pallet_table/center_post.jpg&quot;
+    alt=&quot;Center Post&quot;
+    half_width=false
+%}
+Added a cross bar for extra support of the legs but placed it higher so things can be stacked under it. Was not too worried how this one looked because the table will be sandwiched between the couch and the wall. In other words you will not see it. I noticed if I tried to put some wight on it the legs would flex a little and did not want them to break off so I added some 30 deg supports.
+&lt;br&gt;&lt;br&gt;
+{% include image.html
+    file=&quot;pallet_table/51support.jpg&quot;
+    alt=&quot;Center Support&quot;
+    half_width=false
+%}
+Just took a section of 1x1 and predrilled some holes. Not my prettiest work but again its on the underside so I don't mind too much.
+&lt;br&gt;&lt;br&gt;
+{% include image.html
+    file=&quot;pallet_table/52support.jpg&quot;
+    alt=&quot;Support&quot;
+    half_width=false
+%}
+This one I didn't even sink that much but it worked. Added one to each corner and it really improved its rigidness.
+&lt;br&gt;&lt;br&gt;
+{% include image.html
+    file=&quot;pallet_table/53support.jpg&quot;
+    alt=&quot;Support&quot;
+    half_width=false
+%}
+&lt;br&gt;&lt;br&gt;
+{% include image.html
+    file=&quot;pallet_table/58end.jpg&quot;
+    alt=&quot;end&quot;
+    half_width=false
+%}
+There she be starting to shape up.
+&lt;br&gt;&lt;br&gt;
+{% include image.html
+    file=&quot;pallet_table/56finished_sanding.jpg&quot;
+    alt=&quot;Sanding&quot;
+    half_width=false
+%}
+
+Now all that is left is sanding everything smooth. Since I was using pallet wood there are variations in the size of the wood so I waited till It was all put together before I really sanded everything down to its final state. I used an old hand plainer (essentially a blade that shaves off a little at a time) for the initial leveling and then an electric sander for the rest.
+&lt;br&gt;&lt;br&gt;
+{% include image.html
+    file=&quot;pallet_table/56finished_sanding.jpg&quot;
+    alt=&quot;Finished sanding&quot;
+    half_width=false
+%}
+
+Blow off all that dust and it don't look to bad. Now It just needs some stain and a coat of poly acrylic and we are good as gold.
+&lt;br&gt;&lt;br&gt;
+{% include image.html
+    file=&quot;pallet_table/final2.jpg&quot;
+    alt=&quot;Final Product&quot;
+    half_width=false
+%}
+
+The Final product again thanks for checking it out. Follow our journey and other projects on Instagram  [@byjo_designs][byjo_designs] and I will make more detailed posts here.
+
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+
+Check it out on imgur
+&lt;blockquote class=&quot;imgur-embed-pub&quot; lang=&quot;en&quot; data-id=&quot;a/rRlKi&quot;&gt;&lt;a href=&quot;//imgur.com/rRlKi&quot;&gt;DIY Pallet Wood Table.&lt;/a&gt;&lt;/blockquote&gt;&lt;script async src=&quot;//s.imgur.com/min/embed.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+[byjo_designs]:(http://ow.ly/EiKw309E3BP)</content><author><name>Dan Leonard</name><email>mailto:pdanielleonard+overridefunc@gmail.com</email></author><summary type="html"></summary></entry><entry><title type="html">$179 Tiko 3D printer - Getting Started</title><link href="http://localhost:4000/jekyll/update/2017/01/16/The-TikoBot-a-$199-3D-Printer.html" rel="alternate" type="text/html" title="$179 Tiko 3D printer - Getting Started" /><published>2017-01-16T11:44:28-07:00</published><updated>2017-01-16T11:44:28-07:00</updated><id>http://localhost:4000/jekyll/update/2017/01/16/The-TikoBot-a-$199-3D-Printer</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/01/16/The-TikoBot-a-$199-3D-Printer.html">So if you don't know there is a $179 3D printer out on the market called the [Tiko][Tiko]. I backed it on Kickstarter, This is probably my 3rd `3D printer`-esque projects that I have backed. I started with the [3Doodler][3Doodler] it was so good I backed the second version also. I have backed a few projects on Kickstarter some have been successful others have failed and the company does not exist any longer.
+
+Finally got this thing and I was pumped. Unfortunately it arrived over Christmas and I was 3000 miles away. Once I got back I really wanted to get printing. It was a year late but its Kickstarter so you kinda expect things like that to happen. If you don't you should not user Kickstarter you will be disappointed. This is early backing so you can get something by helping the company get started and off the ground. So with that in mind you have to realize that these are not final products, if you want final products wait till it is backed and they have delivered to all of their backers. That is a relatively safe&quot;er&quot; time to purchase a product but you may miss out on special discounts and getting your hands on it first.
+
+Tips and Tricks Learned.
+
+It took me 2 days to actually get the first things printed. I figured since the instructions was a trifold brochure with 6 instructions that it would be relatively simple to get up and going.
+
+&gt;Step 1. Plug it in.
+
+&gt;Step 2. Connect to the printer.
+
+  They have some pretty cool ideas on making the print process very simple with cloud printing you should be able to connect to your printer from any where and queue up a print but it is not there just yet. Cloud Printing is disabled and being worked on so the only way to connect to the printer is by going to your wifi and connecting to the wifi hotspot it is broad casting. I found that it takes a second for the printer to boot up and actually start casting the hotspot and be connectable.
+  Once you have done this you will open a web browser ([Tiko]. suggests you use chrome)
+  Then type in the url print.tiko/ this will give you the ability to setup your printer the first time and the print interface once you have done that.
+
+&gt;Step 3. Load the PLA.
+
+This is where I made my first mistake. So once you select `Manual Controls` on the upper left a few options appear. This is where you can adjust the brightness of the LED's that light up the print bed. `Load/unload filament` and `Heat Nozzle`. So unwrap your PLA that came with the printer and and uncoil it a few times. Click the `Load Filament` option and the printer should make some sort of noise. This is the motor that pulls the filament into the printer. Then you need to push the filament into the white straw on the inside. You will feed about 18 to reach the nozzle. So my first attempt I put it in and made it all the way to the motor that is supposed to pull it in and subsequently push it all the way to the nozzle. ✔︎ That you push it far enough that is starts to pull the filament. I got it right up to the motor but not to the point it was pulling it. There is some sort of sensor that tells the printer if filament is loaded or not. But this sensor is not located at the nozzle nor is it on the second half of the feed tube. So if your filament is fed half way in the printer will thing the filament is loaded but while you are printing there with be no plastic coming out of the nozzle.
+
+&gt;Step 4. Heat the Nozzle.
+
+This step held me up for a while, would hit the giant `Print` button at the bottom of the interface and it would dismiss the view but nothing would happen with the printer. Super frustrating I hope that they do some improvements on their UX. Come to find out that you have to hit the `Heat Nozzle` and wait the full min before you hit the `Print` button that then takes more then that mount of time to render the object gCode and post that data to the printer.
+
+Not super difficult and I was able to make a print with the default settings but you can play around with those and see how it affects your prints. I was supper impressed on how easy it was to get things going. I do hope that they improve the interface to give a little more feedback when things are not working but I am sure that will evolve. There was really only one major hangup besides that.
+
+&gt; The Design Flaw.
+
+There is an issue with the way that the filament supply tube that runs from the driver motor to the nozzle. What is strange to me is that there is no way that this [Tiko][Tiko]. was tested and printed the demo structure that comes with it because they would have run into this issue. Unless of coarse they did not do the calibration step that they do now where the nozzle goes to each corner and presses into the print base. Because every time it would do that the black section of the supply tube would loop itself around one of the arm motors. This causes the nozzle to pull all the way to the side of the bot and error out because it cannot go back to the `Zero` position. Do not fret though I have a solution. It is super advanced and took a ton of R&amp;D. &lt;/sarcasm&gt; if you take a piece of scotch Tape and tape the black section of the tube loosely to the wall of the printer you don't run into the problem. Bam you are all ready to print to your hearts content.
+
+There are some flaws to this but looking at how much I have paid for it I am ok with having to make some adjustments to it myself. I do think it is something [Tiko][Tiko]. could and should fix but its not a deal breaker. I would suggest to anyone wanting to get into 3D printing that the [Tiko][Tiko]. bot is a great starter printer. If you have used a more expensive printer you may be disappointed but that is what makes the [Tiko][Tiko]. bot great. Also I absolutely love the way that it looks. they definitely have some design guys at [Tiko][Tiko]. that know what they are doing.
+
+Share your comments and experiences in the comments.
+
+Happy Printing
+
+[Tiko]:https://www.tiko3d.com/
+[KickStarter]:https://www.kickstarter.com
+[3Doodler]:https://www.kickstarter.com/profile/1351910088/created</content><author><name>Dan Leonard</name><email>mailto:pdanielleonard+overridefunc@gmail.com</email></author><summary type="html">So if you don’t know there is a $179 3D printer out on the market called the Tiko. I backed it on Kickstarter, This is probably my 3rd 3D printer-esque projects that I have backed. I started with the 3Doodler it was so good I backed the second version also. I have backed a few projects on Kickstarter some have been successful others have failed and the company does not exist any longer.</summary></entry><entry><title type="html">Google Mows My Lawn</title><link href="http://localhost:4000/jekyll/update/2016/12/27/Google-Mows-My-Lawn.html" rel="alternate" type="text/html" title="Google Mows My Lawn" /><published>2016-12-27T11:44:28-07:00</published><updated>2016-12-27T11:44:28-07:00</updated><id>http://localhost:4000/jekyll/update/2016/12/27/Google-Mows-My-Lawn</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2016/12/27/Google-Mows-My-Lawn.html">Back in September of 2015 I lost my job as an IOS Developer. It was sad and really blind sided me. But I liked to go to startup conventions and have been apart of StartupGrand for a while and was presented with the opportunity to participate in a Hackathon at Start-fest.
+
+&lt;br&gt;
+
+{% include image.html
+    file=&quot;Crouched.JPG&quot;
+    alt=&quot;Winner winner chicken dinner&quot;
+    caption=null
+    source_link=null
+    half_width=false
+%}
 
-&lt;p&gt;Used a crow bar to pry the planks off the pallets and hammered the nails out back wards to remove them. Some people just cut off the boards at the nails with a circular saw which is a faster way of doing it of coarse but I kinda like the look with the old nail holes. Then I took each bard and sanded them down to give a smooth finish and remove any paint or other cruft that was on the boards. Then I took the boards and cut them in to 12” sections for the center of table.&lt;/p&gt;
+&lt;br&gt;
+
+This was right around the time of the internet sensation of [#TwitchPlaysPokemon][TwitchPlaysPokemon]
+
+&gt; Twitch Plays Pokémon (TPP) is a &quot;social experiment&quot; and channel on the video streaming website Twitch, consisting of a crowdsourced attempt to play Game Freak's and Nintendo's Pokémon video games by parsing commands sent by users through the channel's chat room.
+- [Wiki][TPPWiki]
+
+Which is still playable I think. We really like this Idea that people were able to come together with perfect strangers and after 7 days complete the game ( even with all the 👹 Trolls out there ). So my brothers, Doug and David and I (Dan) set out to create something great along these same principles. The stipulations of the Hackathon was that you had 24 hours to build something that used the internet and we decided that we wanted to use normal parts you could purchase off of the shelves at [Home Depot][HomeDepot] 🛠.
+
+We wanted something that would be helpful for our own lives and that the whole world could participate in. So we took the daunting chore of 🚜  mowing our lawn and decided to outsource it to others. Yes there is the risk of participants drawing crude things in our lawn. We figured that the world as a whole actually have a very difficult time coordinating so that is a risk we were willing to take. So we set off to build a crowdsourced device that would mow our lawn for us.
+
+So here is the parts/price list from the project with links.
+
+1. Electric Lawn Mower
+Ryobi 20 in. [40-Volt Lithium-Ion Brushless Cordless Walk-Behind Electric Lawn Mower][mower] 499.00
 
-&lt;figure&gt;
-    &lt;img class=&quot;img-thumbnail img-responsive center &quot; src=&quot;/img/pallet_table/measure.jpg&quot; title=&quot;Lining up the cuts&quot; alt=&quot;Lining up the cuts&quot; /&gt;
-    
-&lt;/figure&gt;
+2. Two Drills [Ryobi 18-Volt ONE+ 1/2 in. Cordless Hammer Drill][Drills] 69.00/ea
 
-&lt;p&gt;I needed a long table to stretch the length of the couch and decided since my boards were limited basically to the length of a pallet that I would make two sections and buy some cheap 1 x 1 to hold it all together. Laid  out all the boards to make sure they fit together and sanding the ends of the longer boards so they are all the same size.
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+3. [Ryobi 18-Volt ONE+ Compact Radio with Bluetooth Wireless Technology][Radio] 39.97
 
-&lt;figure&gt;
-    &lt;img class=&quot;img-thumbnail img-responsive center &quot; src=&quot;/img/pallet_table/IMG_0129.jpg&quot; title=&quot;picture&quot; alt=&quot;picture&quot; /&gt;
-    
-&lt;/figure&gt;
+4. Three Batteries [Ryobi 18-Volt One+ High Capacity LITHIUM+ Battery][Battery] 99.00/ea
 
-&lt;p&gt;Lining things up checking it twice.&lt;/p&gt;
+5. Two [3 in. Steel Swivel Caster][casters] 5.48
 
-&lt;figure&gt;
-    &lt;img class=&quot;img-thumbnail img-responsive center &quot; src=&quot;/img/pallet_table/drillbits2.jpg&quot; title=&quot;Drill bits&quot; alt=&quot;Drill bits&quot; /&gt;
-    
-&lt;/figure&gt;
-
-&lt;p&gt;Selected a bit that was as close as i could get the the size of the head of my screws. This bit will let me recess the screw under the surface of the board helping to hide them. I believe it was a 3/8” bit but may vary based on what screws you use.&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img class=&quot;img-thumbnail img-responsive center &quot; src=&quot;/img/pallet_table/sink_holes.jpg&quot; title=&quot;Pocket holes&quot; alt=&quot;Pocket holes&quot; /&gt;
-    
-&lt;/figure&gt;
-
-&lt;p&gt;Pre drilling holes for the screws so the heads don’t  stick out. There is a tool that you can use as a guide for this but I just hold my drill at the angle I want and start about half way up the board and drill till there is about 1/4 of the board left.&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img class=&quot;img-thumbnail img-responsive center &quot; src=&quot;/img/pallet_table/line_up_pilot.jpg&quot; title=&quot;Pocket holes&quot; alt=&quot;Pocket holes&quot; /&gt;
-    
-&lt;/figure&gt;
-
-&lt;p&gt;Then I take a bit that is smaller then my screws and drill a pilot hole to prevent the screw from splitting the wood as it is cranked down. I shoot for about half if not more of the screw going into the other board.&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img class=&quot;img-thumbnail img-responsive center &quot; src=&quot;/img/pallet_table/watch_out.jpg&quot; title=&quot;Warning&quot; alt=&quot;Warning&quot; /&gt;
-    
-&lt;/figure&gt;
-
-&lt;p&gt;Watch out for your drill rubbing on the wood if your drill bit is not long enough. This is the bottom side so it will not bee seen at all.&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img class=&quot;img-thumbnail img-responsive center &quot; src=&quot;/img/pallet_table/secured&quot; title=&quot;Secured&quot; alt=&quot;Secured&quot; /&gt;
-    
-&lt;/figure&gt;
-
-&lt;p&gt;The screw holding the frame together inset in the board so it will lay flat on the frame for the legs.
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img class=&quot;img-thumbnail img-responsive center &quot; src=&quot;/img/pallet_table/top_frame.jpg&quot; title=&quot;Top frame&quot; alt=&quot;Top frame&quot; /&gt;
-    
-&lt;/figure&gt;
-
-&lt;p&gt;I screwed the outer frame together of one side and lift it up like this so I can apply pressure down while holding the boards strait and snug.
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img class=&quot;img-thumbnail img-responsive center &quot; src=&quot;/img/pallet_table/fit_together.jpg&quot; title=&quot;Fastened frame&quot; alt=&quot;Fastened frame&quot; /&gt;
-    
-&lt;/figure&gt;
-
-&lt;p&gt;Here are the two halves, outer frames snugly attached but the inner boards are just set inside to help with alignment.
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img class=&quot;img-thumbnail img-responsive center &quot; src=&quot;/img/pallet_table/upsidedown_inner_suppoert.jpg&quot; title=&quot;Inner frame support&quot; alt=&quot;Inner frame support&quot; /&gt;
-    
-&lt;/figure&gt;
-
-&lt;p&gt;I took a 1x1 and used it to make a sub frame. This will hold all the center boards in place and provide extra stability to the table as well as make it straight. The boards were roughly 5/8” thick so I used 1 1/2” screws to attach the 1X1 to the table top frame. That gives me about 1/2” into the boards but keeps me from poking through. My goal was not to have any screws visible form the top.
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img class=&quot;img-thumbnail img-responsive center &quot; src=&quot;/img/pallet_table/flip_inner_support.jpg&quot; title=&quot;Inner frame support alternative&quot; alt=&quot;Inner frame support alternative&quot; /&gt;
-    
-&lt;/figure&gt;
-
-&lt;p&gt;Flipping the top over to see how it looks. Placed a few boards in the center but I will have to flip it back to actually attach them.
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img class=&quot;img-thumbnail img-responsive center &quot; src=&quot;/img/pallet_table/lineup.jpg&quot; title=&quot;Aligning&quot; alt=&quot;Aligning&quot; /&gt;
-    
-&lt;/figure&gt;
-
-&lt;p&gt;Snug as a bug in a rug.
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img class=&quot;img-thumbnail img-responsive center &quot; src=&quot;/img/pallet_table/30laying_out_boards.jpg&quot; title=&quot;Checking length&quot; alt=&quot;Checking length&quot; /&gt;
-    
-&lt;/figure&gt;
-
-&lt;p&gt;Lining up all the boards to see how they sit form the top.
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img class=&quot;img-thumbnail img-responsive center &quot; src=&quot;/img/pallet_table/innersupport.jpg&quot; title=&quot;upsidedown inner support&quot; alt=&quot;upsidedown inner support&quot; /&gt;
-    
-&lt;/figure&gt;
-
-&lt;p&gt;Flipped the whole thing upside down, so all the ugly sides are up and started attaching. There was a little gap but luckily it happened on both sides so I cut an extra board and placed the gap in the center of the half. It actually tuned out kinda nice to breakup the repetitiveness of the boards.
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img class=&quot;img-thumbnail img-responsive center &quot; src=&quot;/img/pallet_table/staggering_holes.jpg&quot; title=&quot;Staggering holes&quot; alt=&quot;Staggering holes&quot; /&gt;
-    
-&lt;/figure&gt;
-
-&lt;p&gt;Throwing in some staggered pilot holes to hold the top boards down. Staggered holes to prevent splitting the wood. if you line up too many holes with the same thread in the grain some times it can cause it to split there.
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img class=&quot;img-thumbnail img-responsive center &quot; src=&quot;/img/pallet_table/49mark.jpg&quot; title=&quot;Mark and measure&quot; alt=&quot;Mark and measure&quot; /&gt;
-    
-&lt;/figure&gt;
-
-&lt;p&gt;Mark where I need to stop drilling.
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img class=&quot;img-thumbnail img-responsive center &quot; src=&quot;/img/pallet_table/50line_up_drill.jpg&quot; title=&quot;Line up drill&quot; alt=&quot;Line up drill&quot; /&gt;
-    
-&lt;/figure&gt;
-
-&lt;p&gt;Guess a great starting point about the length of the screw away so 1 3/8” ish. I know super precise.
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img class=&quot;img-thumbnail img-responsive center &quot; src=&quot;/img/pallet_table/51drill_hole.jpg&quot; title=&quot;Drill holes&quot; alt=&quot;Drill holes&quot; /&gt;
-    
-&lt;/figure&gt;
-
-&lt;p&gt;Drill like a mad man.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img class=&quot;img-thumbnail img-responsive center &quot; src=&quot;/img/pallet_table/46making_legs.jpg&quot; title=&quot;Making legs&quot; alt=&quot;Making legs&quot; /&gt;
-    
-&lt;/figure&gt;
-
-&lt;p&gt;Creating the side Legs. My sister wanted a shelf to stack junk (I think she is a hoarder). So I made them little shelves along with the space under the table they will be able to put things. I used these 90 deg clamps I have to hold the shelf where I wanted and secured with screws. Looking back now I probably should have made them deeper but beggars can’t be choosers.
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img class=&quot;img-thumbnail img-responsive center &quot; src=&quot;/img/pallet_table/46uncovered.jpg&quot; title=&quot;Uncovered end&quot; alt=&quot;Uncovered end&quot; /&gt;
-    
-&lt;/figure&gt;
-
-&lt;p&gt;Had to notch out a pice for the sub frame to fit up snug like I wanted and sunk the screw for attaching to the side leg.
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img class=&quot;img-thumbnail img-responsive center &quot; src=&quot;/img/pallet_table/47endview.jpg&quot; title=&quot;Cover end of Table&quot; alt=&quot;Cover end of Table&quot; /&gt;
-    
-&lt;/figure&gt;
-
-&lt;p&gt;Add the end pice on to cover up all the screws and complete the top. Then attach it from below holding it snug in place.
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img class=&quot;img-thumbnail img-responsive center &quot; src=&quot;/img/pallet_table/45LegsOn.jpg&quot; title=&quot;Legs on&quot; alt=&quot;Legs on&quot; /&gt;
-    
-&lt;/figure&gt;
-
-&lt;p&gt;The table is designed for sitting behind her couch because of a strange wall protruding preventing the couch from sitting against the wall. This made the table pretty long and I was afraid of it not being able to support that much wight so I decided to add a center supporting leg.
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img class=&quot;img-thumbnail img-responsive center &quot; src=&quot;/img/pallet_table/center_post.jpg&quot; title=&quot;Center Post&quot; alt=&quot;Center Post&quot; /&gt;
-    
-&lt;/figure&gt;
-
-&lt;p&gt;Added a cross bar for extra support of the legs but placed it higher so things can be stacked under it. Was not too worried how this one looked because the table will be sandwiched between the couch and the wall. In other words you will not see it. I noticed if I tried to put some wight on it the legs would flex a little and did not want them to break off so I added some 30 deg supports.
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img class=&quot;img-thumbnail img-responsive center &quot; src=&quot;/img/pallet_table/51support.jpg&quot; title=&quot;Center Support&quot; alt=&quot;Center Support&quot; /&gt;
-    
-&lt;/figure&gt;
-
-&lt;p&gt;Just took a section of 1x1 and predrilled some holes. Not my prettiest work but again its on the underside so I don’t mind too much.
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img class=&quot;img-thumbnail img-responsive center &quot; src=&quot;/img/pallet_table/52support.jpg&quot; title=&quot;Support&quot; alt=&quot;Support&quot; /&gt;
-    
-&lt;/figure&gt;
-
-&lt;p&gt;This one I didn’t even sink that much but it worked. Added one to each corner and it really improved its rigidness.
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img class=&quot;img-thumbnail img-responsive center &quot; src=&quot;/img/pallet_table/53support.jpg&quot; title=&quot;Support&quot; alt=&quot;Support&quot; /&gt;
-    
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img class=&quot;img-thumbnail img-responsive center &quot; src=&quot;/img/pallet_table/58end.jpg&quot; title=&quot;end&quot; alt=&quot;end&quot; /&gt;
-    
-&lt;/figure&gt;
-
-&lt;p&gt;There she be starting to shape up.
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img class=&quot;img-thumbnail img-responsive center &quot; src=&quot;/img/pallet_table/56finished_sanding.jpg&quot; title=&quot;Sanding&quot; alt=&quot;Sanding&quot; /&gt;
-    
-&lt;/figure&gt;
-
-&lt;p&gt;Now all that is left is sanding everything smooth. Since I was using pallet wood there are variations in the size of the wood so I waited till It was all put together before I really sanded everything down to its final state. I used an old hand plainer (essentially a blade that shaves off a little at a time) for the initial leveling and then an electric sander for the rest.
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img class=&quot;img-thumbnail img-responsive center &quot; src=&quot;/img/pallet_table/56finished_sanding.jpg&quot; title=&quot;Finished sanding&quot; alt=&quot;Finished sanding&quot; /&gt;
-    
-&lt;/figure&gt;
-
-&lt;p&gt;Blow off all that dust and it don’t look to bad. Now It just needs some stain and a coat of poly acrylic and we are good as gold.
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img class=&quot;img-thumbnail img-responsive center &quot; src=&quot;/img/pallet_table/final2.jpg&quot; title=&quot;Final Product&quot; alt=&quot;Final Product&quot; /&gt;
-    
-&lt;/figure&gt;
-
-&lt;p&gt;The Final product again thanks for checking it out. Follow our journey and other projects on Instagram  &lt;a href=&quot;(http://ow.ly/EiKw309E3BP)&quot;&gt;@byjo_designs&lt;/a&gt; and I will make more detailed posts here.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Check it out on imgur&lt;/p&gt;
-&lt;blockquote class=&quot;imgur-embed-pub&quot; lang=&quot;en&quot; data-id=&quot;a/rRlKi&quot;&gt;&lt;a href=&quot;//imgur.com/rRlKi&quot;&gt;DIY Pallet Wood Table.&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;//s.imgur.com/min/embed.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;</content><author><name>Dan Leonard</name><email>mailto:pdanielleonard+overridefunc@gmail.com</email></author><category term="jekyll" /><category term="update" /><summary type="html"></summary></entry><entry><title type="html">$179 Tiko 3D printer - Getting Started</title><link href="http://localhost:4000/jekyll/update/2017/01/16/The-TikoBot-a-$199-3D-Printer.html" rel="alternate" type="text/html" title="$179 Tiko 3D printer - Getting Started" /><published>2017-01-16T12:44:28-06:00</published><updated>2017-01-16T12:44:28-06:00</updated><id>http://localhost:4000/jekyll/update/2017/01/16/The-TikoBot-a-$199-3D-Printer</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/01/16/The-TikoBot-a-$199-3D-Printer.html">&lt;p&gt;So if you don’t know there is a $179 3D printer out on the market called the &lt;a href=&quot;https://www.tiko3d.com/&quot;&gt;Tiko&lt;/a&gt;. I backed it on Kickstarter, This is probably my 3rd &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;3D printer&lt;/code&gt;-esque projects that I have backed. I started with the &lt;a href=&quot;https://www.kickstarter.com/profile/1351910088/created&quot;&gt;3Doodler&lt;/a&gt; it was so good I backed the second version also. I have backed a few projects on Kickstarter some have been successful others have failed and the company does not exist any longer.&lt;/p&gt;
-
-&lt;p&gt;Finally got this thing and I was pumped. Unfortunately it arrived over Christmas and I was 3000 miles away. Once I got back I really wanted to get printing. It was a year late but its Kickstarter so you kinda expect things like that to happen. If you don’t you should not user Kickstarter you will be disappointed. This is early backing so you can get something by helping the company get started and off the ground. So with that in mind you have to realize that these are not final products, if you want final products wait till it is backed and they have delivered to all of their backers. That is a relatively safe”er” time to purchase a product but you may miss out on special discounts and getting your hands on it first.&lt;/p&gt;
-
-&lt;p&gt;Tips and Tricks Learned.&lt;/p&gt;
-
-&lt;p&gt;It took me 2 days to actually get the first things printed. I figured since the instructions was a trifold brochure with 6 instructions that it would be relatively simple to get up and going.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Step 1. Plug it in.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Step 2. Connect to the printer.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;They have some pretty cool ideas on making the print process very simple with cloud printing you should be able to connect to your printer from any where and queue up a print but it is not there just yet. Cloud Printing is disabled and being worked on so the only way to connect to the printer is by going to your wifi and connecting to the wifi hotspot it is broad casting. I found that it takes a second for the printer to boot up and actually start casting the hotspot and be connectable.
-  Once you have done this you will open a web browser (&lt;a href=&quot;https://www.tiko3d.com/&quot;&gt;Tiko&lt;/a&gt;. suggests you use chrome)
-  Then type in the url print.tiko/ this will give you the ability to setup your printer the first time and the print interface once you have done that.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Step 3. Load the PLA.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;This is where I made my first mistake. So once you select &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Manual Controls&lt;/code&gt; on the upper left a few options appear. This is where you can adjust the brightness of the LED’s that light up the print bed. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Load/unload filament&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Heat Nozzle&lt;/code&gt;. So unwrap your PLA that came with the printer and and uncoil it a few times. Click the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Load Filament&lt;/code&gt; option and the printer should make some sort of noise. This is the motor that pulls the filament into the printer. Then you need to push the filament into the white straw on the inside. You will feed about 18 to reach the nozzle. So my first attempt I put it in and made it all the way to the motor that is supposed to pull it in and subsequently push it all the way to the nozzle. ✔︎ That you push it far enough that is starts to pull the filament. I got it right up to the motor but not to the point it was pulling it. There is some sort of sensor that tells the printer if filament is loaded or not. But this sensor is not located at the nozzle nor is it on the second half of the feed tube. So if your filament is fed half way in the printer will thing the filament is loaded but while you are printing there with be no plastic coming out of the nozzle.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Step 4. Heat the Nozzle.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;This step held me up for a while, would hit the giant &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Print&lt;/code&gt; button at the bottom of the interface and it would dismiss the view but nothing would happen with the printer. Super frustrating I hope that they do some improvements on their UX. Come to find out that you have to hit the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Heat Nozzle&lt;/code&gt; and wait the full min before you hit the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Print&lt;/code&gt; button that then takes more then that mount of time to render the object gCode and post that data to the printer.&lt;/p&gt;
-
-&lt;p&gt;Not super difficult and I was able to make a print with the default settings but you can play around with those and see how it affects your prints. I was supper impressed on how easy it was to get things going. I do hope that they improve the interface to give a little more feedback when things are not working but I am sure that will evolve. There was really only one major hangup besides that.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The Design Flaw.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;There is an issue with the way that the filament supply tube that runs from the driver motor to the nozzle. What is strange to me is that there is no way that this &lt;a href=&quot;https://www.tiko3d.com/&quot;&gt;Tiko&lt;/a&gt;. was tested and printed the demo structure that comes with it because they would have run into this issue. Unless of coarse they did not do the calibration step that they do now where the nozzle goes to each corner and presses into the print base. Because every time it would do that the black section of the supply tube would loop itself around one of the arm motors. This causes the nozzle to pull all the way to the side of the bot and error out because it cannot go back to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Zero&lt;/code&gt; position. Do not fret though I have a solution. It is super advanced and took a ton of R&amp;amp;D. &amp;lt;/sarcasm&amp;gt; if you take a piece of scotch Tape and tape the black section of the tube loosely to the wall of the printer you don’t run into the problem. Bam you are all ready to print to your hearts content.&lt;/p&gt;
-
-&lt;p&gt;There are some flaws to this but looking at how much I have paid for it I am ok with having to make some adjustments to it myself. I do think it is something &lt;a href=&quot;https://www.tiko3d.com/&quot;&gt;Tiko&lt;/a&gt;. could and should fix but its not a deal breaker. I would suggest to anyone wanting to get into 3D printing that the &lt;a href=&quot;https://www.tiko3d.com/&quot;&gt;Tiko&lt;/a&gt;. bot is a great starter printer. If you have used a more expensive printer you may be disappointed but that is what makes the &lt;a href=&quot;https://www.tiko3d.com/&quot;&gt;Tiko&lt;/a&gt;. bot great. Also I absolutely love the way that it looks. they definitely have some design guys at &lt;a href=&quot;https://www.tiko3d.com/&quot;&gt;Tiko&lt;/a&gt;. that know what they are doing.&lt;/p&gt;
-
-&lt;p&gt;Share your comments and experiences in the comments.&lt;/p&gt;
-
-&lt;p&gt;Happy Printing&lt;/p&gt;</content><author><name>Dan Leonard</name><email>mailto:pdanielleonard+overridefunc@gmail.com</email></author><category term="jekyll" /><category term="update" /><summary type="html">So if you don’t know there is a $179 3D printer out on the market called the Tiko. I backed it on Kickstarter, This is probably my 3rd 3D printer-esque projects that I have backed. I started with the 3Doodler it was so good I backed the second version also. I have backed a few projects on Kickstarter some have been successful others have failed and the company does not exist any longer.</summary></entry><entry><title type="html">Google Mows My Lawn</title><link href="http://localhost:4000/jekyll/update/2016/12/27/Google-Mows-My-Lawn.html" rel="alternate" type="text/html" title="Google Mows My Lawn" /><published>2016-12-27T12:44:28-06:00</published><updated>2016-12-27T12:44:28-06:00</updated><id>http://localhost:4000/jekyll/update/2016/12/27/Google-Mows-My-Lawn</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2016/12/27/Google-Mows-My-Lawn.html">&lt;p&gt;Back in September of 2015 I lost my job as an IOS Developer. It was sad and really blind sided me. But I liked to go to startup conventions and have been apart of StartupGrand for a while and was presented with the opportunity to participate in a Hackathon at Start-fest.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img class=&quot;img-thumbnail img-responsive center &quot; src=&quot;/img/Crouched.JPG&quot; title=&quot;Winner winner chicken dinner&quot; alt=&quot;Winner winner chicken dinner&quot; /&gt;
-    
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;This was right around the time of the internet sensation of &lt;a href=&quot;https://www.twitch.tv/twitchplayspokemon&quot;&gt;#TwitchPlaysPokemon&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Twitch Plays Pokémon (TPP) is a “social experiment” and channel on the video streaming website Twitch, consisting of a crowdsourced attempt to play Game Freak’s and Nintendo’s Pokémon video games by parsing commands sent by users through the channel’s chat room.&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Twitch_Plays_Pok%C3%A9mon&quot;&gt;Wiki&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Which is still playable I think. We really like this Idea that people were able to come together with perfect strangers and after 7 days complete the game ( even with all the 👹 Trolls out there ). So my brothers, Doug and David and I (Dan) set out to create something great along these same principles. The stipulations of the Hackathon was that you had 24 hours to build something that used the internet and we decided that we wanted to use normal parts you could purchase off of the shelves at &lt;a href=&quot;http://www.homedepot.com/&quot;&gt;Home Depot&lt;/a&gt; 🛠.&lt;/p&gt;
-
-&lt;p&gt;We wanted something that would be helpful for our own lives and that the whole world could participate in. So we took the daunting chore of 🚜  mowing our lawn and decided to outsource it to others. Yes there is the risk of participants drawing crude things in our lawn. We figured that the world as a whole actually have a very difficult time coordinating so that is a risk we were willing to take. So we set off to build a crowdsourced device that would mow our lawn for us.&lt;/p&gt;
-
-&lt;p&gt;So here is the parts/price list from the project with links.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Electric Lawn Mower
-Ryobi 20 in. &lt;a href=&quot;http://ow.ly/RRm3q&quot;&gt;40-Volt Lithium-Ion Brushless Cordless Walk-Behind Electric Lawn Mower&lt;/a&gt; 499.00&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Two Drills &lt;a href=&quot;http://ow.ly/RRmbB&quot;&gt;Ryobi 18-Volt ONE+ 1/2 in. Cordless Hammer Drill&lt;/a&gt; 69.00/ea&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://ow.ly/RRmwH&quot;&gt;Ryobi 18-Volt ONE+ Compact Radio with Bluetooth Wireless Technology&lt;/a&gt; 39.97&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Three Batteries &lt;a href=&quot;http://ow.ly/RRmrc&quot;&gt;Ryobi 18-Volt One+ High Capacity LITHIUM+ Battery&lt;/a&gt; 99.00/ea&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Two &lt;a href=&quot;http://ow.ly/RRmKp&quot;&gt;3 in. Steel Swivel Caster&lt;/a&gt; 5.48&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Two &lt;a href=&quot;http://ow.ly/RRmYQ&quot;&gt;4in Hole Dozer Hole Saw with Arbor&lt;/a&gt; 12.97/ea&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://ow.ly/RRn1N&quot;&gt;Raspberry Pi 2 micro Computer&lt;/a&gt; 35.95&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://ow.ly/RRnaR&quot;&gt;Eight channel relay board&lt;/a&gt; 18.10&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Tripod with iPhone Mounts&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Two &lt;a href=&quot;http://ow.ly/RRnmc&quot;&gt;iPods&lt;/a&gt; 199.00/ea&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://ow.ly/RRnBF&quot;&gt;18-Volt One+ 6-Port SuperCharger&lt;/a&gt; 79.00&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Zip Ties&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Four 3”-1/4 bolts with locking washer and nut&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Eight 1/2” 1” bolts and nuts&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;step-1-the-mower&quot;&gt;Step 1. The Mower&lt;/h2&gt;
-
-&lt;p&gt;The mower is the core of this project, it would be difficult to get the world to mow our lawn without it 🙃. We chose this lawnmower because it was in the family of Ryobi products and it had enough space on the inside to let us mount our Raspberry Pi and it looked super cool 😎 . We wanted to keep inside the same family of products as much as possible so that we could swap batteries for any part of our project.&lt;/p&gt;
-
-&lt;p&gt;There were many pieces of the lawnmower that we will not need for our specialized version. So we stripped it down and removed anything that was not needed. First thing you need is a ⭐️  star shaped screw driver to remove some of the screws holding it together. Once all the ✨ star screws are removed you can lift the outer shell. Be careful, there is a wire connected to the top half of the shell for the battery hookup. Disconnect it and pull off the upper half. Now you can see the complex insides of the lawnmower. Yep that is it a motor and and a power distributor, motor and a clip for the battery.&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img class=&quot;img-thumbnail img-responsive center  img-half-width &quot; src=&quot;/img/TopOff.JPG&quot; title=&quot;Mower with the top cover off and Dan working&quot; alt=&quot;Mower with the top cover off and Dan working&quot; /&gt;
-    
-&lt;/figure&gt;
-
-&lt;p&gt;There is a wire that runs up the handle to activate the motor. At the handle there are three screws on the plastic case containing the button. There are 6 ⭐️  star screws on the back but you only need to take out the bottom 4. Once open you can take the two switches out, unscrew all the plastic tabs holding the wiring to the bar running down the handle. Later we will bypass this and hooked up too our relay board so that the raspberryPi can control it.&lt;/p&gt;
-
-&lt;p&gt;Now you can remove the two bolts at the base of the handle and remove it completely from the lawn mower assembly To remove the back flap by popping off the clip on the end of the metal rod that acts as a hinge for the door. Slide that rod out and the door will fall off.&lt;/p&gt;
-
-&lt;h2 id=&quot;step-2-font-wheels&quot;&gt;Step 2. Font wheels&lt;/h2&gt;
-
-&lt;p&gt;Normally when you mow your lawn, to make a turn you push the handle down so the front end lifts up and you rotate the lawn mower. That will not work here as there wont be a handle on the finished product. So we need to remove the front wheels and the axle that connects them too the chassis.&lt;/p&gt;
-
-&lt;p&gt;Once they are removed, take the metal casters and attach them to the plastic that protrudes out the front of the lawn mower. These wheels swivel a full 360 degrees making them perfect for enabling better movement of the lawnmower. Drill 4 holes that line up with the hole pattern on the casters. Then take 4 1” bolts, a locking washer and a nut for each to secure the wheels to the mower. This is one thing that we will be changing on the next iteration because this lifts the lawn mower a considerable distance off the ground.&lt;/p&gt;
-
-&lt;h2 id=&quot;step-3-back-wheels-and-drive-train&quot;&gt;Step 3. Back wheels and drive train&lt;/h2&gt;
-
-&lt;p&gt;Now for the drills, these are a key piece of the project because the provide the actual movement of the machine.To prep them we will need to take them apart so we can control how fast and when they rotate.The easiest way is to create a trigger between the batteries and the motor. Unscrew all the screws holding the outer shell together. You can see there are three main parts: the Motor, the trigger mechanism and the battery terminal hook up. We want to disconnect the battery so we can toggle it with our relays giving us the ability to drive. Disconnect the black wire that connects the trigger mechanism to the battery contacts.&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img class=&quot;img-thumbnail img-responsive center  img-half-width &quot; src=&quot;/img/BackView.JPG&quot; title=&quot;View from back of Dan actually working on the project&quot; alt=&quot;View from back of Dan actually working on the project&quot; /&gt;
-    
-&lt;/figure&gt;
-
-&lt;p&gt;Then take a new wire and solder one end to the black wire. Take another wire and solder to the trigger mechanism. Create a small hole for our wires to escape the housing and screw the housing back around the drill. I made my wires about 15” long so I could house the electronics inside the lawn mower.&lt;/p&gt;
-
-&lt;h3 id=&quot;wheel-prep&quot;&gt;Wheel prep&lt;/h3&gt;
-
-&lt;p&gt;We need a way to attach the drills to the wheels securely.
-This is where the Hole Saw bits come into play. So take the 3” hole saw bits and line them up with the center of the wheel. There are three holes located on bits, take a ¼ bit and drill into the wheels in the same pattern. Take 3” ¼ bolts and pass them through the bit and wheel. Take a washer, a locking washer, and a nut and tighten them down. Now you can take your new wheel bit and put it into your custom drill and tighten it down. Repeat this process for the other wheel. Next we take this contraption and attach it to the chassis.&lt;/p&gt;
-
-&lt;h3 id=&quot;attach-to-main-body&quot;&gt;Attach to Main Body&lt;/h3&gt;
-
-&lt;p&gt;Now that you have the entire drill assembly put together you can secure them to the back of the lawn mower. You want this to cut grass so make sure the clearance is 1 - 2”. There is an attachment that comes with the drills that bolts on an external handle for more control. We heated this up to get the nut out of it and then used the bolt to secure the drill to the back of the lawn mower.
-Drill a 1/4” hole mid level of the lawn mower then take the extra attachment bolt and slide it through the Drill and lawnmower. Place a washer and the nut on the other side. Drill another hole at the same height on the opposite side for the other wheel and attach the other drill. This makes a pivot point. To keep the drills from rotating, drill some more holes and pass zip ties through. Cinch these down to prevent the drills from moving. ( This was definitely a time saver. You may want to go back and make something a little stronger than zip ties to hold this together. )&lt;/p&gt;
-
-&lt;h2 id=&quot;step-4-the-brains&quot;&gt;Step 4. The Brains&lt;/h2&gt;
-
-&lt;p&gt;Now we need to make this things smart. We decided that a RaspberryPi was the way to go. It is easy to use gives you an entire linux OS so you can write your program in what ever language you prefer. It also has many breakout boards so you can extend it to however you would like. So the basic idea is that the Pi will interpret all the information provided by the chat room. Then it will trigger the correct relay to tell the drills on the back what to do. Initially we wanted to keep it simple so we used “w”,”a”,”s”,”d” for directional controls. The rest is simple soldering for hooking up the relay board. Take the wires that we attached to the drills and place them in the relay terminals, securing them by screwing the terminals down.&lt;/p&gt;
-
-&lt;p&gt;If you have any comments or questions don’t hesitate to leave them below. This project taught us allot and we were supper excited when we took first in the competition. My Brothers and I love building things and exploring new Ideas. We may make modifications and improve this and I will try to update with a new post. We got allot of news coverage for this you can check it out here &lt;a href=&quot;https://www.youtube.com/watch?v=1oE5vYW8MbI&quot;&gt;Fox News Story&lt;/a&gt;
-I made an &lt;a href=&quot;http://www.instructables.com/id/Google-Mows-My-Lawn/&quot;&gt;instructables&lt;/a&gt; you can check out and won a &lt;a href=&quot;http://www.instructables.com/id/Google-Mows-My-Lawn/&quot;&gt;raspberryPi competition&lt;/a&gt; with it also.&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img class=&quot;img-thumbnail img-responsive center &quot; src=&quot;/img/Final.png&quot; title=&quot;Final Product&quot; alt=&quot;Final Product&quot; /&gt;
-    
-&lt;/figure&gt;</content><author><name>Dan Leonard</name><email>mailto:pdanielleonard+overridefunc@gmail.com</email></author><category term="jekyll" /><category term="update" /><summary type="html">Back in September of 2015 I lost my job as an IOS Developer. It was sad and really blind sided me. But I liked to go to startup conventions and have been apart of StartupGrand for a while and was presented with the opportunity to participate in a Hackathon at Start-fest.</summary></entry><entry><title type="html">JSQMessagesViewController Swift 3</title><link href="http://localhost:4000/jekyll/update/2016/11/20/JSQMessagesViewController-Swift-3.html" rel="alternate" type="text/html" title="JSQMessagesViewController Swift 3" /><published>2016-11-20T16:46:28-06:00</published><updated>2016-11-20T16:46:28-06:00</updated><id>http://localhost:4000/jekyll/update/2016/11/20/JSQMessagesViewController-Swift-3</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2016/11/20/JSQMessagesViewController-Swift-3.html">&lt;p&gt;I actively contribute to JSQMessagesViewController, an Open Source Project, that makes it super easy to get a “iMessages” like feature into any app. Often the first step is the hardest. Many users have different levels of experience, education and understanding and since I am a Swift Nut we’ll explore implementing it in Swift.&lt;/p&gt;
-
-&lt;p&gt;So I will outline the minimum you have to do to get this up and running. 🏃&lt;/p&gt;
+
+6. Two [4in Hole Dozer Hole Saw with Arbor][HoleSaw] 12.97/ea
+
+7. [Raspberry Pi 2 micro Computer][RaspberryPi] 35.95
+
+8. [Eight channel relay board][RelayBoard] 18.10
+
+9. Tripod with iPhone Mounts
+
+10. Two [iPods][iPods] 199.00/ea
+
+11. [18-Volt One+ 6-Port SuperCharger][Charger] 79.00
+
+12. Zip Ties
+
+13. Four 3&quot;-1/4 bolts with locking washer and nut
+
+14. Eight 1/2&quot; 1&quot; bolts and nuts
+
+## Step 1. The Mower
+
+The mower is the core of this project, it would be difficult to get the world to mow our lawn without it 🙃. We chose this lawnmower because it was in the family of Ryobi products and it had enough space on the inside to let us mount our Raspberry Pi and it looked super cool 😎 . We wanted to keep inside the same family of products as much as possible so that we could swap batteries for any part of our project.
+
+There were many pieces of the lawnmower that we will not need for our specialized version. So we stripped it down and removed anything that was not needed. First thing you need is a ⭐️  star shaped screw driver to remove some of the screws holding it together. Once all the ✨ star screws are removed you can lift the outer shell. Be careful, there is a wire connected to the top half of the shell for the battery hookup. Disconnect it and pull off the upper half. Now you can see the complex insides of the lawnmower. Yep that is it a motor and and a power distributor, motor and a clip for the battery.
+
+{% include image.html
+    file=&quot;TopOff.JPG&quot;
+    alt=&quot;Mower with the top cover off and Dan working&quot;
+    caption=null
+    source_link=null
+    half_width=true
+%}
+
+There is a wire that runs up the handle to activate the motor. At the handle there are three screws on the plastic case containing the button. There are 6 ⭐️  star screws on the back but you only need to take out the bottom 4. Once open you can take the two switches out, unscrew all the plastic tabs holding the wiring to the bar running down the handle. Later we will bypass this and hooked up too our relay board so that the raspberryPi can control it.
+
+Now you can remove the two bolts at the base of the handle and remove it completely from the lawn mower assembly To remove the back flap by popping off the clip on the end of the metal rod that acts as a hinge for the door. Slide that rod out and the door will fall off.
+
+## Step 2. Font wheels
+
+Normally when you mow your lawn, to make a turn you push the handle down so the front end lifts up and you rotate the lawn mower. That will not work here as there wont be a handle on the finished product. So we need to remove the front wheels and the axle that connects them too the chassis.
+
+Once they are removed, take the metal casters and attach them to the plastic that protrudes out the front of the lawn mower. These wheels swivel a full 360 degrees making them perfect for enabling better movement of the lawnmower. Drill 4 holes that line up with the hole pattern on the casters. Then take 4 1&quot; bolts, a locking washer and a nut for each to secure the wheels to the mower. This is one thing that we will be changing on the next iteration because this lifts the lawn mower a considerable distance off the ground.
+
+## Step 3. Back wheels and drive train
+
+Now for the drills, these are a key piece of the project because the provide the actual movement of the machine.To prep them we will need to take them apart so we can control how fast and when they rotate.The easiest way is to create a trigger between the batteries and the motor. Unscrew all the screws holding the outer shell together. You can see there are three main parts: the Motor, the trigger mechanism and the battery terminal hook up. We want to disconnect the battery so we can toggle it with our relays giving us the ability to drive. Disconnect the black wire that connects the trigger mechanism to the battery contacts.
+
+{% include image.html
+    file=&quot;BackView.JPG&quot;
+    alt=&quot;View from back of Dan actually working on the project&quot;
+    caption=null
+    source_link=null
+    half_width=true
+%}
+
+Then take a new wire and solder one end to the black wire. Take another wire and solder to the trigger mechanism. Create a small hole for our wires to escape the housing and screw the housing back around the drill. I made my wires about 15&quot; long so I could house the electronics inside the lawn mower.
+
+### Wheel prep
+
+We need a way to attach the drills to the wheels securely.
+This is where the Hole Saw bits come into play. So take the 3&quot; hole saw bits and line them up with the center of the wheel. There are three holes located on bits, take a ¼ bit and drill into the wheels in the same pattern. Take 3” ¼ bolts and pass them through the bit and wheel. Take a washer, a locking washer, and a nut and tighten them down. Now you can take your new wheel bit and put it into your custom drill and tighten it down. Repeat this process for the other wheel. Next we take this contraption and attach it to the chassis.
+
+### Attach to Main Body
+
+Now that you have the entire drill assembly put together you can secure them to the back of the lawn mower. You want this to cut grass so make sure the clearance is 1 - 2&quot;. There is an attachment that comes with the drills that bolts on an external handle for more control. We heated this up to get the nut out of it and then used the bolt to secure the drill to the back of the lawn mower.
+Drill a 1/4&quot; hole mid level of the lawn mower then take the extra attachment bolt and slide it through the Drill and lawnmower. Place a washer and the nut on the other side. Drill another hole at the same height on the opposite side for the other wheel and attach the other drill. This makes a pivot point. To keep the drills from rotating, drill some more holes and pass zip ties through. Cinch these down to prevent the drills from moving. ( This was definitely a time saver. You may want to go back and make something a little stronger than zip ties to hold this together. )
+
+## Step 4. The Brains
+
+Now we need to make this things smart. We decided that a RaspberryPi was the way to go. It is easy to use gives you an entire linux OS so you can write your program in what ever language you prefer. It also has many breakout boards so you can extend it to however you would like. So the basic idea is that the Pi will interpret all the information provided by the chat room. Then it will trigger the correct relay to tell the drills on the back what to do. Initially we wanted to keep it simple so we used &quot;w&quot;,&quot;a&quot;,&quot;s&quot;,&quot;d&quot; for directional controls. The rest is simple soldering for hooking up the relay board. Take the wires that we attached to the drills and place them in the relay terminals, securing them by screwing the terminals down.
+
+If you have any comments or questions don't hesitate to leave them below. This project taught us allot and we were supper excited when we took first in the competition. My Brothers and I love building things and exploring new Ideas. We may make modifications and improve this and I will try to update with a new post. We got allot of news coverage for this you can check it out here [Fox News Story][foxNewsStory]
+I made an [instructables][Instructable] you can check out and won a [raspberryPi competition][Instructable] with it also.
+
+
+{% include image.html
+    file=&quot;Final.png&quot;
+    alt=&quot;Final Product&quot;
+    caption=null
+    source_link=null
+    half_width=false
+%}
+
+[stackoverflow]:http://stackoverflow.com/questions/tagged/jsqmessagesviewcontroller
+
+[Instructable]:http://www.instructables.com/id/Google-Mows-My-Lawn/
+
+[foxNewsStory]:https://www.youtube.com/watch?v=1oE5vYW8MbI
+
+[TwitchPlaysPokemon]:https://www.twitch.tv/twitchplayspokemon
+
+[TPPWiki]:https://en.wikipedia.org/wiki/Twitch_Plays_Pok%C3%A9mon
+[HomeDepot]:http://www.homedepot.com/
+
+[mower]:http://ow.ly/RRm3q
+[Drills]:http://ow.ly/RRmbB
+[Radio]:http://ow.ly/RRmwH
+[Battery]:http://ow.ly/RRmrc
+[casters]:http://ow.ly/RRmKp
+[HoleSaw]:http://ow.ly/RRmYQ
+[RaspberryPi]:http://ow.ly/RRn1N
+[RelayBoard]:http://ow.ly/RRnaR
+[iPods]:http://ow.ly/RRnmc
+[Charger]:http://ow.ly/RRnBF</content><author><name>Dan Leonard</name><email>mailto:pdanielleonard+overridefunc@gmail.com</email></author><summary type="html">Back in September of 2015 I lost my job as an IOS Developer. It was sad and really blind sided me. But I liked to go to startup conventions and have been apart of StartupGrand for a while and was presented with the opportunity to participate in a Hackathon at Start-fest.</summary></entry><entry><title type="html">JSQMessagesViewController Swift 3</title><link href="http://localhost:4000/jekyll/update/2016/11/20/JSQMessagesViewController-Swift-3.html" rel="alternate" type="text/html" title="JSQMessagesViewController Swift 3" /><published>2016-11-20T15:46:28-07:00</published><updated>2016-11-20T15:46:28-07:00</updated><id>http://localhost:4000/jekyll/update/2016/11/20/JSQMessagesViewController-Swift-3</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2016/11/20/JSQMessagesViewController-Swift-3.html">I actively contribute to JSQMessagesViewController, an Open Source Project, that makes it super easy to get a &quot;iMessages&quot; like feature into any app. Often the first step is the hardest. Many users have different levels of experience, education and understanding and since I am a Swift Nut we'll explore implementing it in Swift.
+
+So I will outline the minimum you have to do to get this up and running. 🏃
 
 &lt;h4&gt;Step 1. Create Your project.&lt;/h4&gt;
-&lt;p&gt;Open Xcode.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Go to File -&amp;gt; New Project.&lt;/li&gt;
-  &lt;li&gt;Select single view application.&lt;/li&gt;
-  &lt;li&gt;Give your project a name and save.&lt;/li&gt;
-&lt;/ul&gt;
+Open Xcode.
+ - Go to File -&gt; New Project.
+ - Select single view application.
+ - Give your project a name and save.
 
 &lt;h4&gt;Step 2. Cocoapods to your computer&lt;/h4&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://cocoapods.org/&quot;&gt;Cocoapods&lt;/a&gt; is a dependency manager for Swift and Objective-C Cocoa projects. It has over 25 thousand libraries and is used in over 1.2 million apps.&lt;/p&gt;
+[Cocoapods][cocoapods] is a dependency manager for Swift and Objective-C Cocoa projects. It has over 25 thousand libraries and is used in over 1.2 million apps.
 
-&lt;p&gt;To install &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cocoapods&lt;/code&gt; open up &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;terminal&lt;/code&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Command + SpaceBar&lt;/code&gt; will open SpotLight. type &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Terminal&lt;/code&gt; or use finder -&amp;gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/Applications/Utilities/Terminal.app&lt;/code&gt;
-exicute this command in your terminal window and &lt;a href=&quot;https://cocoapods.org/&quot;&gt;cocoapods&lt;/a&gt; will be installed&lt;/p&gt;
+To install `cocoapods` open up `terminal`
+`Command + SpaceBar` will open SpotLight. type `Terminal` or use finder -&gt; `/Applications/Utilities/Terminal.app`
+exicute this command in your terminal window and [cocoapods][cocoapods] will be installed
+{% highlight linenos %}
+ sudo gem install cocoapods
+{% endhighlight %}
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-linenos&quot; data-lang=&quot;linenos&quot;&gt; sudo gem install cocoapods&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Once this has complete you need to navigate to your project’s directory(folder). You can open Folders by using the command &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cd&lt;/code&gt; followed by the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;path/to/file&lt;/code&gt; and you can move up a folder with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;..&lt;/code&gt; command.
-To quickly open a folder in terminal type &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cd&lt;/code&gt; and then drag the file from finder to the terminal window. This will insert the path to the file for us. Hit enter and you are now at your project’s base directory.&lt;/p&gt;
+Once this has complete you need to navigate to your project's directory(folder). You can open Folders by using the command `cd` followed by the `path/to/file` and you can move up a folder with the `..` command.
+To quickly open a folder in terminal type `cd` and then drag the file from finder to the terminal window. This will insert the path to the file for us. Hit enter and you are now at your project's base directory.
 
 &lt;h4&gt;Step 3. Adding cocoapods to your project&lt;/h4&gt;
-&lt;p&gt;Run command&lt;/p&gt;
+Run command
+{% highlight linenos %}
+pod init
+{% endhighlight %}
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-linenos&quot; data-lang=&quot;linenos&quot;&gt;pod init&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;This creates a podfile for you. This is where you can manage &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pods&lt;/code&gt; that you want to incorporate in your app. Open this file up in your favorite text editor.&lt;/p&gt;
+This creates a podfile for you. This is where you can manage `pods` that you want to incorporate in your app. Open this file up in your favorite text editor.
 &lt;h4&gt;Step 4. Adding JSQMessagesViewController to your project&lt;/h4&gt;
-&lt;p&gt;This is the bear minimum you need to have in your podfile.&lt;/p&gt;
+This is the bear minimum you need to have in your podfile.
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-linenos&quot; data-lang=&quot;linenos&quot;&gt;#if you're using Swift
+{% highlight linenos %}
+
+#if you're using Swift
  use_frameworks!
 
 target 'YourProjectName' do
   pod 'JSQMessagesViewController'
-end&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+end
+{% endhighlight %}
 
-&lt;p&gt;Save your file and close it. Now back in terminal type: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pod install&lt;/code&gt; This will add the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;JSQMessagesViewController&lt;/code&gt; library to your project.&lt;/p&gt;
+Save your file and close it. Now back in terminal type: `pod install` This will add the `JSQMessagesViewController` library to your project.
 
 &lt;h4&gt;Step 5. Open Workspace&lt;/h4&gt;
-&lt;p&gt;Pods do an interesting thing where they manage the configuration of your project for you so you do not have to. The way that they do this is by generating a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.workspace&lt;/code&gt; for you. So if you had your project open in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;XCode&lt;/code&gt; previously, Close it and open the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YourProjectName.workspace&lt;/code&gt; file that was generated.&lt;/p&gt;
+Pods do an interesting thing where they manage the configuration of your project for you so you do not have to. The way that they do this is by generating a `.workspace` for you. So if you had your project open in `XCode` previously, Close it and open the `YourProjectName.workspace` file that was generated.
 
-&lt;p&gt;At this point you should be able to hit run and your project builds. You will not see anything because we have not added anything yet but you should not have any build errors.&lt;/p&gt;
+At this point you should be able to hit run and your project builds. You will not see anything because we have not added anything yet but you should not have any build errors.
 
 &lt;h4&gt;Step 6. Adding JSQMessagesViewController to your project&lt;/h4&gt;
-&lt;p&gt;Now let’s code, modify the UIViewController that comes with crating a new project.&lt;/p&gt;
+Now let's code, modify the UIViewController that comes with crating a new project.
 
-&lt;p&gt;Here is the minimum amount of code you need in this file.&lt;/p&gt;
+Here is the minimum amount of code you need in this file.
+{% highlight swift linenos %}
+//
+//  ChatViewController.swift
+//  SwiftExample
+//
+//  Created by Dan Leonard on 12/2/16.
+//  Copyright © 2016 MacMeDan. All rights reserved.
+//
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-swift&quot; data-lang=&quot;swift&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-39
-40
-41
-42
-43
-44
-45
-46
-47
-48
-49
-50
-51
-52
-53
-54
-55
-56
-57
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;c1&quot;&gt;//&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//  ChatViewController.swift&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//  SwiftExample&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//  Created by Dan Leonard on 12/2/16.&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//  Copyright © 2016 MacMeDan. All rights reserved.&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//&lt;/span&gt;
+import UIKit
+import JSQMessagesViewController
 
-&lt;span class=&quot;kd&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;UIKit&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;JSQMessagesViewController&lt;/span&gt;
+class ChatViewController: JSQMessagesViewController {
+  var messages = [JSQMessage]()
+  let defaults = UserDefaults.standard
+  var conversation: Conversation = makeConversation() // Here is where your messages are added.
+  var incomingBubble: JSQMessagesBubbleImage!
+  var outgoingBubble: JSQMessagesBubbleImage!
+  var displayName: String!
 
-&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;ChatViewController&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;JSQMessagesViewController&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;messages&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;JSQMessage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]()&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;defaults&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;UserDefaults&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;standard&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;conversation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Conversation&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;makeConversation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// Here is where your messages are added.&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;incomingBubble&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;JSQMessagesBubbleImage&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;outgoingBubble&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;JSQMessagesBubbleImage&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;displayName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;
+  override func viewDidLoad() {
+    super.viewDidLoad()
+        incomingBubble = JSQMessagesBubbleImageFactory().incomingMessagesBubbleImage(with: UIColor.jsq_messageBubbleBlue())
+        outgoingBubble = JSQMessagesBubbleImageFactory().outgoingMessagesBubbleImage(with: UIColor.lightGray)
 
-  &lt;span class=&quot;k&quot;&gt;override&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;viewDidLoad&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;super&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;viewDidLoad&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;incomingBubble&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;JSQMessagesBubbleImageFactory&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;incomingMessagesBubbleImage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;with&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;UIColor&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;jsq_messageBubbleBlue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;outgoingBubble&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;JSQMessagesBubbleImageFactory&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;outgoingMessagesBubbleImage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;with&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;UIColor&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lightGray&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        collectionView?.collectionViewLayout.incomingAvatarViewSize = .zero
+        collectionView?.collectionViewLayout.outgoingAvatarViewSize = .zero
 
-        &lt;span class=&quot;n&quot;&gt;collectionView&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;collectionViewLayout&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;incomingAvatarViewSize&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;zero&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;collectionView&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;collectionViewLayout&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;outgoingAvatarViewSize&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;zero&lt;/span&gt;
+    self.collectionView?.reloadData()
+    self.collectionView?.layoutIfNeeded()
+  }
 
-    &lt;span class=&quot;k&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;collectionView&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;reloadData&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;collectionView&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;layoutIfNeeded&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  // MARK: JSQMessages CollectionView DataSource
+  override func senderId() -&gt; String {
+    return &quot;1&quot;
+  }
 
-  &lt;span class=&quot;c1&quot;&gt;// MARK: JSQMessages CollectionView DataSource&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;override&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;senderId&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  override func senderDisplayName() -&gt; String {
+    return displayName
+  }
 
-  &lt;span class=&quot;k&quot;&gt;override&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;senderDisplayName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;displayName&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -&gt; Int {
+    return messages.count
+  }
 
-  &lt;span class=&quot;k&quot;&gt;override&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;collectionView&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;collectionView&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;UICollectionView&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;numberOfItemsInSection&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;section&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;messages&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;count&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  override func collectionView(_ collectionView: JSQMessagesCollectionView, messageDataForItemAt indexPath: IndexPath) -&gt; JSQMessageData {
+    return messages[indexPath.item]
+  }
 
-  &lt;span class=&quot;k&quot;&gt;override&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;collectionView&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;collectionView&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;JSQMessagesCollectionView&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;messageDataForItemAt&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;indexPath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;IndexPath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;JSQMessageData&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;messages&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;indexPath&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  override func collectionView(_ collectionView: JSQMessagesCollectionView, messageBubbleImageDataForItemAt indexPath: IndexPath) -&gt; JSQMessageBubbleImageDataSource {
+    return messages[indexPath.item].senderId == self.senderId() ? outgoingBubble : incomingBubble
+  }
 
-  &lt;span class=&quot;k&quot;&gt;override&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;collectionView&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;collectionView&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;JSQMessagesCollectionView&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;messageBubbleImageDataForItemAt&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;indexPath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;IndexPath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;JSQMessageBubbleImageDataSource&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;messages&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;indexPath&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;senderId&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;senderId&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;outgoingBubble&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;incomingBubble&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  func makeConversation() -&gt; [JSQMessages] {
+    // This is just for demo purposes, if you add more messages to this array they will appear in your conversation feed.
+    return [JSQMessage(senderId: &quot;053496-4509-288&quot;, displayName: &quot;Dan leonard&quot;, text: &quot;Check out this awesome library called JSQMessagesViewController&quot;)]
+  }
+}
+{% endhighlight %}
 
-  &lt;span class=&quot;kd&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;makeConversation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;JSQMessages&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;// This is just for demo purposes, if you add more messages to this array they will appear in your conversation feed.&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;JSQMessage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;senderId&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;053496-4509-288&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;displayName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Dan leonard&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Check out this awesome library called JSQMessagesViewController&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)]&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+The last function in this code snippit is not required is is just a helper to show how you can add messages to your feed.
 
-&lt;p&gt;The last function in this code snippit is not required is is just a helper to show how you can add messages to your feed.&lt;/p&gt;
+That's it 🏁, the minimum amount of code you need to get a chat feature in your own app. There are tons of things that you can do from this point but we'll save that for another time. Don't be afraid to explore and change things. That's how we learn. 🖖
 
-&lt;p&gt;That’s it 🏁, the minimum amount of code you need to get a chat feature in your own app. There are tons of things that you can do from this point but we’ll save that for another time. Don’t be afraid to explore and change things. That’s how we learn. 🖖&lt;/p&gt;
+If you have any questions or critiques open an issue on GitHub for this article and Ill see what I can do to help.
 
-&lt;p&gt;If you have any questions or critiques open an issue on GitHub for this article and Ill see what I can do to help.&lt;/p&gt;</content><author><name>Dan Leonard</name><email>mailto:pdanielleonard+overridefunc@gmail.com</email></author><category term="jekyll" /><category term="update" /><summary type="html">I actively contribute to JSQMessagesViewController, an Open Source Project, that makes it super easy to get a “iMessages” like feature into any app. Often the first step is the hardest. Many users have different levels of experience, education and understanding and since I am a Swift Nut we’ll explore implementing it in Swift.</summary></entry><entry><title type="html">Lessons Learned Updating to Swift 3</title><link href="http://localhost:4000/jekyll/update/2016/10/16/Lessons-Learned-Updating-to-Swift-3.html" rel="alternate" type="text/html" title="Lessons Learned Updating to Swift 3" /><published>2016-10-16T17:46:28-05:00</published><updated>2016-10-16T17:46:28-05:00</updated><id>http://localhost:4000/jekyll/update/2016/10/16/Lessons-Learned-Updating-to-Swift-3</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2016/10/16/Lessons-Learned-Updating-to-Swift-3.html">&lt;p&gt;Recently I have been working on a project for my kids. Of course since it was a new project I decided to do it in the newest version of Swift. I wanted to make some simple games that could help my young ones learn.
-I love playgrounds and all that they enable us to do. I came across this project that &lt;a href=&quot;https://twitter.com/uraimo&quot;&gt;@uraimo&lt;/a&gt; which has a running list of &lt;a href=&quot;https://github.com/uraimo/Awesome-Swift-Playgrounds&quot;&gt;Awesome Swift Playgrounds&lt;/a&gt;. There is one for spriteKit, which I really wanted to make a game with but of course it was written in Swift 2.2 I was not about to let that hold me back so I went ahead and started trying to  convert it to Swift 3. I went through all the changes that Xcode suggested and finally made it to a point where I had no errors. The issue was that the example did not perform the way it did previously. After going back and converting each function 1 by 1. I determined the function that was not being called.&lt;/p&gt;
+[stackoverflow]:http://stackoverflow.com/questions/tagged/jsqmessagesviewcontroller
+[cocoapods]:https://cocoapods.org/</content><author><name>Dan Leonard</name><email>mailto:pdanielleonard+overridefunc@gmail.com</email></author><summary type="html">I actively contribute to JSQMessagesViewController, an Open Source Project, that makes it super easy to get a “iMessages” like feature into any app. Often the first step is the hardest. Many users have different levels of experience, education and understanding and since I am a Swift Nut we’ll explore implementing it in Swift.</summary></entry><entry><title type="html">Lessons Learned Updating to Swift 3</title><link href="http://localhost:4000/jekyll/update/2016/10/16/Lessons-Learned-Updating-to-Swift-3.html" rel="alternate" type="text/html" title="Lessons Learned Updating to Swift 3" /><published>2016-10-16T16:46:28-06:00</published><updated>2016-10-16T16:46:28-06:00</updated><id>http://localhost:4000/jekyll/update/2016/10/16/Lessons-Learned-Updating-to-Swift-3</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2016/10/16/Lessons-Learned-Updating-to-Swift-3.html">Recently I have been working on a project for my kids. Of course since it was a new project I decided to do it in the newest version of Swift. I wanted to make some simple games that could help my young ones learn.
+I love playgrounds and all that they enable us to do. I came across this project that [@uraimo][uraimo] which has a running list of [Awesome Swift Playgrounds][Awesome-Swift-Playgrounds]. There is one for spriteKit, which I really wanted to make a game with but of course it was written in Swift 2.2 I was not about to let that hold me back so I went ahead and started trying to  convert it to Swift 3. I went through all the changes that Xcode suggested and finally made it to a point where I had no errors. The issue was that the example did not perform the way it did previously. After going back and converting each function 1 by 1. I determined the function that was not being called.
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-swift&quot; data-lang=&quot;swift&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;kd&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;didBeginContact&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;contact&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;SKPhysicsContact&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;c1&quot;&gt;// Executed if the ball makes contact with the block.&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;contact&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bodyA&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;categoryBitMask&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;CategoryBitMask&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;Ball&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;contact&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bodyB&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;categoryBitMask&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;CategoryBitMask&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;Block&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;block&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;contact&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bodyB&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;node&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as!&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;SKSpriteNode&lt;/span&gt;
-            &lt;span class=&quot;c1&quot;&gt;// Turn the block gray if it hasn't been hit yet.&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;block&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Block&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;block&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;color&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;SKColor&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;darkGray&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;block&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;HalfBlock&quot;&lt;/span&gt;
-            &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-            &lt;span class=&quot;c1&quot;&gt;// Remove the block from the scene if it has already been hit.&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;block&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;removeFromParent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-            &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+{% highlight swift linenos %}
+func didBeginContact(contact: SKPhysicsContact) {
+        // Executed if the ball makes contact with the block.
+        if contact.bodyA.categoryBitMask == CategoryBitMask.Ball &amp;&amp; contact.bodyB.categoryBitMask == CategoryBitMask.Block {
+            let block = contact.bodyB.node as! SKSpriteNode
+            // Turn the block gray if it hasn't been hit yet.
+            if block.name == &quot;Block&quot; {
+                block.color = SKColor.darkGray
+                block.name = &quot;HalfBlock&quot;
+            }
+            // Remove the block from the scene if it has already been hit.
+            else {
+                block.removeFromParent()
+            }
+        }
+    }
+{% endhighlight %}
 
-&lt;p&gt;Then the next step was to figure out what I am missing but when I would try and find something it was already outdated. Even Apple’s documentation was for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;objectiveC&lt;/code&gt;. Then it hit me that this function was not that &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;swifty&lt;/code&gt; which is what allot of the changes for Swift 3 were all about. There is to much redundancy &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;func didBeginContact(contact: SKPhysicsContact) {&lt;/code&gt; and therein lies the solution. See Xcode suggested to add the perimeter &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;contact:&lt;/code&gt; and technically the method is valid so no errors were thrown. But this method is key for detecting collision between two objects and is the method that conforms to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SKPhysicsContactDelegate&lt;/code&gt;.
-  So since swift is aiming to be super readable if you take out the brackets it should read like a sentence of sorts. “did Begin Contact contact SKPhysicsContact” is a super redundant sentence in my book. Take out the first contact and all is well. I don’t know why Xcode did not remove it when it added the parameter label like it does in many other instances but that is neither here nor there.&lt;/p&gt;
+Then the next step was to figure out what I am missing but when I would try and find something it was already outdated. Even Apple's documentation was for `objectiveC`. Then it hit me that this function was not that `swifty` which is what allot of the changes for Swift 3 were all about. There is to much redundancy `func didBeginContact(contact: SKPhysicsContact) {` and therein lies the solution. See Xcode suggested to add the perimeter `contact:` and technically the method is valid so no errors were thrown. But this method is key for detecting collision between two objects and is the method that conforms to `SKPhysicsContactDelegate`.
+  So since swift is aiming to be super readable if you take out the brackets it should read like a sentence of sorts. &quot;did Begin Contact contact SKPhysicsContact&quot; is a super redundant sentence in my book. Take out the first contact and all is well. I don't know why Xcode did not remove it when it added the parameter label like it does in many other instances but that is neither here nor there.
 
-&lt;p&gt;So I corrected my mistake and everything works just as it should.
-Corrected Code :&lt;/p&gt;
+So I corrected my mistake and everything works just as it should.
+Corrected Code :
+{% highlight swift linenos %}
+func didBegin(_ contact: SKPhysicsContact) {
+        // Executed if the ball makes contact with the block.
+        if contact.bodyA.categoryBitMask == CategoryBitMask.Ball &amp;&amp; contact.bodyB.categoryBitMask == CategoryBitMask.Block {
+            let block = contact.bodyB.node as! SKSpriteNode
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-swift&quot; data-lang=&quot;swift&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;kd&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;didBegin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;contact&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;SKPhysicsContact&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;c1&quot;&gt;// Executed if the ball makes contact with the block.&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;contact&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bodyA&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;categoryBitMask&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;CategoryBitMask&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;Ball&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;contact&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bodyB&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;categoryBitMask&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;CategoryBitMask&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;Block&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;block&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;contact&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bodyB&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;node&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as!&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;SKSpriteNode&lt;/span&gt;
+            // Turn the block gray if it hasn't been hit yet.
+            if block.name == &quot;Block&quot; {
+                block.color = SKColor.darkGray
+                block.name = &quot;HalfBlock&quot;
+            }
+            else {
+                block.removeFromParent()
+            }
+        }
+    }
+{% endhighlight %}
 
-            &lt;span class=&quot;c1&quot;&gt;// Turn the block gray if it hasn't been hit yet.&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;block&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Block&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;block&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;color&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;SKColor&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;darkGray&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;block&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;HalfBlock&quot;&lt;/span&gt;
-            &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;block&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;removeFromParent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-            &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+Conclusion: When updating for Swift 3 don't trust XCode (She will lie to you). Make sure you understand what is going on with the code and check your syntax. Allot changed but I think allot has really improved with the changes.
 
-&lt;p&gt;Conclusion: When updating for Swift 3 don’t trust XCode (She will lie to you). Make sure you understand what is going on with the code and check your syntax. Allot changed but I think allot has really improved with the changes.&lt;/p&gt;
+Now go out there and explore, change variables and learn about `SpriteKit` more, if you would like to check out the playground you can get the [updated Swift 3 version here][swift3Version]
 
-&lt;p&gt;Now go out there and explore, change variables and learn about &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SpriteKit&lt;/code&gt; more, if you would like to check out the playground you can get the &lt;a href=&quot;https://github.com/MacMeDan/SpriteKitCollisions&quot;&gt;updated Swift 3 version here&lt;/a&gt;&lt;/p&gt;</content><author><name>Dan Leonard</name><email>mailto:pdanielleonard+overridefunc@gmail.com</email></author><category term="jekyll" /><category term="update" /><summary type="html">Recently I have been working on a project for my kids. Of course since it was a new project I decided to do it in the newest version of Swift. I wanted to make some simple games that could help my young ones learn. I love playgrounds and all that they enable us to do. I came across this project that @uraimo which has a running list of Awesome Swift Playgrounds. There is one for spriteKit, which I really wanted to make a game with but of course it was written in Swift 2.2 I was not about to let that hold me back so I went ahead and started trying to convert it to Swift 3. I went through all the changes that Xcode suggested and finally made it to a point where I had no errors. The issue was that the example did not perform the way it did previously. After going back and converting each function 1 by 1. I determined the function that was not being called.</summary></entry></feed>
+
+[Awesome-Swift-Playgrounds]:https://github.com/uraimo/Awesome-Swift-Playgrounds
+[uraimo]:https://twitter.com/uraimo
+[swift3Version]:https://github.com/MacMeDan/SpriteKitCollisions</content><author><name>Dan Leonard</name><email>mailto:pdanielleonard+overridefunc@gmail.com</email></author><summary type="html">Recently I have been working on a project for my kids. Of course since it was a new project I decided to do it in the newest version of Swift. I wanted to make some simple games that could help my young ones learn. I love playgrounds and all that they enable us to do. I came across this project that @uraimo which has a running list of Awesome Swift Playgrounds. There is one for spriteKit, which I really wanted to make a game with but of course it was written in Swift 2.2 I was not about to let that hold me back so I went ahead and started trying to convert it to Swift 3. I went through all the changes that Xcode suggested and finally made it to a point where I had no errors. The issue was that the example did not perform the way it did previously. After going back and converting each function 1 by 1. I determined the function that was not being called.</summary></entry></feed>
